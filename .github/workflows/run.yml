@@ -1,0 +1,21 @@
+name: Get issues from GitHub API
+on:
+  schedule:
+  - cron: "45 6 * * *"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get dependencies
+      run:  sudo apt update
+    
+    - id: release
+      uses: pozetroninc/github-action-get-latest-release@master
+      with:
+        owner: darensin01
+        repo: goodfirstissues
+
+    - name: Run
+      run: ./${{ steps.release.outputs }}
