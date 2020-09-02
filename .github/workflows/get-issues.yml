@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "44 13 * * *"
+    - cron: "56 13 * * *"
       
 env:
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -12,9 +12,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     
-    - run: |
-        cd backend
-        ls
+    - run: cd backend
+    
+    - run: ls
       
     #- run: |
     #    curl -s https://github.com/darensin01/goodfirstissues/releases/download/v1/golang_github > golang_github
