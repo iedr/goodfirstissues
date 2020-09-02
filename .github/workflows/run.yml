@@ -1,21 +1,19 @@
 name: Get issues from GitHub API
 on:
   schedule:
-  - cron: "45 6 * * *"
+  - cron: "06 7 * * *"
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    steps:
-    - name: Get dependencies
-      run:  sudo apt update
-    
+    steps:  
     - id: release
-      uses: pozetroninc/github-action-get-latest-release@master
+      uses: dsaltares/fetch-gh-release-asset@master
       with:
-        owner: darensin01
-        repo: goodfirstissues
+        repo: "darensin01/goodfirstissues"
+        version: "v1"
+        file: "main.exe"
 
     - name: Run
-      run: ./${{ steps.release.outputs }}
+      run: ./${{ steps.release }}
