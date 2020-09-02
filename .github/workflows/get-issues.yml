@@ -1,6 +1,9 @@
 on:
   schedule:
-    - cron: "36 9 * * *"
+    - cron: "55 9 * * *"
+      
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
 jobs:
   get-issues:
