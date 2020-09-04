@@ -224,6 +224,13 @@ func main() {
 	if err != nil {
 	    log.Fatalln("Error parsing FireBase credentials: ", err)
 	}
+	
+   toPrint, err := json.MarshalIndent(credentials_json, "", "\t")
+   if err != nil {
+	    log.Fatalln("Error parsing FireBase credentials: ", err)
+	}
+	
+	fmt.Println(string(toPrint))
 
    issuesFromGithub := getIssuesFromGithub(*gh_token)
 
