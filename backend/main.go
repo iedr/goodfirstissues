@@ -206,18 +206,29 @@ func main() {
    fb_client_x509_cert_url := flag.String("fb_client_x509_cert_url", "", "fb_client_x509_cert_url")
 
    flag.Parse()
+   
+     "type": "service_account",
+  "project_id": "goodfirstissues-fd86e",
+  "private_key_id": "589c405c46371537e3cb70dd4067965c86966d46",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCaSC0/rCisgeNG\n75TQx9AIMRQbXsYt+nhSz/BwCJMaHpkvJRCmxWXRAEPP+ESkEyqzg0Ix4Hqs4K3u\n6jFXIWW6CcbBEkKI+Ta5ckSI6sh2UNDDSJ0zlCsQ68MgCgGyPXzM9pIZoKvnQx1f\nxF5jjIFNnTXivYL39/Fo2xs5cZ9ZYwCLc2DHDYwJ3SAMUQoStByrQrSE2joQw/KY\nT4RyEzoQbDPNqwDWkJJxlDHemC3SFOin7cdX/UyL9LJTMJnPxROSTj87i+LfPcQe\n7k3c6p1v/MK+JYx8S3dbCfbkufDLGVKbr2xE/geDFaZrR4o0raYfnolNhWYtRqae\npoyN5jX/AgMBAAECggEADZ1z/Mv9FOgrfe2TpO8VMTvfieDNvW3+o1Q9ZC2liacM\nnqf3Nbhy2URcN6SxrgcQ/CGHvG4SdWIoh058hzNnzkihlRU+8OaJSUlHugt6IFLW\ncX1dfhlDyaz8nb20U53wfwf9cayHrxNxqqtiJwfVu1s1z6oovihP0hCP8PxRcypR\n3LZtU0fIpJLX0DmgRwmR0NCQYUl9nscuLC/gVLy33iFX0HWNnB2D0ECrLc+HwKT4\nIgtzwx4nMEK6MXxNOIDUJg0xHRYaPa/ITv+yNWYz3NjNEAL7IvcYm2ec8/MJezLE\nYCouXtw+tq0pzwAcf4eHEyaby8XTNnv8DorYubc3iQKBgQDPYmWNyufPzvhkTunu\nf+Q/gyawfNLhILZeM4haDwdsmqns1ZXoD0JO7z7Q0ES+6JxGSmdni3okcJuh6NHZ\ncsub7LcJH6ErdQBc0760I/pA8jM0a7TPFFBVL0YEaVF0VwyJadveD7f0h9sFMR3U\nUdGFgdArEsLBPP5f4HmP8X2I5wKBgQC+cvvlR2Qg6hzSFw/XZmC5Tt4l/QNB0fC4\nyM/oKcQ5KSD7cQoMxow20NBp3YmyrBbuf6Bdms7KP8fhdtpOCczuY9JXLxh+MPBz\ndCyPKUjVSQR/TYDHaYUZyG12QLb4EmSUern4LIbI3XHk1T6xDiBsAxLeZpkrcVjU\nRn2UUpRPKQKBgEqPK8fArXsPBEq7/Grc3CjhdCV7my2JX0ea62jFgnvPV0xotc6K\nveI3LbRRTIX+h0DWOzsE8FLtkWayl8+/7+gNQPksv/spw4mcLzIAxVZYPYSZPJY+\nzWry5g9r9fcH3OACiSPbLt3hgiLpt7m/+L4xH7B8vDxRO3so70uLHQD9AoGAEHfa\n5kmVE++KjHQoD4UvyfZS6VAGjxN7UE81AytRZ2vyCSwOJWqpxzepPe5FMOkGlpr8\nn/t59C0tuIZRfDwGt3p0Psu4v3i14hXioIJ+ZMsKk4N9JkEunDsjk/0mlS7p+Zjf\nKeGXyhiz94ilAiRpk010vTx79DC58KkjxMabQnkCgYB5ZqYUgkYt5ui5dTTHAfi3\nC+roR8WvJ1MCyTj2dkR4DaVeL/DpXsSwLeA4piYg2hFiP2WsvuX35sMZ0j9tSOjx\n6dYxRBJPpNZmHD6upGfYJiyRFUnwcawHhyyvU7qDwbBY+MhLDyBdxFh4TugvKDDJ\nxtgFifKmpdL8klTmNlw9EQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-v49b8@goodfirstissues-fd86e.iam.gserviceaccount.com",
+  "client_id": "106003356462866205849",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url"
 
    credentials_json := fbCredentials {
-     Type: *fb_type,
-     ProjectId: *fb_project_id,
-     PrivateKeyID: *fb_private_key_id,
-     PrivateKey: *fb_private_key,
-     ClientEmail: *fb_client_email,
-     ClientID: *fb_client_id,
-     AuthURI: *fb_auth_uri,
-     TokenURI: *fb_token_uri,
-     AuthProviderX509CertURL: *fb_auth_provider_x509_cert_url,
-     ClientX509CertURL: *fb_client_x509_cert_url,
+     Type: *fb_type `json:"type"`,
+     ProjectId: *fb_project_id `json:"project_id"`,
+     PrivateKeyID: *fb_private_key_id `json:"private_key_id"`,
+     PrivateKey: *fb_private_key `json:"private_key"`,
+     ClientEmail: *fb_client_email `json:"client_email"`,
+     ClientID: *fb_client_id `json:"client_id"`,
+     AuthURI: *fb_auth_uri `json:"auth_uri"`,
+     TokenURI: *fb_token_uri `json:"token_uri"`,
+     AuthProviderX509CertURL: *fb_auth_provider_x509_cert_url `json:"auth_provider_x509_cert_url"`,
+     ClientX509CertURL: *fb_client_x509_cert_url `json:"client_x509_cert_url"`,
    }
    
 	b, err := json.Marshal(credentials_json)
