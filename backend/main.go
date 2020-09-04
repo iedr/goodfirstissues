@@ -207,6 +207,7 @@ func main() {
 
    flag.Parse()
    
+   fmt.Println(*gh_token)
    fmt.Println(*fb_type)
    fmt.Println(*fb_project_id)
    fmt.Println(*fb_private_key_id)
