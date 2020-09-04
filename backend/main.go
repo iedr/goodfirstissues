@@ -206,6 +206,17 @@ func main() {
    fb_client_x509_cert_url := flag.String("fb_client_x509_cert_url", "", "fb_client_x509_cert_url")
 
    flag.Parse()
+   
+   fmt.Println(*fb_type)
+   fmt.Println(*fb_project_id)
+   fmt.Println(*fb_private_key_id)
+   fmt.Println(*fb_private_key)
+   fmt.Println(*fb_client_email)
+   fmt.Println(*fb_client_id)
+   fmt.Println(*fb_auth_uri)
+   fmt.Println(*fb_token_uri)
+   fmt.Println(*fb_auth_provider_x509_cert_url)
+   fmt.Println(*fb_client_x509_cert_url)
 
    credentials_json := fbCredentials {
      Type: *fb_type,
