@@ -1,0 +1,39 @@
+name: Go
+
+on:
+  schedule:
+    - cron: "54 6 * * *"
+
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Set up Go 1.x
+      uses: actions/setup-go@v2
+      with:
+        go-version: ^1.13
+      id: go
+
+    - name: Check out code into the Go module directory
+      uses: actions/checkout@v2
+    
+    - name: Cache dependencies
+      id: get-dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/go/pkg/mod
+        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-go-
+          
+    - name: Get dependencies
+      if: steps.cget-dependencies.outputs.cache-hit != 'true'
+      run: go get cloud.google.com/go/firestore firebase.google.com/go github.com/shurcooL/githubv4 golang.org/x/oauth2 google.golang.org/api/option
+
+    - name: Build
+      run: go build -v .
+    
+    - run: ls
