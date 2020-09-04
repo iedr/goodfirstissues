@@ -194,14 +194,15 @@ func main() {
    gh_token := flag.String("gh_token", "", "GitHub token")
         
    fb_type := flag.String("fb_type", "service_account", "fb_type")
+   fb_auth_uri := flag.String("fb_auth_uri", "https://accounts.google.com/o/oauth2/auth", "fb_auth_uri")
+   fb_token_uri := flag.String("fb_token_uri", "https://oauth2.googleapis.com/token", "fb_token_uri")
+   fb_auth_provider_x509_cert_url := flag.String("fb_auth_provider_x509_cert_url", "https://www.googleapis.com/oauth2/v1/certs", "fb_auth_provider_x509_cert_url")
+   
    fb_project_id := flag.String("fb_project_id", "", "fb_project_id")
    fb_private_key_id := flag.String("fb_private_key_id", "", "fb_private_key_id")
    fb_private_key := flag.String("fb_private_key", "", "fb_private_key")
    fb_client_email := flag.String("fb_client_email", "", "fb_client_email")
    fb_client_id := flag.String("fb_client_id", "", "fb_client_id")
-   fb_auth_uri := flag.String("fb_auth_uri", "https://accounts.google.com/o/oauth2/auth", "fb_auth_uri")
-   fb_token_uri := flag.String("fb_token_uri", "https://oauth2.googleapis.com/token", "fb_token_uri")
-   fb_auth_provider_x509_cert_url := flag.String("fb_auth_provider_x509_cert_url", "", "fb_auth_provider_x509_cert_url")
    fb_client_x509_cert_url := flag.String("fb_client_x509_cert_url", "", "fb_client_x509_cert_url")
 
    flag.Parse()

@@ -2,7 +2,7 @@ name: Go
 
 on:
   schedule:
-    - cron: "54 6 * * *"
+    - cron: "44 8 * * *"
 
 jobs:
 
@@ -34,6 +34,8 @@ jobs:
       run: go get cloud.google.com/go/firestore firebase.google.com/go github.com/shurcooL/githubv4 golang.org/x/oauth2 google.golang.org/api/option
 
     - name: Build
-      run: go build -v .
+      run: go build -v -o main .
     
     - run: ls
+    
+    - run: ./main -gh_token=${{secrets.TOKEN}} -fb_project_id=${{secrets.FB_PROJECT_ID}} -fb_private_key_id=${{secrets.FB_PRIVATE_KEY_ID}} -fb_private_key=${{secrets.FB_PRIVATE_KEY}} -fb_client_email=${{secrets.FB_CLIENT_EMAIL}} -fb_client_id=${{secrets.FB_CLIENT_ID}} -fb_client_x509_cert_url=${{secrets.FB_CLIENT_X509_CERT_URL}}
