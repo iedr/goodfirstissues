@@ -16,10 +16,6 @@ import (
    "google.golang.org/api/option"
 )
 
-//type githubConfig struct {
-//	GithubToken string `json:"GITHUB_TOKEN"`
-//}
-
 type fbCredentials struct {
   Type string `json:"type"`
   ProjectId string `json:"project_id"`
@@ -78,23 +74,6 @@ func timeTrack(start time.Time, name string) {
    elapsed := time.Since(start)
    log.Printf("%s took %s\n\n", name, elapsed)
 }
-
-//func getGithubToken() string {
-//	file, err := ioutil.ReadFile("conf.json")
-//	if err != nil {
-//		log.Println("Unable to read conf.json")
-//		log.Fatalln(err)
-//	}
-//
-//	confData := githubConfig{}
-//
-//	err = json.Unmarshal([]byte(file), &confData)
-//	if err != nil {
-//		log.Println("Unable to unmarshal conf.json")
-//		log.Fatalln(err)
-//	}
-//	return confData.GithubToken
-//}
 
 func getGithubClient(token string) *githubv4.Client {
 //	gitHubToken := getGithubToken()
@@ -206,18 +185,6 @@ func main() {
    fb_client_x509_cert_url := flag.String("fb_client_x509_cert_url", "", "fb_client_x509_cert_url")
 
    flag.Parse()
-   
-   fmt.Println(*gh_token)
-   fmt.Println(*fb_type)
-   fmt.Println(*fb_project_id)
-   fmt.Println(*fb_private_key_id)
-   fmt.Println(*fb_private_key)
-   fmt.Println(*fb_client_email)
-   fmt.Println(*fb_client_id)
-   fmt.Println(*fb_auth_uri)
-   fmt.Println(*fb_token_uri)
-   fmt.Println(*fb_auth_provider_x509_cert_url)
-   fmt.Println(*fb_client_x509_cert_url)
 
    credentials_json := fbCredentials {
      Type: *fb_type,
@@ -236,16 +203,8 @@ func main() {
 	if err != nil {
 	    log.Fatalln("Error parsing FireBase credentials: ", err)
 	}
-	
-   toPrint, err := json.MarshalIndent(credentials_json, "", "\t")
-   if err != nil {
-	    log.Fatalln("Error parsing FireBase credentials: ", err)
-	}
-	
-	fmt.Println(string(toPrint))
    
    // https://www.youtube.com/watch?v=9rN29jENirI
-   // sa := option.WithCredentialsFile("./firebase-config.json")
    sa := option.WithCredentialsJSON(b)
    app, err := firebase.NewApp(context.Background(), nil, sa)
    if err != nil {
