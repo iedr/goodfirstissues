@@ -243,9 +243,7 @@ func main() {
 	}
 	
 	fmt.Println(string(toPrint))
-
-   issuesFromGithub := getIssuesFromGithub(*gh_token)
-
+   
    // https://www.youtube.com/watch?v=9rN29jENirI
    // sa := option.WithCredentialsFile("./firebase-config.json")
    sa := option.WithCredentialsJSON(b)
@@ -258,6 +256,8 @@ func main() {
    if err != nil {
       log.Fatalln("Error in getting FS client: ", err)
    }
+
+   issuesFromGithub := getIssuesFromGithub(*gh_token)
 
    defer fsClient.Close()
    insertIntoDatabase(issuesFromGithub, fsClient)
