@@ -76,8 +76,6 @@ func timeTrack(start time.Time, name string) {
 }
 
 func getGithubClient(token string) *githubv4.Client {
-//	gitHubToken := getGithubToken()
-
    src := oauth2.StaticTokenSource(
       &oauth2.Token{AccessToken: token},
    )
