@@ -68,7 +68,7 @@ cacheJS.on('cacheAdded', function(objAdded) {
 
 if (data_list === null) {
     firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
+    if (firebase.analytics) firebase.analytics();
     const db = firebase.firestore();
 
     data_list = [];
