@@ -90,7 +90,7 @@ if (data_list === null) {
                     $('#progress').css('width', pcg + '%').html(pcg + '%');
                 }
             });
-            cacheJS.set(cache_key, data_list, 43200);
+            cacheJS.set(cache_key, data_list, 43000);
         }).catch(e => {
             renderFilteredList([], 0);
             killSpinner();
