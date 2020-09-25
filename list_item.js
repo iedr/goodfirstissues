@@ -87,20 +87,20 @@ function createListGroupItemForIssue(issue) {
     owner_login_info.appendChild(document.createTextNode(owner_login));
     
     // Comments information
-    var comments = document.createElement("p");
-    comments.setAttribute("class", "mb-4 text-justify");
-    var comments_icon = createIconElement("./assets/icons/comment.svg", "Number of comments");
-    comments.appendChild(comments_icon);
+    var assignees = document.createElement("p");
+    assignees.setAttribute("class", "mb-4 text-justify");
+    var assignees_icon = createIconElement("./assets/icons/knowledge.svg", "Number of assignees");
+    assignees.appendChild(assignees_icon);
 
-    var comment_text_span = document.createElement("span");
-    var comment_text = num_comments + " comment";
-    if (num_comments > 1) {
-        comment_text += "s";
+    var assignee_text_span = document.createElement("span");
+    var assignee_text = num_assignees + " assignee";
+    if (num_assignees > 1) {
+        assignee_text += "s";
     }
 
-    var comment_text_textnode = document.createTextNode(comment_text);
-    comment_text_span.appendChild(comment_text_textnode);
-    comments.appendChild(comment_text_span);
+    var assignee_text_textnode = document.createTextNode(assignee_text);
+    assignee_text_span.appendChild(assignee_text_textnode);
+    assignees.appendChild(assignee_text_span);
 
     // Last row of list group item
     var last_row = document.createElement("div");
@@ -149,7 +149,7 @@ function createListGroupItemForIssue(issue) {
     list_group_item.appendChild(labels_row);
     list_group_item.appendChild(paragraph_repo_name);
     list_group_item.appendChild(owner_login_info);
-    list_group_item.append(comments);
+    list_group_item.append(assignees);
     list_group_item.append(last_row);
 
     return list_group_item;
