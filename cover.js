@@ -10,9 +10,9 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
     $('#pagination').removeData("twbs-pagination");
     $('#pagination').unbind("page");
 
-    let number_of_visible_pages = 5;
+    let number_of_visible_pages = 4;
     if ($(window).width() <= 440) {
-        number_of_visible_pages = 2;
+        number_of_visible_pages = 3;
     }
 
     let issues_table = document.getElementById("issues_table");
@@ -33,7 +33,7 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
                     $("#issues_table").append(filteredIssueList[i]);
                 }
                 
-                // Let scroller jump back to the top of the list
+                // Let scroller jump back to the top of the list through which it starts
                 $(".nano").nanoScroller({ scroll: 'top' });
 
                 $(function() {
@@ -242,6 +242,6 @@ function main(data_list) {
         });
     });
 
-    // Make sure upon clicking on dropdown menu, menu doesn't hide
+    // It will make menu doesn't hide while clicking.
     $(document).on('click', '.dropdown-menu', e => e.stopPropagation());
 }
