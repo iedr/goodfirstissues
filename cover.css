@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #F6F6F9;
+  color: #a3bf9f;
 }
 
 .home-link, 
@@ -14,7 +14,7 @@ a:hover {
 .home-link:hover,
 .home-link:visited,
 .home-link:focus {
-  color: #F6F6F9;
+  color: #a3bf9f;
   text-decoration:none;
 }
 
@@ -28,7 +28,7 @@ a:hover {
 .btn-secondary:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #F6F6F9;
+  background-color: #a3bf9f;
   border: .05rem solid #F6F6F9;
 }
 
@@ -50,7 +50,7 @@ html {
 body {
   /* display: -ms-flexbox; */
   display: flex;
-  color: #F6F6F9;
+  color: #a3bf9f;
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
@@ -144,8 +144,8 @@ body {
 
 /* color: Font color */
 .page-link {
-  color: #3066BE; 
-  background-color: #F6F6F9;
+  color: #a3bf9f;
+  background-color: #a3bf9f;
   border: 1px solid #dee2e6;
 }
 
@@ -162,7 +162,7 @@ body {
 .page-item.active .page-link {
   color: #F6F6F9;
   background-color: #3066BE;
-  border-color: #3066BE;
+  border-color: #a3bf9f;
 }
 
 .page-item.disabled .page-link {
