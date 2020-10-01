@@ -39,12 +39,12 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #5c5c5c;
   overflow-y: auto;
 }
 
 html {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 body {
@@ -84,8 +84,8 @@ body {
 }
 
 .nav-masthead .active {
-  color: #F6F6F9;
-  border-bottom-color: #F6F6F9;
+  color: #e6e6e6;
+  border-bottom-color: #ededf7;
 }
 
 @media (min-width: 48em) {
@@ -126,8 +126,8 @@ body {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: #333;
-  border: 0.5px solid #F6F6F9;
+  background-color: #707070;
+  border: 0.5px solid #ededf7;
   border-left: 0 none;
   border-right: 0 none;
   overflow:hidden;
