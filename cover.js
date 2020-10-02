@@ -77,7 +77,7 @@ if (data_list === null) {
 
     db.collection("issues")
         .orderBy("Issue.issue_createdAt", "desc")
-        .limit(1000)
+        .limit(1500)
         .get()
         .then(function(querySnapshot) {
             querySnapshot.forEach(function(doc) {
