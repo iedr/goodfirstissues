@@ -72,10 +72,12 @@ function createListGroupItemForIssue(issue) {
     paragraph_repo_name.appendChild(repo_name_icon);
     
     var paragraph_repo_name_textnode = document.createElement("a");
-    paragraph_repo_name_textnode.setAttribute("class", "repo-tooltip");
-    paragraph_repo_name_textnode.setAttribute("data-toggle", "tooltip");
-    paragraph_repo_name_textnode.setAttribute("data-placement", "right");
-    paragraph_repo_name_textnode.setAttribute("title", repo_desc);
+    if (repo_desc !== "") {
+	    paragraph_repo_name_textnode.setAttribute("class", "repo-tooltip");
+	    paragraph_repo_name_textnode.setAttribute("data-toggle", "tooltip");
+	    paragraph_repo_name_textnode.setAttribute("data-placement", "right");
+	    paragraph_repo_name_textnode.setAttribute("title", repo_desc);
+    }
     paragraph_repo_name_textnode.appendChild(document.createTextNode(repo_name));
     paragraph_repo_name.appendChild(paragraph_repo_name_textnode);
 
