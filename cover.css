@@ -133,6 +133,11 @@ body {
   overflow:hidden;
 }
 
+.issue-list-group-item .issue-title {
+  /* Fixes the line-height issue #9 */
+  line-height: inherit;
+}
+
 .list-group{
   /* max-height: 500px; */
   margin-bottom: 10px;

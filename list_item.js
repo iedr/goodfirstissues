@@ -35,7 +35,7 @@ function createListGroupItemForIssue(issue) {
     
     // Issue's title
     var heading_h5 = document.createElement("h5");
-    heading_h5.setAttribute("class", "mb-0 d-inline-block text-truncate");
+    heading_h5.setAttribute("class", "issue-title mb-0 d-inline-block text-truncate");
     var issue_title_textnode = document.createTextNode(issue_title);
     heading_h5.appendChild(issue_title_textnode);
     heading_div.appendChild(heading_h5);
