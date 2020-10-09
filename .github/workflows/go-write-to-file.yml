@@ -43,7 +43,6 @@ jobs:
       id: current-time
 
     - name: push to repo
-      uses: actions/checkout@v2
       env:
         TIME: "${{ steps.current-time.outputs.time }}"
       run: git add backend/data.json && git commit -m "new data at $TIME" && git push
