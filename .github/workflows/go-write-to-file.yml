@@ -2,7 +2,7 @@ name: go-write-to-file
 
 on:
   schedule:
-    - cron: "30 04,12,19 * * *"
+    - cron: "10 05,13,20 * * *"
 
 jobs:
 
