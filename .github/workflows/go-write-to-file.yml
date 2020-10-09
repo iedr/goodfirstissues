@@ -2,7 +2,7 @@ name: go-write-to-file
 
 on:
   schedule:
-    - cron: "00 09 * * *"
+    - cron: "42 09 * * *"
 
 jobs:
 
@@ -45,4 +45,9 @@ jobs:
     - name: push to repo
       env:
         TIME: "${{ steps.current-time.outputs.time }}"
-      run: git add backend/data.json && git commit -m "new data at $TIME" && git push
+      run: |
+        git config user.name darensin01
+        git config user.email darensin01@gmail.com
+        git add backend/data.json
+        git commit -m "$TIME: new data pushed"
+        git push
