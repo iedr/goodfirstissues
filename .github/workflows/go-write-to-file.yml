@@ -1,8 +1,8 @@
-name: Go
+name: go-write-to-file
 
 on:
   schedule:
-    - cron: "37 08 * * *"
+    - cron: "48 08 * * *"
 
 jobs:
 
@@ -34,7 +34,7 @@ jobs:
       run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2 google.golang.org/api/option
 
     - name: Build
-      run: cd backend && go build -v -o main-to-file .
+      run: cd backend && go build -v -o main-to-file main-to-file.go
     
     - run: cd backend && ./main-to-file -gh_token=${{secrets.TOKEN}}
 
