@@ -2,7 +2,7 @@ name: go-write-to-file
 
 on:
   schedule:
-    - cron: "10 05,13,20 * * *"
+    - cron: "30 05,13,20 * * *"
 
 jobs:
 
@@ -48,7 +48,6 @@ jobs:
       run: |
         git config user.name darensin01
         git config user.email darensin01@gmail.com
-        git pull
         git add backend/data.json
         git commit -m "$TIME: new data pushed"
         git push
