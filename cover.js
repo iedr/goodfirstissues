@@ -59,6 +59,10 @@ function main(data_list) {
     var all_repo_names = [];
 
     for (let i = 0; i < data_list.length; i++) {
+        if (data_list[i].Issue.issue_url === "") {
+            continue
+        }
+        
         let issue = new Issue(data_list[i]);
         issues_list.push(issue);
 
