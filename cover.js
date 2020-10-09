@@ -49,58 +49,6 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
     $("select").selectpicker("refresh");
 }
 
-$('#progress').css('width', '15%').html('15%');
-
-// Try to get from cache
-var cache_key = "goodFirstIssuesData";
-// cacheJS.removeByKey(cache_key);
-
-var data_list = cacheJS.get(cache_key);
-
-cacheJS.on('cacheAdded', function(objAdded) {
-    let cache_data_list = objAdded.value;
-    if (cache_data_list !== undefined && cache_data_list !== null) {
-        main(cache_data_list);
-    } else {
-        main([]);
-    }
-});
-
-if (data_list === null) {
-    firebase.initializeApp(firebaseConfig);
-    if (firebase.analytics) firebase.analytics();
-    const db = firebase.firestore();
-
-    data_list = [];
-
-    $('#progress').css('width', '25%').html('25%');
-
-    db.collection("issues")
-        .orderBy("Issue.issue_createdAt", "desc")
-        .limit(1500)
-        .get()
-        .then(function(querySnapshot) {
-            querySnapshot.forEach(function(doc) {
-                data_list.push(doc.data())
-
-                let pcg = Math.ceil(data_list.length / 1000 * 100);
-
-                if (pcg >= 25) {
-                    pcg = Math.min(pcg, 85);
-                    $('#progress').css('width', pcg + '%').html(pcg + '%');
-                }
-            });
-            cacheJS.set(cache_key, data_list, 43000);
-        }).catch(e => {
-            renderFilteredList([], 0);
-            killSpinner();
-        });
-    $('#progress').css('width', '85%').html('85%');
-} else {
-    $('#progress').css('width', '85%').html('85%');
-    main(data_list);
-}
-
 function main(data_list) {
     var entries_per_page = 10;
 
@@ -245,3 +193,24 @@ function main(data_list) {
     // Make sure upon clicking on dropdown menu, menu doesn't hide
     $(document).on('click', '.dropdown-menu', e => e.stopPropagation());
 }
+
+
+$('#progress').css('width', '25%').html('25%');
+
+data_list = [];
+
+$.getJSON("https://raw.githubusercontent.com/darensin01/goodfirstissues/master/backend/data.json", function(data) {
+    $('#progress').css('width', '45%').html('45%');
+    data_list = data;
+    data_list.sort(
+        function(a, b) {
+            return b.Issue.issue_createdAt - a.Issue.issue_createdAt
+        }
+    );
+}).fail(function() {
+    renderFilteredList([], 0);
+    killSpinner();
+}).done(function() {
+    $('#progress').css('width', '85%').html('85%');
+    main(data_list);
+});
