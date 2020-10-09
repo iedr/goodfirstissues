@@ -5,7 +5,6 @@ import (
    "encoding/json"
    "fmt"
    "log"
-   "strings"
    "time"
    "flag"
    "io/ioutil"
@@ -105,30 +104,11 @@ func getIssuesFromGithub(token string) []result {
    return allResults
 }
 
-func insertIntoDatabase(results []result) {
-    cleaned_results := []result{}
-
-    for _, r := range results {
-        // Key in the data store is the cleaned URL of the issue
-        issueURL := r.Issue.URL
-
-        // E.g. https://github.com/owner/repo/issues/3
-        // --> owner:repo:issues:3
-        cleanedIssueURL := strings.Replace(issueURL, "https://github.com/", "", 1)
-        cleanedIssueURL = strings.Replace(cleanedIssueURL, "/", ":", -1)
-
-        if len(cleanedIssueURL) == 0 {
-            continue
-        }
-
-        r.Issue.URL = cleanedIssueURL
-        cleaned_results = append(cleaned_results, r)
-    }
-
-    file, err := json.MarshalIndent(cleaned_results, "", " ")
+func writeResultsToFile(results []result) {
+    file, err := json.MarshalIndent(results, "", " ")
     if err != nil {
         log.Println("Error in Marshal Indenting issue")
-        log.Fatalln(cleaned_results, err)
+        log.Fatalln(results, err)
     }
 
     _ = ioutil.WriteFile("data.json", file, 0644)
@@ -139,5 +119,5 @@ func main() {
    flag.Parse()
 
    issuesFromGithub := getIssuesFromGithub(*gh_token)
-   insertIntoDatabase(issuesFromGithub)
+   writeResultsToFile(issuesFromGithub)
 }
