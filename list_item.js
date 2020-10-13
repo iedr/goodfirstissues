@@ -96,7 +96,7 @@ function createListGroupItemForIssue(issue) {
 
     var assignee_text_span = document.createElement("span");
     var assignee_text = num_assignees + " assignee";
-    if (num_assignees > 1) {
+    if (num_assignees > 1 || num_assignees === 0) {
         assignee_text += "s";
     }
 

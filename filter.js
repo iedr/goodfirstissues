@@ -33,6 +33,7 @@ function createCheckBoxFromCounter(counter, title, attrId) {
     dropdown_element.setAttribute("data-actions-box", "true");
     dropdown_element.setAttribute("data-live-search", "true");
     dropdown_element.setAttribute("data-selected-text-format", "count > 2");
+    dropdown_element.setAttribute("data-none-selected-text", "No " + title + " selected");
     dropdown_element.setAttribute("id", "dropdown" + attrId);
     dropdown_element.setAttribute("virtualScroll", 10);
 
