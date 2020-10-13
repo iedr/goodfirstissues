@@ -1,5 +1,5 @@
 function killSpinner() {
-    let spinner = document.getElementById("progressParent");
+    let spinner = document.getElementById("loading");
     spinner.parentNode.removeChild(spinner);
 }
 
@@ -25,14 +25,14 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
             onPageClick: function (event, page) {
                 let page_index = page - 1;    // Variable page starts from 1
                 issues_table.innerHTML = "";    // Clear the table page
-                
+
                 for (let i = page_index*entries_per_page; i < (page_index+1)*entries_per_page; i++) {
                     if (i >= filteredIssueList.length) {
                         break;
                     }
                     $("#issues_table").append(filteredIssueList[i]);
                 }
-                
+
                 // Let scroller jump back to the top of the list
                 $(".nano").nanoScroller({ scroll: 'top' });
 
@@ -62,7 +62,7 @@ function main(data_list) {
         if (data_list[i].Issue.issue_url === "") {
             continue
         }
-        
+
         let issue = new Issue(data_list[i]);
         issues_list.push(issue);
 
@@ -118,7 +118,7 @@ function main(data_list) {
             idx_selected = _.toInteger(idx_selected);
             return options[idx_selected];
         });
-        
+
         if (dropdown_id === "dropdownproglang") {
             checked_proglangs = checked_items.slice();
         } else if (dropdown_id === "dropdownlabel") {
@@ -128,8 +128,8 @@ function main(data_list) {
         }
 
         // Do the actual filtering
-        if (_.isEmpty(checked_proglangs) && 
-                _.isEmpty(checked_labels) && 
+        if (_.isEmpty(checked_proglangs) &&
+                _.isEmpty(checked_labels) &&
                 _.isEmpty(checked_repo_names)) {
             renderFilteredList(sorted_issues_html_list, entries_per_page);
         } else {
@@ -180,15 +180,13 @@ function main(data_list) {
     });
 
     $.when(renderFilteredList(sorted_issues_html_list, entries_per_page)).done(
-        $('#progress').css('width', '100%'),
-        $('#progress').removeClass('progress-bar-animated active').html('Complete'),
         killSpinner()
     );
 
     // Initialise nano scroller
     $(document).ready(function(){
         $(".nano").nanoScroller();
-        
+
         $(function() {
             $('[data-toggle="tooltip"]').tooltip()
         });
@@ -198,13 +196,9 @@ function main(data_list) {
     $(document).on('click', '.dropdown-menu', e => e.stopPropagation());
 }
 
-
-$('#progress').css('width', '25%').html('25%');
-
 data_list = [];
 
 $.getJSON("https://raw.githubusercontent.com/darensin01/goodfirstissues/master/backend/data.json", function(data) {
-    $('#progress').css('width', '45%').html('45%');
     data_list = data;
     data_list.sort(
         function(a, b) {
@@ -215,6 +209,5 @@ $.getJSON("https://raw.githubusercontent.com/darensin01/goodfirstissues/master/b
     renderFilteredList([], 0);
     killSpinner();
 }).done(function() {
-    $('#progress').css('width', '85%').html('85%');
     main(data_list);
 });
