@@ -6,7 +6,6 @@ Website: <https://goodfirstissues.com>
 
 ## Dependencies
 - _Bootstrap_ for theme and frontend components
-- _Firebase_ for storing data
 - _Golang_ and _GitHub Workflow_ for periodically calling [GitHub GraphQL API](https://docs.github.com/en/graphql)
 
 ## Credits
