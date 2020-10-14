@@ -10,17 +10,17 @@ function createIconElement(icon_path, tooltip_text) {
     icon.setAttribute("focusable", "false");
     icon.setAttribute("role", "img");
     icon.setAttribute("title", tooltip_text);
+    icon.setAttribute("alt", tooltip_text);
+    //icon.setAttribute("aria-hidden", true);
+
     return icon;
 }
 
 function createListGroupItemForIssue(issue) {
     var num_assignees = issue.getNumAssignees();
-    var num_comments = issue.getNumComments();
     var created_at = issue.getCreatedAt();
-    var labels_count = issue.getIssueLabelsCount();
     var repo_desc = issue.getIssueRepoDesc();
     var repo_name = issue.getIssueRepoName();
-    var repo_url = issue.getIssueRepoUrl();
     var issue_title = issue.getIssueTitle();
     var issue_url = issue.getIssueUrl();
     var issue_labels = issue.getIssueLabels();
@@ -29,13 +29,14 @@ function createListGroupItemForIssue(issue) {
 
     var list_group_item = document.createElement("li");
     list_group_item.setAttribute("class", "issue-list-group-item clearfix");
-    
+
     var heading_div = document.createElement("div");
     heading_div.setAttribute("class", "d-flex justify-content-between");
-    
+
     // Issue's title
     var heading_h5 = document.createElement("h5");
     heading_h5.setAttribute("class", "issue-title mb-0 d-inline-block text-truncate");
+    heading_h5.setAttribute("aria-label", `Issue: ${issue_title}`);
     var issue_title_textnode = document.createTextNode(issue_title);
     heading_h5.appendChild(issue_title_textnode);
     heading_div.appendChild(heading_h5);
@@ -44,20 +45,20 @@ function createListGroupItemForIssue(issue) {
     var time_of_issue = document.createElement("p");
     time_of_issue.setAttribute("class", "mb-1 text-justify font-weight-light")
     var small_text = document.createElement("small");
-    var formatted_time = moment(created_at).format('LL');
-    var from_now_time = moment(created_at).fromNow();
-    var time_textnode = document.createTextNode(formatted_time + " (" + from_now_time + ")");
+    var time_textnode = document.createTextNode(`${moment(created_at).format('LL')} (${moment(created_at).fromNow()})`);
     small_text.appendChild(time_textnode);
     time_of_issue.appendChild(small_text);
-    
+
     // Issue labels
     var labels_row = document.createElement("div");
     labels_row.setAttribute("class", "mb-4 flex-wrap justify-content-start");
     var labels_for_issue = document.createElement("div");
+    labels_for_issue.setAttribute("title", "Label list")
     for (let issue_label of issue_labels) {
         var issue_badge = document.createElement("span");
         issue_badge.setAttribute("class", "badge badge-secondary font-weight-bold");
         issue_badge.setAttribute("style", "margin-right: 10px;");
+        issue_badge.setAttribute("title", issue_label);
         var issue_textnode = document.createTextNode(issue_label);
         issue_badge.appendChild(issue_textnode);
         labels_for_issue.appendChild(issue_badge);
@@ -70,13 +71,13 @@ function createListGroupItemForIssue(issue) {
 
     var repo_name_icon = createIconElement("./assets/icons/git.svg", "Repository name");
     paragraph_repo_name.appendChild(repo_name_icon);
-    
+
     var paragraph_repo_name_textnode = document.createElement("a");
     if (repo_desc !== "") {
-	    paragraph_repo_name_textnode.setAttribute("class", "repo-tooltip");
-	    paragraph_repo_name_textnode.setAttribute("data-toggle", "tooltip");
-	    paragraph_repo_name_textnode.setAttribute("data-placement", "right");
-	    paragraph_repo_name_textnode.setAttribute("title", repo_desc);
+        paragraph_repo_name_textnode.setAttribute("class", "repo-tooltip");
+        paragraph_repo_name_textnode.setAttribute("data-toggle", "tooltip");
+        paragraph_repo_name_textnode.setAttribute("data-placement", "right");
+        paragraph_repo_name_textnode.setAttribute("title", repo_desc);
     }
     paragraph_repo_name_textnode.appendChild(document.createTextNode(repo_name));
     paragraph_repo_name.appendChild(paragraph_repo_name_textnode);
@@ -87,7 +88,7 @@ function createListGroupItemForIssue(issue) {
     var owner_login_info_icon = createIconElement("./assets/icons/user.svg", "Owner of repository");
     owner_login_info.appendChild(owner_login_info_icon);
     owner_login_info.appendChild(document.createTextNode(owner_login));
-    
+
     // Comments information
     var assignees = document.createElement("p");
     assignees.setAttribute("class", "mb-4 text-justify");
@@ -95,10 +96,7 @@ function createListGroupItemForIssue(issue) {
     assignees.appendChild(assignees_icon);
 
     var assignee_text_span = document.createElement("span");
-    var assignee_text = num_assignees + " assignee";
-    if (num_assignees > 1) {
-        assignee_text += "s";
-    }
+    var assignee_text = (num_assignees != 1) ? `${num_assignees} assignees` : `${num_assignees} assignee`;
 
     var assignee_text_textnode = document.createTextNode(assignee_text);
     assignee_text_span.appendChild(assignee_text_textnode);
@@ -110,12 +108,14 @@ function createListGroupItemForIssue(issue) {
 
     // Programming language information
     let prog_langs_col = document.createElement("div");
+    prog_langs_col.setAttribute("title", "Programming language list")
     prog_langs_col.setAttribute("class", "col-9 d-flex justify-content-start align-items-start flex-wrap");
     for (let p of repo_prog_langs) {
         var prog_lang_badge = document.createElement("span");
         prog_lang_badge.setAttribute("class", "badge badge-info font-weight-bold mr-2 mb-2");
         var prog_lang_textnode = document.createElement("span");
         prog_lang_textnode.setAttribute("class", "align-middle");
+        prog_lang_textnode.setAttribute("title", p);
         prog_lang_textnode.append(document.createTextNode(p));
         prog_lang_badge.appendChild(prog_lang_textnode);
         prog_langs_col.appendChild(prog_lang_badge);
@@ -135,9 +135,12 @@ function createListGroupItemForIssue(issue) {
     go_to_issue_btn.setAttribute("id", "goToIssue");
     go_to_issue_btn.setAttribute("style", "margin-right: 10px;");
     go_to_issue_btn.setAttribute("class", "btn btn-light btn-sm active");
+    go_to_issue_btn.setAttribute("role", "link");
+
     var go_to_issue_textnode = document.createElement("span");
     go_to_issue_textnode.setAttribute("class", "align-middle");
     go_to_issue_textnode.append(document.createTextNode("Go to issue"));
+    go_to_issue_btn.setAttribute("title", "Open issue on Github")
     go_to_issue_btn.appendChild(go_to_issue_textnode);
 
     go_to_issue_btn_div.appendChild(go_to_issue_btn)
@@ -145,7 +148,7 @@ function createListGroupItemForIssue(issue) {
 
     last_row.appendChild(prog_langs_col);
     last_row.appendChild(go_to_issue_btn_col);
-    
+
     list_group_item.appendChild(heading_div);
     list_group_item.appendChild(time_of_issue);
     list_group_item.appendChild(labels_row);
