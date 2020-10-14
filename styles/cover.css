@@ -220,6 +220,11 @@ button.close {
   width: 1px;
 }
 
+.repo-tooltip:hover{
+	text-decoration: none;
+}
+
+
 .about-link {
   border-bottom: 1px dashed #F6F6F9;
   width: 1px;
