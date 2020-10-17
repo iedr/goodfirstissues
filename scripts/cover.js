@@ -57,6 +57,7 @@ function main(data_list) {
     var all_prog_langs = [];
     var all_types_of_issues = [];
     var all_repo_names = [];
+    var all_assignee_counts = [];
 
     for (let i = 0; i < data_list.length; i++) {
         if (data_list[i].Issue.issue_url === "") {
@@ -75,6 +76,9 @@ function main(data_list) {
         issue_labels.forEach(i => {
             all_types_of_issues.push((i.toLowerCase()));
         });
+        
+        let issue_assignee_count = issue.getNumAssignees();
+        all_assignee_counts.push(issue_assignee_count);
 
         let repo = issue.getIssueRepoName();
         all_repo_names.push(repo);
@@ -93,9 +97,13 @@ function main(data_list) {
     var sorted_repo_name_counter = returnSortedCounterForCheckBox(all_repo_names);
     createCheckBoxFromCounter(sorted_repo_name_counter, "Repository", "repo");
 
+    var sorted_assignee_counter = returnSortedCounterForCheckBox(all_assignee_counts);
+    createCheckBoxFromCounter(sorted_assignee_counter, "Assignees", "assignee");
+
     let checked_proglangs = [];
     let checked_labels = [];
     let checked_repo_names = [];
+    let checked_assignees = [];
 
     $("select").change(function() {
         let dropdown_id = $(this).attr("id");
@@ -123,25 +131,30 @@ function main(data_list) {
             checked_proglangs = checked_items.slice();
         } else if (dropdown_id === "dropdownlabel") {
             checked_labels = checked_items.slice();
-        } else {
+        } else if (dropdown_id === 'dropdownrepo') {
             checked_repo_names = checked_items.slice();
+        } else if (dropdown_id === 'dropdownassignee') {
+            checked_assignees = checked_items.slice();
         }
 
         // Do the actual filtering
         if (_.isEmpty(checked_proglangs) &&
                 _.isEmpty(checked_labels) &&
-                _.isEmpty(checked_repo_names)) {
+                _.isEmpty(checked_repo_names) &&
+                _.isEmpty(checked_assignees)) {
             renderFilteredList(sorted_issues_html_list, entries_per_page);
         } else {
             let filtered_list = [];
             checked_proglangs = _.map(checked_proglangs, i => i.toLowerCase());
             checked_labels = _.map(checked_labels, i => i.toLowerCase());
+            checked_assignees = _.map(checked_assignees, i => Number(i));
 
             for (let j = 0; j < issues_list.length; j++) {
                 let issue_item = issues_list[j];
                 let repo_langs = issue_item.getRepoProgLangs();
                 let issues_labels = issue_item.getIssueLabels();
                 let issue_repo = issue_item.getIssueRepoName();
+                let issue_assignee_count = issue_item.getNumAssignees();
 
                 let lowered_issue_labels = _.map(issues_labels, i => i.toLowerCase());
                 let lowered_prog_langs = _.map(repo_langs, i => i.toLowerCase());
@@ -149,11 +162,13 @@ function main(data_list) {
                 let intersection_prog_langs = _.intersection(checked_proglangs, lowered_prog_langs);
                 let intersection_labels = _.intersection(checked_labels, lowered_issue_labels);
                 let intersection_repos = _.intersection(checked_repo_names, [issue_repo]);
+                let intersection_assignee = _.intersection(checked_assignees, [issue_assignee_count]);
 
                 let num_intersections = _.concat(
                     intersection_prog_langs,
                     intersection_labels,
-                    intersection_repos
+                    intersection_repos,
+                    intersection_assignee
                 ).length;
 
                 if (num_intersections > 0) {
