@@ -127,7 +127,7 @@ body {
   display: block;
   padding: 0.75rem 1.25rem;
   background-color: #333;
-  border: 0.5px solid #F6F6F9;
+  border: 0.5px solid #444;
   border-left: 0 none;
   border-right: 0 none;
   overflow:hidden;
@@ -143,6 +143,13 @@ body {
   margin-bottom: 10px;
   /* overflow:scroll; */
   -webkit-overflow-scrolling: touch;
+  border: 1px solid #999;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#mainRow{
+  visibility: hidden;
 }
 
 .invert { filter: invert(100%); }

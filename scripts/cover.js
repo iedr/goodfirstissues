@@ -3,6 +3,11 @@ function killSpinner() {
     spinner.parentNode.removeChild(spinner);
 }
 
+function showTable() {
+    let mainRow = document.getElementById("mainRow");
+    mainRow.classList.add('visible');
+}
+
 function renderFilteredList(filteredIssueList, entries_per_page) {
     let total_num_pages = Math.ceil(filteredIssueList.length / entries_per_page);
 
@@ -179,13 +184,14 @@ function main(data_list) {
         }
     });
 
-    $.when(renderFilteredList(sorted_issues_html_list, entries_per_page)).done(
-        killSpinner()
-    );
+    $.when(renderFilteredList(sorted_issues_html_list, entries_per_page)).done(function() {
+        killSpinner();
+        showTable();
+    });
 
     // Initialise nano scroller
     $(document).ready(function(){
-        $(".nano").nanoScroller();
+        $(".nano").nanoScroller({ alwaysVisible: true });
 
         $(function() {
             $('[data-toggle="tooltip"]').tooltip()
@@ -208,6 +214,7 @@ $.getJSON("https://raw.githubusercontent.com/darensin01/goodfirstissues/master/b
 }).fail(function() {
     renderFilteredList([], 0);
     killSpinner();
+    showTable();
 }).done(function() {
     main(data_list);
 });
