@@ -26,6 +26,7 @@ function createListGroupItemForIssue(issue) {
     var issue_labels = issue.getIssueLabels();
     var repo_prog_langs = issue.getRepoProgLangs();
     var owner_login = issue.getOwnerLogin();
+    var stars = issue.getIssueRepoStars();
 
     var list_group_item = document.createElement("li");
     list_group_item.setAttribute("class", "issue-list-group-item clearfix");
@@ -65,6 +66,10 @@ function createListGroupItemForIssue(issue) {
     }
     labels_row.appendChild(labels_for_issue);
 
+    // Repository stars
+    var paragraph_repo_stars = document.createElement("p");
+    paragraph_repo_stars.setAttribute("class", "mb-2 text-justify");
+
     // Repository name + owner
     var paragraph_repo_name = document.createElement("p");
     paragraph_repo_name.setAttribute("class", "mb-2 text-justify");
@@ -73,6 +78,7 @@ function createListGroupItemForIssue(issue) {
     paragraph_repo_name.appendChild(repo_name_icon);
 
     var paragraph_repo_name_textnode = document.createElement("a");
+    var paragraph_repo_stars_node = document.createElement("a");
     if (repo_desc !== "") {
         paragraph_repo_name_textnode.setAttribute("class", "repo-tooltip");
         paragraph_repo_name_textnode.setAttribute("data-toggle", "tooltip");
@@ -81,6 +87,9 @@ function createListGroupItemForIssue(issue) {
     }
     paragraph_repo_name_textnode.appendChild(document.createTextNode(repo_name));
     paragraph_repo_name.appendChild(paragraph_repo_name_textnode);
+
+    paragraph_repo_stars_node.appendChild(document.createTextNode(stars));
+    paragraph_repo_stars.appendChild(paragraph_repo_stars_node);
 
     // Owner login information
     var owner_login_info = document.createElement("p");
@@ -153,6 +162,7 @@ function createListGroupItemForIssue(issue) {
     list_group_item.appendChild(time_of_issue);
     list_group_item.appendChild(labels_row);
     list_group_item.appendChild(paragraph_repo_name);
+    list_group_item.appendChild(paragraph_repo_stars);
     list_group_item.appendChild(owner_login_info);
     list_group_item.append(assignees);
     list_group_item.append(last_row);
