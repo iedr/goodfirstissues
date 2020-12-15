@@ -33,82 +33,81 @@
     }
 */
 class Issue {
-    constructor(issue) {
-        this.num_assignees = issue.Issue.Assignees.issue_assignees_count;
-        this.num_comments = issue.Issue.Comments.issue_comment_count;
-        this.created_at = issue.Issue.issue_createdAt;
-        this.issue_labels_count = issue.Issue.issue_labels.label_totalcount;
-        this.issue_repo_desc = issue.Issue.issue_repo.repo_desc;
-        this.issue_repo_name = issue.Issue.issue_repo.repo_name;
-        this.issue_repo_url = issue.Issue.issue_repo.repo_url;
-        this.issue_repo_stars = issue.Issue.issue_repo.repo_stars;
-        this.issue_title = issue.Issue.issue_title;
-        this.issue_url = issue.Issue.issue_url;
-        this.owner_login = issue.Issue.issue_repo.Owner.repo_owner;
+  constructor(issue) {
+    this.num_assignees = issue.Issue.Assignees.issue_assignees_count;
+    this.num_comments = issue.Issue.Comments.issue_comment_count;
+    this.created_at = issue.Issue.issue_createdAt;
+    this.issue_labels_count = issue.Issue.issue_labels.label_totalcount;
+    this.issue_repo_desc = issue.Issue.issue_repo.repo_desc;
+    this.issue_repo_name = issue.Issue.issue_repo.repo_name;
+    this.issue_repo_url = issue.Issue.issue_repo.repo_url;
+    this.issue_repo_stars = issue.Issue.issue_repo.repo_stars;
+    this.issue_title = issue.Issue.issue_title;
+    this.issue_url = issue.Issue.issue_url;
+    this.owner_login = issue.Issue.issue_repo.Owner.repo_owner;
 
-        let issue_labels = [];
-        for (let n of issue.Issue.issue_labels.Nodes) {
-            issue_labels.push(n.label_name);
-        }
-        this.issue_labels = issue_labels;
-
-        let repo_prog_lang = [];
-        for (let n of issue.Issue.issue_repo.repo_langs.Nodes) {
-            repo_prog_lang.push(n.repo_prog_language);
-        }
-        this.issue_repo_langs = repo_prog_lang;
+    let issue_labels = [];
+    for (let n of issue.Issue.issue_labels.Nodes) {
+      issue_labels.push(n.label_name);
     }
+    this.issue_labels = issue_labels;
 
-    getNumAssignees() {
-        return this.num_assignees;
+    let repo_prog_lang = [];
+    for (let n of issue.Issue.issue_repo.repo_langs.Nodes) {
+      repo_prog_lang.push(n.repo_prog_language);
     }
+    this.issue_repo_langs = repo_prog_lang;
+  }
 
-    getNumComments() {
-        return this.num_comments;
-    }
+  getNumAssignees() {
+    return this.num_assignees;
+  }
 
-    getCreatedAt() {
-        return this.created_at;
-    }
+  getNumComments() {
+    return this.num_comments;
+  }
 
-    getIssueLabelsCount() {
-        return this.issue_labels_count;
-    }
+  getCreatedAt() {
+    return this.created_at;
+  }
 
-    getIssueRepoDesc() {
-        return this.issue_repo_desc;
-    }
+  getIssueLabelsCount() {
+    return this.issue_labels_count;
+  }
 
-    getIssueRepoName() {
-        return this.issue_repo_name;
-    }
+  getIssueRepoDesc() {
+    return this.issue_repo_desc;
+  }
 
-    getIssueRepoUrl() {
-        return this.issue_repo_url;
-    }
+  getIssueRepoName() {
+    return this.issue_repo_name;
+  }
 
-    getIssueTitle() {
-        return this.issue_title;
-    }
+  getIssueRepoUrl() {
+    return this.issue_repo_url;
+  }
 
-    getIssueUrl() {
-        return this.issue_url;
-    }
+  getIssueTitle() {
+    return this.issue_title;
+  }
 
-    getIssueLabels() {
-        return this.issue_labels;
-    }
+  getIssueUrl() {
+    return this.issue_url;
+  }
 
-    getRepoProgLangs() {
-        return this.issue_repo_langs;
-    }
+  getIssueLabels() {
+    return this.issue_labels;
+  }
 
-    getOwnerLogin() {
-        return this.owner_login;
-    }
+  getRepoProgLangs() {
+    return this.issue_repo_langs;
+  }
 
-    getIssueRepoStars(){
-        console.log(this.stars)
-        return this.issue_repo_stars;
-    }
+  getOwnerLogin() {
+    return this.owner_login;
+  }
+
+  getIssueRepoStars() {
+    return this.issue_repo_stars;
+  }
 }

@@ -70,6 +70,9 @@ function createListGroupItemForIssue(issue) {
     var paragraph_repo_stars = document.createElement("p");
     paragraph_repo_stars.setAttribute("class", "mb-2 text-justify");
 
+    var repo_stars_icon = createIconElement("./assets/icons/star.svg", "Stars");
+    paragraph_repo_stars.appendChild(repo_stars_icon);
+
     // Repository name + owner
     var paragraph_repo_name = document.createElement("p");
     paragraph_repo_name.setAttribute("class", "mb-2 text-justify");
