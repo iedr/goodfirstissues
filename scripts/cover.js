@@ -39,9 +39,7 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
 
                     // Check that browser has not blocked ads
                     // If not blocked, proceed to insert ads
-                    if (i % 5 === 0 && 
-                            window.hasOwnProperty('google_render_ad') && 
-                            window.google_render_ad !== undefined) {
+                    if (i % 5 === 0) {
                         let ad_item = document.createElement("li");
                         ad_item.setAttribute("class", "issue-list-group-item clearfix");
                         ad_item.innerHTML = `
