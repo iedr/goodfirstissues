@@ -37,10 +37,14 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
                     }
                     $("#issues_table").append(filteredIssueList[i]);
 
-                    if (i % 5 === 0) {
-                            var ad_item = document.createElement("li");
-                            ad_item.setAttribute("class", "issue-list-group-item clearfix");
-                            ad_item.innerHTML = `
+                    // Check that browser has not blocked ads
+                    // If not blocked, proceed to insert ads
+                    if (i % 5 === 0 && 
+                            window.hasOwnProperty('google_render_ad') && 
+                            window.google_render_ad !== undefined) {
+                        let ad_item = document.createElement("li");
+                        ad_item.setAttribute("class", "issue-list-group-item clearfix");
+                        ad_item.innerHTML = `
                             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                                 <ins class="adsbygoogle"
                                      style="display:block"
@@ -51,8 +55,8 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
                                 <script>
                                      (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
-                            `;
-                            $("#issues_table").append(ad_item);
+                        `;
+                        $("#issues_table").append(ad_item);
                     }
                 }
 
