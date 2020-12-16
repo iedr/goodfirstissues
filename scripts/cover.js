@@ -36,6 +36,24 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
                         break;
                     }
                     $("#issues_table").append(filteredIssueList[i]);
+
+                    if (i % 5 === 0) {
+                            var ad_item = document.createElement("li");
+                            ad_item.setAttribute("class", "issue-list-group-item clearfix");
+                            ad_item.innerHTML = `
+                            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                                <ins class="adsbygoogle"
+                                     style="display:block"
+                                     data-ad-format="fluid"
+                                     data-ad-layout-key="-fb+5w+4e-db+86"
+                                     data-ad-client="ca-pub-1130124846637992"
+                                     data-ad-slot="5362633000"></ins>
+                                <script>
+                                     (adsbygoogle = window.adsbygoogle || []).push({});
+                            </script>
+                            `;
+                            $("#issues_table").append(ad_item);
+                    }
                 }
 
                 // Let scroller jump back to the top of the list
