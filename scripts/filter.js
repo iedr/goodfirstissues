@@ -20,6 +20,7 @@ function createClassifiedsUnderCheckbox() {
     let filter_row_parent = document.getElementById("filterRow");
 
     let filter_row = document.createElement("div");
+    filter_row.setAttribute("class", "mt-3");
     filter_row.innerHTML = `
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
