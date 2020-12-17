@@ -37,21 +37,20 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
                     }
                     $("#issues_table").append(filteredIssueList[i]);
 
-                    // Check that browser has not blocked ads
-                    // If not blocked, proceed to insert ads
                     if (i % 5 === 0) {
                         let ad_item = document.createElement("li");
                         ad_item.setAttribute("class", "issue-list-group-item clearfix");
                         ad_item.innerHTML = `
                             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                                <ins class="adsbygoogle"
-                                     style="display:block"
-                                     data-ad-format="fluid"
-                                     data-ad-layout-key="-fb+5w+4e-db+86"
-                                     data-ad-client="ca-pub-1130124846637992"
-                                     data-ad-slot="5362633000"></ins>
-                                <script>
-                                     (adsbygoogle = window.adsbygoogle || []).push({});
+                            <ins class="adsbygoogle"
+                                 style="display:block"
+                                 data-ad-format="fluid"
+                                 data-ad-layout-key="-fb+5w+4e-db+86"
+                                 data-ad-client="ca-pub-1130124846637992"
+                                 data-ad-slot="5362633000">
+                            </ins>
+                            <script>
+                                 (adsbygoogle = window.adsbygoogle || []).push({});
                             </script>
                         `;
                         $("#issues_table").append(ad_item);
@@ -117,6 +116,8 @@ function main(data_list) {
 
     var sorted_repo_name_counter = returnSortedCounterForCheckBox(all_repo_names);
     createCheckBoxFromCounter(sorted_repo_name_counter, "Repository", "repo");
+
+    createClassifiedsUnderCheckbox();
 
     let checked_proglangs = [];
     let checked_labels = [];

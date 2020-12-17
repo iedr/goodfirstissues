@@ -16,6 +16,26 @@ function returnSortedCounterForCheckBox(lst) {
     return sorted_counter;
 }
 
+function createClassifiedsUnderCheckbox() {
+    let filter_row_parent = document.getElementById("filterRow");
+
+    let filter_row = document.createElement("div");
+    filter_row.innerHTML = `
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1130124846637992"
+             data-ad-slot="3373736248"
+             data-ad-format="auto"
+             data-full-width-responsive="true">
+        </ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    `;
+    filter_row_parent.appendChild(filter_row);
+}
+
 function createCheckBoxFromCounter(counter, title, attrId) {
     let filter_row_parent = document.getElementById("filterRow");
     let filter_row = document.createElement("div");
