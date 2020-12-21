@@ -20,6 +20,7 @@
             repo_desc: "The Community Repo for A-4E-C and its Official Submods",
             repo_name: "community-a4e-c",
             repo_url: "https://github.com/08jne01/community-a4e-c",
+            repo_stars: 3,
             repo_langs: {
                 Nodes: [
                     {repo_prog_language: "Lua"},
@@ -45,6 +46,7 @@ class Issue {
         this.issue_title = issue.Issue.issue_title;
         this.issue_url = issue.Issue.issue_url;
         this.owner_login = issue.Issue.issue_repo.Owner.repo_owner;
+        console.log(issue.Issue.issue_repo.repo_stars);
 
         let issue_labels = [];
         for (let n of issue.Issue.issue_labels.Nodes) {
@@ -108,5 +110,5 @@ class Issue {
     }
     getIssueRepoStars() {
         return this.issue_repo_stars;
-      }
+    }
 }
