@@ -40,6 +40,7 @@ type repository struct {
    Description string       `json:"repo_desc"`
    URL         string       `json:"repo_url"`
    Languages   progLanguage `graphql:"languages(first: 10)" json:"repo_langs"`
+   StargazerCount int       `json:"repo_stars"`
    Owner struct {
       Login   string       `json:"repo_owner"`
    }
