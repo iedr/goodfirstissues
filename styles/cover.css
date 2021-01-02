@@ -26,7 +26,7 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #282c34;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #F6F6F9;
   border: .05rem solid #F6F6F9;
@@ -39,7 +39,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #282c34;
   overflow-y: auto;
 }
 
@@ -126,7 +126,7 @@ body {
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
-  background-color: #333;
+  background-color: #282c34;
   border: 0.5px solid #444;
   border-left: 0 none;
   border-right: 0 none;
@@ -186,13 +186,13 @@ body {
 /* Label badge */
 .badge-secondary {
   font-size: 80%;
-  background-color: #777883;
+  background-color: #8D7471;
 }
 
 /* Prog Lang badge */
 .badge-info {
   font-size: 80%;
-  background-color: #3066BE;
+  background-color: #39A2AE;
 }
 
 #goToIssue {
