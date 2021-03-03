@@ -3,7 +3,7 @@ name: go-write-to-file
 on:
   schedule:
 #     - cron: "30 05,13,20 * * *"
-    - cron: "15 3 * * *"
+    - cron: "51 3 * * *"
 
 jobs:
 
@@ -15,7 +15,7 @@ jobs:
     - name: Set up Go 1.x
       uses: actions/setup-go@v2
       with:
-        go-version: ^1.13
+        go-version: 1.13
       id: go
 
     - name: Check out code into the Go module directory
@@ -34,8 +34,6 @@ jobs:
       if: steps.cget-dependencies.outputs.cache-hit != 'true'
       run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2 google.golang.org/api/option
       
-    - run: go env -w GO111MODULE=auto
-
     - name: Build
       run: cd backend && go build -v -o main-to-file main-to-file.go
     
