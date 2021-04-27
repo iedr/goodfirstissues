@@ -131,6 +131,7 @@ function main(data_list) {
         })
 
         let dropdown_menu_items = document.getElementById(dropdown_id).nextSibling.nextSibling;
+        $(dropdown_menu_items).find("input[type='search']").val('');
 
         let all_selected_items = dropdown_menu_items.querySelectorAll("li.selected");
         let selected_ids = _.map(all_selected_items, function(item) {
