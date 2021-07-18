@@ -1,13 +1,132 @@
 [
  {
   "Issue": {
-   "issue_url": "https://github.com/xqh19970407/test_1/issues/1",
-   "issue_createdAt": "2021-07-18T13:33:39Z",
+   "issue_url": "https://github.com/gmt-china/GMT_docs/issues/667",
+   "issue_createdAt": "2021-07-18T19:44:38Z",
    "issue_repo": {
-    "repo_name": "test_1",
-    "repo_desc": "this is test repository",
-    "repo_url": "https://github.com/xqh19970407/test_1",
-    "repo_stars": 0,
+    "repo_name": "GMT_docs",
+    "repo_desc": "GMT 中文手册",
+    "repo_url": "https://github.com/gmt-china/GMT_docs",
+    "repo_stars": 60,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "TeX"
+      },
+      {
+       "repo_prog_language": "PostScript"
+      },
+      {
+       "repo_prog_language": "Batchfile"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "gmt-china"
+    }
+   },
+   "issue_title": "GMT 6.2 开始支持 LaTeX",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/weisJ/darklaf/issues/252",
+   "issue_createdAt": "2021-07-18T19:18:11Z",
+   "issue_repo": {
+    "repo_name": "darklaf",
+    "repo_desc": "Darklaf - A themeable swing Look and Feel based on Darcula-Laf",
+    "repo_url": "https://github.com/weisJ/darklaf",
+    "repo_stars": 276,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "Kotlin"
+      },
+      {
+       "repo_prog_language": "Objective-C++"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "weisJ"
+    }
+   },
+   "issue_title": "Remove dependency on jna",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "windows"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/RanafaB18/LockAddiction/issues/2",
+   "issue_createdAt": "2021-07-18T19:15:59Z",
+   "issue_repo": {
+    "repo_name": "LockAddiction",
+    "repo_desc": "Prevent  the user from accessing an app they try not to use but us anyway. Inspired by my predicament with games.",
+    "repo_url": "https://github.com/RanafaB18/LockAddiction",
+    "repo_stars": 1,
     "repo_langs": {
      "Nodes": [
       {
@@ -16,10 +135,1378 @@
      ]
     },
     "Owner": {
-     "repo_owner": "xqh19970407"
+     "repo_owner": "RanafaB18"
     }
    },
-   "issue_title": "this is issues title",
+   "issue_title": "Selecting and Deselecting Dates",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/dixon-kun/Hello-would-project/issues/15",
+   "issue_createdAt": "2021-07-18T18:46:53Z",
+   "issue_repo": {
+    "repo_name": "Hello-would-project",
+    "repo_desc": "",
+    "repo_url": "https://github.com/dixon-kun/Hello-would-project",
+    "repo_stars": 1,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "dixon-kun"
+    }
+   },
+   "issue_title": "Work from home",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "duplicate"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "invalid"
+     },
+     {
+      "label_name": "question"
+     },
+     {
+      "label_name": "wontfix"
+     }
+    ],
+    "label_totalcount": 9
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/dniblack/HTML-CSS-Projects/issues/4",
+   "issue_createdAt": "2021-07-18T18:44:21Z",
+   "issue_repo": {
+    "repo_name": "HTML-CSS-Projects",
+    "repo_desc": "I will be using this repository for all of my coding projects while I take the HTML \u0026 CSS course from The Tech Academy",
+    "repo_url": "https://github.com/dniblack/HTML-CSS-Projects",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "dniblack"
+    }
+   },
+   "issue_title": "Test Issue",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/JuanVqz/lalo_menu/issues/8",
+   "issue_createdAt": "2021-07-18T18:42:50Z",
+   "issue_repo": {
+    "repo_name": "lalo_menu",
+    "repo_desc": "The easy way to create your restaurant's menu and show it up by scanning a QR code.",
+    "repo_url": "https://github.com/JuanVqz/lalo_menu",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Ruby"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Haml"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "JuanVqz"
+    }
+   },
+   "issue_title": "add rubocop linter config in GitHub actions or Travis CI",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/heply/hssh/issues/32",
+   "issue_createdAt": "2021-07-18T18:15:25Z",
+   "issue_repo": {
+    "repo_name": "hssh",
+    "repo_desc": "A CLI to easily list, search and connect to SSH hosts. Sync down hosts from providers in order to get a centralized hosts configuration.",
+    "repo_url": "https://github.com/heply/hssh",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "heply"
+    }
+   },
+   "issue_title": "Host settings in case insensitive",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/nodejs/undici/issues/886",
+   "issue_createdAt": "2021-07-18T18:07:01Z",
+   "issue_repo": {
+    "repo_name": "undici",
+    "repo_desc": "An HTTP/1.1 client, written from scratch for Node.js",
+    "repo_url": "https://github.com/nodejs/undici",
+    "repo_stars": 2142,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "nodejs"
+    }
+   },
+   "issue_title": "connect option needs more tests and docs",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "Status: help-wanted"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/alhashmicode/setup-reactor/issues/13",
+   "issue_createdAt": "2021-07-18T18:02:19Z",
+   "issue_repo": {
+    "repo_name": "setup-reactor",
+    "repo_desc": "create reactjs setup for zero to master react setup",
+    "repo_url": "https://github.com/alhashmicode/setup-reactor",
+    "repo_stars": 1,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "alhashmicode"
+    }
+   },
+   "issue_title": "optimizning image",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/dwayned84/testing05/issues/74",
+   "issue_createdAt": "2021-07-18T18:01:50Z",
+   "issue_repo": {
+    "repo_name": "testing05",
+    "repo_desc": "",
+    "repo_url": "https://github.com/dwayned84/testing05",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "dwayned84"
+    }
+   },
+   "issue_title": "Стр [Форум] - редактировать изменять разделы форума",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ShapeCrawler/ShapeCrawler/issues/148",
+   "issue_createdAt": "2021-07-18T18:00:04Z",
+   "issue_repo": {
+    "repo_name": "ShapeCrawler",
+    "repo_desc": "A .NET library for manipulating PowerPoint presentations.",
+    "repo_url": "https://github.com/ShapeCrawler/ShapeCrawler",
+    "repo_stars": 42,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "C#"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ShapeCrawler"
+    }
+   },
+   "issue_title": "Add ISlideCollection.Insert(int position, ISlide slide)",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ONEARMY/project-kamp-academy/issues/24",
+   "issue_createdAt": "2021-07-18T17:53:09Z",
+   "issue_repo": {
+    "repo_name": "project-kamp-academy",
+    "repo_desc": "Project Kamp Academy",
+    "repo_url": "https://github.com/ONEARMY/project-kamp-academy",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ONEARMY"
+    }
+   },
+   "issue_title": "[FEATURE REQUEST] Add solar setup page to docs",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/muxfd/rtchat/issues/61",
+   "issue_createdAt": "2021-07-18T17:47:39Z",
+   "issue_repo": {
+    "repo_name": "rtchat",
+    "repo_desc": "A chat app for IRL streamers.",
+    "repo_url": "https://github.com/muxfd/rtchat",
+    "repo_stars": 8,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Kotlin"
+      },
+      {
+       "repo_prog_language": "Swift"
+      },
+      {
+       "repo_prog_language": "Objective-C"
+      },
+      {
+       "repo_prog_language": "Dart"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Ruby"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "muxfd"
+    }
+   },
+   "issue_title": "[chat_history] add keyboard shortcut buttons for commonly used messages",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/morgant/xwf/issues/11",
+   "issue_createdAt": "2021-07-18T17:43:47Z",
+   "issue_repo": {
+    "repo_name": "xwf",
+    "repo_desc": "X Window Filemanager",
+    "repo_url": "https://github.com/morgant/xwf",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "sed"
+      },
+      {
+       "repo_prog_language": "C"
+      },
+      {
+       "repo_prog_language": "Tcl"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "morgant"
+    }
+   },
+   "issue_title": "Open/Empty Trash menu options only appear when multiple files are selected",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/alexfertel/rust-algorithms/issues/12",
+   "issue_createdAt": "2021-07-18T17:41:54Z",
+   "issue_repo": {
+    "repo_name": "rust-algorithms",
+    "repo_desc": "Algorithms and Data Structures of all kinds written in Rust.",
+    "repo_url": "https://github.com/alexfertel/rust-algorithms",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Rust"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "alexfertel"
+    }
+   },
+   "issue_title": "Revamp the Counting Sort implementation",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "tests"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/pixiebrix/pixiebrix-extension/issues/850",
+   "issue_createdAt": "2021-07-18T17:35:13Z",
+   "issue_repo": {
+    "repo_name": "pixiebrix-extension",
+    "repo_desc": "PixieBrix browser extension",
+    "repo_url": "https://github.com/pixiebrix/pixiebrix-extension",
+    "repo_stars": 23,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "pixiebrix"
+    }
+   },
+   "issue_title": "Enable filename eslint plugin rules",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "developer experience"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/pixiebrix/pixiebrix-extension/issues/849",
+   "issue_createdAt": "2021-07-18T17:26:20Z",
+   "issue_repo": {
+    "repo_name": "pixiebrix-extension",
+    "repo_desc": "PixieBrix browser extension",
+    "repo_url": "https://github.com/pixiebrix/pixiebrix-extension",
+    "repo_stars": 23,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "pixiebrix"
+    }
+   },
+   "issue_title": "Add a close sidebar button to the PixieBrix bar",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "user experience"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Feuerhamster/wattpad-downloader/issues/4",
+   "issue_createdAt": "2021-07-18T17:10:30Z",
+   "issue_repo": {
+    "repo_name": "wattpad-downloader",
+    "repo_desc": "A website to convert and download Wattpad stories into e-book reader formats.",
+    "repo_url": "https://github.com/Feuerhamster/wattpad-downloader",
+    "repo_stars": 9,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "EJS"
+      },
+      {
+       "repo_prog_language": "Pug"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Feuerhamster"
+    }
+   },
+   "issue_title": "Images midchapter",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 2
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/AppiumTestDistribution/appium-device-farm/issues/112",
+   "issue_createdAt": "2021-07-18T17:08:59Z",
+   "issue_repo": {
+    "repo_name": "appium-device-farm",
+    "repo_desc": "This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices.",
+    "repo_url": "https://github.com/AppiumTestDistribution/appium-device-farm",
+    "repo_stars": 25,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "AppiumTestDistribution"
+    }
+   },
+   "issue_title": "Expose new route to add test result information",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "nodejs"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/AppiumTestDistribution/appium-device-farm/issues/111",
+   "issue_createdAt": "2021-07-18T17:04:35Z",
+   "issue_repo": {
+    "repo_name": "appium-device-farm",
+    "repo_desc": "This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices.",
+    "repo_url": "https://github.com/AppiumTestDistribution/appium-device-farm",
+    "repo_stars": 25,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "AppiumTestDistribution"
+    }
+   },
+   "issue_title": "Render test results in modal",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "Dashboard"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/weisJ/darklaf/issues/251",
+   "issue_createdAt": "2021-07-18T16:36:35Z",
+   "issue_repo": {
+    "repo_name": "darklaf",
+    "repo_desc": "Darklaf - A themeable swing Look and Feel based on Darcula-Laf",
+    "repo_url": "https://github.com/weisJ/darklaf",
+    "repo_stars": 276,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "Kotlin"
+      },
+      {
+       "repo_prog_language": "Objective-C++"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "weisJ"
+    }
+   },
+   "issue_title": "NumberingPane: Numbers overlap with icons ",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/pvcodes/pi_wallet/issues/2",
+   "issue_createdAt": "2021-07-18T16:32:31Z",
+   "issue_repo": {
+    "repo_name": "pi_wallet",
+    "repo_desc": "Piwallet is a open-sourced project for storing your credentials securely.",
+    "repo_url": "https://github.com/pvcodes/pi_wallet",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "pvcodes"
+    }
+   },
+   "issue_title": "Edit the Homepage",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "HTML"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ocramz/ad-delcont/issues/2",
+   "issue_createdAt": "2021-07-18T16:30:09Z",
+   "issue_repo": {
+    "repo_name": "ad-delcont",
+    "repo_desc": "AD with delimited continuations",
+    "repo_url": "https://github.com/ocramz/ad-delcont",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Haskell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ocramz"
+    }
+   },
+   "issue_title": "Add tests",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Python-World/s-tool/issues/33",
+   "issue_createdAt": "2021-07-18T16:23:54Z",
+   "issue_repo": {
+    "repo_name": "s-tool",
+    "repo_desc": "Selenium wrapper to make your life easy.",
+    "repo_url": "https://github.com/Python-World/s-tool",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Python-World"
+    }
+   },
+   "issue_title": "retrieve user agent string from driver object",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "driver"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/weisJ/darklaf/issues/250",
+   "issue_createdAt": "2021-07-18T16:18:01Z",
+   "issue_repo": {
+    "repo_name": "darklaf",
+    "repo_desc": "Darklaf - A themeable swing Look and Feel based on Darcula-Laf",
+    "repo_url": "https://github.com/weisJ/darklaf",
+    "repo_stars": 276,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "Kotlin"
+      },
+      {
+       "repo_prog_language": "Objective-C++"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "weisJ"
+    }
+   },
+   "issue_title": "JToggleButtonList: Renderer isn't updaten on `updateUI`",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/gleam-lang/gleam/issues/1214",
+   "issue_createdAt": "2021-07-18T16:17:50Z",
+   "issue_repo": {
+    "repo_name": "gleam",
+    "repo_desc": "⭐️ A fast, friendly, and functional language for building type-safe, scalable systems!",
+    "repo_url": "https://github.com/gleam-lang/gleam",
+    "repo_stars": 3144,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Erlang"
+      },
+      {
+       "repo_prog_language": "Rust"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Cap'n Proto"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "gleam-lang"
+    }
+   },
+   "issue_title": "Recursive functions can generate incorrect JavaScript",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "area:codegen"
+     },
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/weisJ/darklaf/issues/249",
+   "issue_createdAt": "2021-07-18T16:14:25Z",
+   "issue_repo": {
+    "repo_name": "darklaf",
+    "repo_desc": "Darklaf - A themeable swing Look and Feel based on Darcula-Laf",
+    "repo_url": "https://github.com/weisJ/darklaf",
+    "repo_stars": 276,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "Kotlin"
+      },
+      {
+       "repo_prog_language": "Objective-C++"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "weisJ"
+    }
+   },
+   "issue_title": "Table: Uninstalling doesn't remove the boolean renderer",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/rmacuna/cracking-interviews-js/issues/1",
+   "issue_createdAt": "2021-07-18T16:12:19Z",
+   "issue_repo": {
+    "repo_name": "cracking-interviews-js",
+    "repo_desc": "🏋️‍♀️ Exercises from \"Cracking the coding interview\" written in JS. Common problems in React and javascript solved and explained",
+    "repo_url": "https://github.com/rmacuna/cracking-interviews-js",
+    "repo_stars": 7,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "rmacuna"
+    }
+   },
+   "issue_title": "Start adding basic algorithm exercises with their time complexity ",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/JonnyCano/quizzy-by-Jonny/issues/1",
+   "issue_createdAt": "2021-07-18T16:12:19Z",
+   "issue_repo": {
+    "repo_name": "quizzy-by-Jonny",
+    "repo_desc": "",
+    "repo_url": "https://github.com/JonnyCano/quizzy-by-Jonny",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "JonnyCano"
+    }
+   },
+   "issue_title": "Initialize the website",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/oyakhilomee/Stats-Preview-Card-Components/issues/10",
+   "issue_createdAt": "2021-07-18T16:11:44Z",
+   "issue_repo": {
+    "repo_name": "Stats-Preview-Card-Components",
+    "repo_desc": "",
+    "repo_url": "https://github.com/oyakhilomee/Stats-Preview-Card-Components",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "oyakhilomee"
+    }
+   },
+   "issue_title": "Style the mobile view ",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/digitalfabrik/lunes-cms/issues/200",
+   "issue_createdAt": "2021-07-18T15:58:37Z",
+   "issue_repo": {
+    "repo_name": "lunes-cms",
+    "repo_desc": "The back end for the Lunes vocabulary trainer. Front end: https://github.com/Digitalfabrik/lunes-app.",
+    "repo_url": "https://github.com/digitalfabrik/lunes-cms",
+    "repo_stars": 6,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "digitalfabrik"
+    }
+   },
+   "issue_title": "Refactoring",
    "issue_labels": {
     "Nodes": [
      {
@@ -32,7 +1519,828 @@
     "issue_comment_count": 1
    },
    "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Jagannath8/shopping/issues/9",
+   "issue_createdAt": "2021-07-18T15:57:56Z",
+   "issue_repo": {
+    "repo_name": "shopping",
+    "repo_desc": "",
+    "repo_url": "https://github.com/Jagannath8/shopping",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Jagannath8"
+    }
+   },
+   "issue_title": "Design Contact Us page for this website",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "Assigned"
+     },
+     {
+      "label_name": "DCP'21"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
     "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/AppiumTestDistribution/appium-device-farm/issues/110",
+   "issue_createdAt": "2021-07-18T15:46:22Z",
+   "issue_repo": {
+    "repo_name": "appium-device-farm",
+    "repo_desc": "This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices.",
+    "repo_url": "https://github.com/AppiumTestDistribution/appium-device-farm",
+    "repo_stars": 25,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "AppiumTestDistribution"
+    }
+   },
+   "issue_title": "Unit Tests",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "Typesript"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "nodejs"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Bertouz/SignalProcessingPipeline/issues/1",
+   "issue_createdAt": "2021-07-18T15:43:06Z",
+   "issue_repo": {
+    "repo_name": "SignalProcessingPipeline",
+    "repo_desc": "Simple project for 1d signal processing pipeline in c++",
+    "repo_url": "https://github.com/Bertouz/SignalProcessingPipeline",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "CMake"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "C++"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Bertouz"
+    }
+   },
+   "issue_title": "Update template skeleton to spp",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/AppiumTestDistribution/appium-device-farm/issues/109",
+   "issue_createdAt": "2021-07-18T15:42:58Z",
+   "issue_repo": {
+    "repo_name": "appium-device-farm",
+    "repo_desc": "This is an Appium 2.0 plugin designed to manage and create driver sessions on available devices.",
+    "repo_url": "https://github.com/AppiumTestDistribution/appium-device-farm",
+    "repo_stars": 25,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "AppiumTestDistribution"
+    }
+   },
+   "issue_title": "Switch to Jest",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "dependencies"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "nodejs"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/scp-fs2open/fs2open.github.com/issues/3563",
+   "issue_createdAt": "2021-07-18T15:40:41Z",
+   "issue_repo": {
+    "repo_name": "fs2open.github.com",
+    "repo_desc": "Origin Repository for SCP FreeSpace 2 Open",
+    "repo_url": "https://github.com/scp-fs2open/fs2open.github.com",
+    "repo_stars": 255,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "C"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Objective-C"
+      },
+      {
+       "repo_prog_language": "Batchfile"
+      },
+      {
+       "repo_prog_language": "CMake"
+      },
+      {
+       "repo_prog_language": "PowerShell"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Lua"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "scp-fs2open"
+    }
+   },
+   "issue_title": "Feature Gap: Screen Shake not allowed in 3rd person view",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "general modding"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/0chain/gosdk/issues/144",
+   "issue_createdAt": "2021-07-18T15:33:16Z",
+   "issue_repo": {
+    "repo_name": "gosdk",
+    "repo_desc": "A client SDK in Go to interface the blockchain and storage platform, and other smart contracts",
+    "repo_url": "https://github.com/0chain/gosdk",
+    "repo_stars": 15,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "0chain"
+    }
+   },
+   "issue_title": "Chore: Add GitHub issue \u0026 pull request templates to the repository",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/hackclub/HCCore/issues/128",
+   "issue_createdAt": "2021-07-18T15:29:17Z",
+   "issue_repo": {
+    "repo_name": "HCCore",
+    "repo_desc": ":electric_plug: Main plugin for the Hack Club Minecraft server",
+    "repo_url": "https://github.com/hackclub/HCCore",
+    "repo_stars": 12,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "hackclub"
+    }
+   },
+   "issue_title": "Auto deploying \u0026\u0026 Auto Deploying PR builds to testing server",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/aantron/dream/issues/134",
+   "issue_createdAt": "2021-07-18T15:09:40Z",
+   "issue_repo": {
+    "repo_name": "dream",
+    "repo_desc": "Tidy, feature-complete Web framework",
+    "repo_url": "https://github.com/aantron/dream",
+    "repo_stars": 632,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "OCaml"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Reason"
+      },
+      {
+       "repo_prog_language": "ReScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "aantron"
+    }
+   },
+   "issue_title": "Tidy up the flash message cookies",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/nickBes/copper/issues/1",
+   "issue_createdAt": "2021-07-18T15:03:23Z",
+   "issue_repo": {
+    "repo_name": "copper",
+    "repo_desc": "A web framework for cpp and react",
+    "repo_url": "https://github.com/nickBes/copper",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "nickBes"
+    }
+   },
+   "issue_title": "Implement tsx component rendering",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Sasafrass/straattaal/issues/34",
+   "issue_createdAt": "2021-07-18T14:44:08Z",
+   "issue_repo": {
+    "repo_name": "straattaal",
+    "repo_desc": "Use an RNN to generate Dutch slang and interpret your newly created words!",
+    "repo_url": "https://github.com/Sasafrass/straattaal",
+    "repo_stars": 5,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Mako"
+      },
+      {
+       "repo_prog_language": "Jupyter Notebook"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Sasafrass"
+    }
+   },
+   "issue_title": "Keep generating words N times until edit distance is non-zero",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 2
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Baraujo22/javaProjects/issues/1",
+   "issue_createdAt": "2021-07-18T14:35:22Z",
+   "issue_repo": {
+    "repo_name": "javaProjects",
+    "repo_desc": "Java Practice Projects",
+    "repo_url": "https://github.com/Baraujo22/javaProjects",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "Baraujo22"
+    }
+   },
+   "issue_title": "Making my password requirement smarter",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/twopirllc/pandas-ta/issues/349",
+   "issue_createdAt": "2021-07-18T14:22:34Z",
+   "issue_repo": {
+    "repo_name": "pandas-ta",
+    "repo_desc": "Technical Analysis Indicators - Pandas TA is an easy to use Python 3 Pandas Extension with 130+ Indicators",
+    "repo_url": "https://github.com/twopirllc/pandas-ta",
+    "repo_stars": 1405,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "twopirllc"
+    }
+   },
+   "issue_title": "Indicator Request - Connors RSI (CRSI)",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/3Alan/Hackintosh-i5-10400-B460M-MORTAR-WIFI/issues/10",
+   "issue_createdAt": "2021-07-18T13:58:55Z",
+   "issue_repo": {
+    "repo_name": "Hackintosh-i5-10400-B460M-MORTAR-WIFI",
+    "repo_desc": "Hackintosh EFI",
+    "repo_url": "https://github.com/3Alan/Hackintosh-i5-10400-B460M-MORTAR-WIFI",
+    "repo_stars": 4,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "3Alan"
+    }
+   },
+   "issue_title": "提issue必看",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/MarcoFalke/bitcoin-core/issues/57",
+   "issue_createdAt": "2021-07-18T13:57:13Z",
+   "issue_repo": {
+    "repo_name": "bitcoin-core",
+    "repo_desc": "Development fork of Bitcoin Core",
+    "repo_url": "https://github.com/MarcoFalke/bitcoin-core",
+    "repo_stars": 13,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "C"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Objective-C++"
+      },
+      {
+       "repo_prog_language": "M4"
+      },
+      {
+       "repo_prog_language": "Assembly"
+      },
+      {
+       "repo_prog_language": "Scheme"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "MarcoFalke"
+    }
+   },
+   "issue_title": "Update src/chainparams.cpp for upcoming release",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Scout-Association-of-Japan/DX-promotion-guidelines/issues/142",
+   "issue_createdAt": "2021-07-18T13:51:00Z",
+   "issue_repo": {
+    "repo_name": "DX-promotion-guidelines",
+    "repo_desc": "デジタルツール利用ガイドのリポジトリです。",
+    "repo_url": "https://github.com/Scout-Association-of-Japan/DX-promotion-guidelines",
+    "repo_stars": 4,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Scout-Association-of-Japan"
+    }
+   },
+   "issue_title": "画像に枠線を付ける",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/nidhaloff/deep-translator/issues/69",
+   "issue_createdAt": "2021-07-18T13:38:50Z",
+   "issue_repo": {
+    "repo_name": "deep-translator",
+    "repo_desc": "A flexible free and unlimited python tool to translate between different languages in a simple way using multiple translators.",
+    "repo_url": "https://github.com/nidhaloff/deep-translator",
+    "repo_stars": 319,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Python"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "nidhaloff"
+    }
+   },
+   "issue_title": "[Feature Request] make library api more homogeneous ",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Scout-Association-of-Japan/DX-promotion-guidelines/issues/141",
+   "issue_createdAt": "2021-07-18T13:38:41Z",
+   "issue_repo": {
+    "repo_name": "DX-promotion-guidelines",
+    "repo_desc": "デジタルツール利用ガイドのリポジトリです。",
+    "repo_url": "https://github.com/Scout-Association-of-Japan/DX-promotion-guidelines",
+    "repo_stars": 4,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Scout-Association-of-Japan"
+    }
+   },
+   "issue_title": "サブアカウント作成方法のページに不要な部分がある",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
    }
   }
  },
@@ -124,49 +2432,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/fluffyfluffycake/MacGen/issues/2",
-   "issue_createdAt": "2021-07-18T13:18:25Z",
-   "issue_repo": {
-    "repo_name": "MacGen",
-    "repo_desc": "A python program to create random mac addresses.",
-    "repo_url": "https://github.com/fluffyfluffycake/MacGen",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "fluffyfluffycake"
-    }
-   },
-   "issue_title": "randomness",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/spiral-project/ihatemoney/issues/811",
    "issue_createdAt": "2021-07-18T12:56:49Z",
    "issue_repo": {
@@ -228,7 +2493,7 @@
     "label_totalcount": 4
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -342,7 +2607,7 @@
     "repo_langs": {
      "Nodes": [
       {
-       "repo_prog_language": "JavaScript"
+       "repo_prog_language": "TypeScript"
       }
      ]
     },
@@ -648,59 +2913,13 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/TUfast-TUD/TUfast_TUD/issues/33",
-   "issue_createdAt": "2021-07-18T10:45:53Z",
-   "issue_repo": {
-    "repo_name": "TUfast_TUD",
-    "repo_desc": "Browser Extension for higher productivity with TU Dresden IT-Services 🚀",
-    "repo_url": "https://github.com/TUfast-TUD/TUfast_TUD",
-    "repo_stars": 18,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "TUfast-TUD"
-    }
-   },
-   "issue_title": "Ungewollte Weiterleitung von OPAL Exam auf OPAL",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/UKnowWhoIm/covid-result-kerala/issues/1",
    "issue_createdAt": "2021-07-18T10:42:24Z",
    "issue_repo": {
     "repo_name": "covid-result-kerala",
     "repo_desc": "View your COVID result as soon as it is published. Applicable only for tests in kerala.",
     "repo_url": "https://github.com/UKnowWhoIm/covid-result-kerala",
-    "repo_stars": 1,
+    "repo_stars": 2,
     "repo_langs": {
      "Nodes": [
       {
@@ -723,6 +2942,52 @@
    },
    "Comments": {
     "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/nushell/nushell/issues/3800",
+   "issue_createdAt": "2021-07-18T10:39:37Z",
+   "issue_repo": {
+    "repo_name": "nushell",
+    "repo_desc": "A new type of shell",
+    "repo_url": "https://github.com/nushell/nushell",
+    "repo_stars": 14936,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Rust"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "nushell"
+    }
+   },
+   "issue_title": "How to convert duration to string ?",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 3
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -1034,7 +3299,7 @@
     "repo_name": "conjure",
     "repo_desc": "Interactive evaluation for Neovim (Clojure, Fennel, Janet, Racket, Hy, MIT Scheme, Guile)",
     "repo_url": "https://github.com/Olical/conjure",
-    "repo_stars": 671,
+    "repo_stars": 672,
     "repo_langs": {
      "Nodes": [
       {
@@ -1160,43 +3425,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AntareepDey/PyPad/issues/1",
-   "issue_createdAt": "2021-07-18T09:35:47Z",
-   "issue_repo": {
-    "repo_name": "PyPad",
-    "repo_desc": "This is the first ever software that I  made. It is a notepad clone that I made using Python . Also you can install it just as if you would any other program .head over to the releases section . ",
-    "repo_url": "https://github.com/AntareepDey/PyPad",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "AntareepDey"
-    }
-   },
-   "issue_title": "Naming not changed",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  },
@@ -1509,52 +3737,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/LetsGrowMoreCommunity/DSA-Playyard/issues/40",
-   "issue_createdAt": "2021-07-18T08:23:39Z",
-   "issue_repo": {
-    "repo_name": "DSA-Playyard",
-    "repo_desc": "Explore the world of Data Structures and Algorithm ",
-    "repo_url": "https://github.com/LetsGrowMoreCommunity/DSA-Playyard",
-    "repo_stars": 6,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "LetsGrowMoreCommunity"
-    }
-   },
-   "issue_title": "counting the number of nodes present in a binary tree",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "LGMSOC21"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "🟩 Level1"
-     },
-     {
-      "label_name": "🤩 Up for Grab"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/fastify/fastify-rate-limit/issues/165",
    "issue_createdAt": "2021-07-18T08:22:47Z",
    "issue_repo": {
@@ -1592,7 +3774,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 4
+    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -1636,6 +3818,58 @@
    },
    "Comments": {
     "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/pixiebrix/pixiebrix-extension/issues/846",
+   "issue_createdAt": "2021-07-18T08:01:39Z",
+   "issue_repo": {
+    "repo_name": "pixiebrix-extension",
+    "repo_desc": "PixieBrix browser extension",
+    "repo_url": "https://github.com/pixiebrix/pixiebrix-extension",
+    "repo_stars": 23,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "pixiebrix"
+    }
+   },
+   "issue_title": "Console warning about  validateDOMNesting  in options page on load",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -1721,7 +3955,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 2
@@ -2103,7 +4337,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 5
+    "issue_comment_count": 7
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -2149,6 +4383,55 @@
    },
    "Assignees": {
     "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/TypeStrong/typedoc/issues/1635",
+   "issue_createdAt": "2021-07-18T06:50:14Z",
+   "issue_repo": {
+    "repo_name": "typedoc",
+    "repo_desc": "Documentation generator for TypeScript projects.",
+    "repo_url": "https://github.com/TypeStrong/typedoc",
+    "repo_stars": 4976,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "TypeStrong"
+    }
+   },
+   "issue_title": "Support plugins that execute as native ESM",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 3
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
    }
   }
  },
@@ -2424,7 +4707,7 @@
     "issue_comment_count": 0
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -2522,7 +4805,7 @@
     "repo_name": "DawDreamer",
     "repo_desc": "Digital Audio Workstation with Python; VST instruments/effects, parameter automation, FAUST, Warp Markers, and JUCE processors",
     "repo_url": "https://github.com/DBraun/DawDreamer",
-    "repo_stars": 185,
+    "repo_stars": 186,
     "repo_langs": {
      "Nodes": [
       {
@@ -2809,7 +5092,7 @@
     "label_totalcount": 6
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -2900,7 +5183,7 @@
     "label_totalcount": 6
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -2940,10 +5223,10 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 2
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -3321,7 +5604,7 @@
      "repo_owner": "FangerZero"
     }
    },
-   "issue_title": "Test/Coach/Train",
+   "issue_title": "Test/Coach/Train Modals",
    "issue_labels": {
     "Nodes": [
      {
@@ -3598,55 +5881,6 @@
    },
    "Comments": {
     "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/XusinboyBekchanov/VisualFBEditor/issues/84",
-   "issue_createdAt": "2021-07-18T00:33:31Z",
-   "issue_repo": {
-    "repo_name": "VisualFBEditor",
-    "repo_desc": "IDE for FreeBasic",
-    "repo_url": "https://github.com/XusinboyBekchanov/VisualFBEditor",
-    "repo_stars": 39,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "VBA"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "Rich Text Format"
-      },
-      {
-       "repo_prog_language": "FreeBasic"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "XusinboyBekchanov"
-    }
-   },
-   "issue_title": "Include Paths and Library Paths are not visible on gtk3 for linux",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "Bug"
-     },
-     {
-      "label_name": "Good First Issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 3
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -4019,7 +6253,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -4138,43 +6372,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/RanafaB18/LockAddiction/issues/1",
-   "issue_createdAt": "2021-07-17T23:28:46Z",
-   "issue_repo": {
-    "repo_name": "LockAddiction",
-    "repo_desc": "Prevent  the user from accessing an app they try not to use but us anyway. Inspired by my predicament with games.",
-    "repo_url": "https://github.com/RanafaB18/LockAddiction",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "RanafaB18"
-    }
-   },
-   "issue_title": "Selecting and Deselecting dates in the Calender Tab",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/inseven/bookmarks/issues/142",
    "issue_createdAt": "2021-07-17T23:01:56Z",
    "issue_repo": {
@@ -4282,6 +6479,82 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/centerofci/mathesar/issues/421",
+   "issue_createdAt": "2021-07-17T22:52:01Z",
+   "issue_repo": {
+    "repo_name": "mathesar",
+    "repo_desc": "Project to help users of all skill levels store, manipulate, and visualize data.",
+    "repo_url": "https://github.com/centerofci/mathesar",
+    "repo_stars": 13,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Batchfile"
+      },
+      {
+       "repo_prog_language": "Svelte"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "centerofci"
+    }
+   },
+   "issue_title": "Handle non-unicode encoded datafiles",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "status: ready"
+     },
+     {
+      "label_name": "type: bug"
+     },
+     {
+      "label_name": "work: backend"
+     }
+    ],
+    "label_totalcount": 5
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/oyakhilomee/Stats-Preview-Card-Components/issues/6",
    "issue_createdAt": "2021-07-17T22:29:26Z",
    "issue_repo": {
@@ -4295,7 +6568,7 @@
        "repo_prog_language": "HTML"
       },
       {
-       "repo_prog_language": "CSS"
+       "repo_prog_language": "SCSS"
       }
      ]
     },
@@ -4335,7 +6608,7 @@
        "repo_prog_language": "HTML"
       },
       {
-       "repo_prog_language": "CSS"
+       "repo_prog_language": "SCSS"
       }
      ]
     },
@@ -4344,46 +6617,6 @@
     }
    },
    "issue_title": "Deploy the web application",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/oyakhilomee/Stats-Preview-Card-Components/issues/4",
-   "issue_createdAt": "2021-07-17T22:24:52Z",
-   "issue_repo": {
-    "repo_name": "Stats-Preview-Card-Components",
-    "repo_desc": "",
-    "repo_url": "https://github.com/oyakhilomee/Stats-Preview-Card-Components",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "oyakhilomee"
-    }
-   },
-   "issue_title": "Link to Google Fonts",
    "issue_labels": {
     "Nodes": [
      {
@@ -4415,7 +6648,7 @@
        "repo_prog_language": "HTML"
       },
       {
-       "repo_prog_language": "CSS"
+       "repo_prog_language": "SCSS"
       }
      ]
     },
@@ -4561,7 +6794,7 @@
     "repo_name": "flutterfire",
     "repo_desc": "🔥 A collection of Firebase plugins for Flutter apps.",
     "repo_url": "https://github.com/FirebaseExtended/flutterfire",
-    "repo_stars": 5402,
+    "repo_stars": 5404,
     "repo_langs": {
      "Nodes": [
       {
@@ -4644,6 +6877,52 @@
     }
    },
    "issue_title": "Design footer",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "Assigned"
+     },
+     {
+      "label_name": "DCP'21"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 2
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Jagannath8/shopping/issues/2",
+   "issue_createdAt": "2021-07-17T21:11:48Z",
+   "issue_repo": {
+    "repo_name": "shopping",
+    "repo_desc": "",
+    "repo_url": "https://github.com/Jagannath8/shopping",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Jagannath8"
+    }
+   },
+   "issue_title": "Create About us page",
    "issue_labels": {
     "Nodes": [
      {
@@ -5042,55 +7321,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/ocskier/graphql-subscriptions-chat/issues/23",
-   "issue_createdAt": "2021-07-17T20:36:01Z",
-   "issue_repo": {
-    "repo_name": "graphql-subscriptions-chat",
-    "repo_desc": "Making a mock GraphQL with Subscriptions chat full-stack application MERN",
-    "repo_url": "https://github.com/ocskier/graphql-subscriptions-chat",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "ocskier"
-    }
-   },
-   "issue_title": "User context and Passport local",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "graphQL"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  },
@@ -5717,7 +7947,7 @@
     "repo_name": "Draw-and-guess-game",
     "repo_desc": "When its your turn to draw, you will have to visualize the word and draw it in 90 seconds, alternatively when somebody else is drawing you have to type your guess into the chat to gain points.",
     "repo_url": "https://github.com/abhinavxd/Draw-and-guess-game",
-    "repo_stars": 1,
+    "repo_stars": 2,
     "repo_langs": {
      "Nodes": [
       {
@@ -5748,10 +7978,10 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 2
+    "issue_comment_count": 4
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -6170,7 +8400,7 @@
     "repo_name": "sktime",
     "repo_desc": "A unified framework for machine learning with time series",
     "repo_url": "https://github.com/alan-turing-institute/sktime",
-    "repo_stars": 4232,
+    "repo_stars": 4235,
     "repo_langs": {
      "Nodes": [
       {
@@ -6213,7 +8443,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 2
+    "issue_comment_count": 4
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -6448,7 +8678,7 @@
     "repo_name": "capsule",
     "repo_desc": "Kubernetes Operator for multi-tenancy",
     "repo_url": "https://github.com/clastix/capsule",
-    "repo_stars": 483,
+    "repo_stars": 484,
     "repo_langs": {
      "Nodes": [
       {
@@ -6656,7 +8886,7 @@
     "repo_name": "wp-calypso",
     "repo_desc": "The JavaScript and API powered WordPress.com",
     "repo_url": "https://github.com/Automattic/wp-calypso",
-    "repo_stars": 11827,
+    "repo_stars": 11829,
     "repo_langs": {
      "Nodes": [
       {
@@ -6839,7 +9069,7 @@
     "repo_name": "tenacity",
     "repo_desc": "Tenacity is an easy-to-use, privacy-friendly, FLOSS, cross-platform multi-track audio editor/recorder for Windows, macOS, Linux and other operating systems. Contributions welcome!",
     "repo_url": "https://github.com/tenacityteam/tenacity",
-    "repo_stars": 4731,
+    "repo_stars": 4749,
     "repo_langs": {
      "Nodes": [
       {
@@ -6900,262 +9130,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/CleverRaven/Cataclysm-DDA/issues/50008",
-   "issue_createdAt": "2021-07-17T15:49:59Z",
-   "issue_repo": {
-    "repo_name": "Cataclysm-DDA",
-    "repo_desc": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
-    "repo_url": "https://github.com/CleverRaven/Cataclysm-DDA",
-    "repo_stars": 5309,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "CMake"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Gnuplot"
-      },
-      {
-       "repo_prog_language": "Perl"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "CleverRaven"
-    }
-   },
-   "issue_title": "0.F stable Humvee has jerry can with diesel, but runs on JP8",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "\u003cBug\u003e"
-     },
-     {
-      "label_name": "Good First Issue"
-     },
-     {
-      "label_name": "Vehicles"
-     },
-     {
-      "label_name": "[JSON]"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/jamie-sgro/dashboard/issues/25",
-   "issue_createdAt": "2021-07-17T15:43:51Z",
-   "issue_repo": {
-    "repo_name": "dashboard",
-    "repo_desc": "This project involves building a one-page online dashboard for visualizing an SDG Cities Index that is both open-sourced and legally shareable.",
-    "repo_url": "https://github.com/jamie-sgro/dashboard",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "R"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "jamie-sgro"
-    }
-   },
-   "issue_title": "change_description_for_civility",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/jamie-sgro/dashboard/issues/24",
-   "issue_createdAt": "2021-07-17T15:40:16Z",
-   "issue_repo": {
-    "repo_name": "dashboard",
-    "repo_desc": "This project involves building a one-page online dashboard for visualizing an SDG Cities Index that is both open-sourced and legally shareable.",
-    "repo_url": "https://github.com/jamie-sgro/dashboard",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "R"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "jamie-sgro"
-    }
-   },
-   "issue_title": "change-nonNormal_value_for_affected",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/jamie-sgro/dashboard/issues/23",
-   "issue_createdAt": "2021-07-17T15:36:28Z",
-   "issue_repo": {
-    "repo_name": "dashboard",
-    "repo_desc": "This project involves building a one-page online dashboard for visualizing an SDG Cities Index that is both open-sourced and legally shareable.",
-    "repo_url": "https://github.com/jamie-sgro/dashboard",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "R"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "jamie-sgro"
-    }
-   },
-   "issue_title": "change_nonNormalValue_for_transit",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/jamie-sgro/dashboard/issues/22",
    "issue_createdAt": "2021-07-17T15:35:10Z",
    "issue_repo": {
@@ -7208,10 +9182,10 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 3
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -7382,7 +9356,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -8016,7 +9990,7 @@
     "repo_name": "Vaccine-Tracker-App",
     "repo_desc": "Check Your Nearest Vaccination Center And Slots Availability using pincode and district name.",
     "repo_url": "https://github.com/sameersrivastava13/Vaccine-Tracker-App",
-    "repo_stars": 68,
+    "repo_stars": 69,
     "repo_langs": {
      "Nodes": [
       {
@@ -8120,59 +10094,13 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/LetsGrowMoreCommunity/DSA-Playyard/issues/18",
-   "issue_createdAt": "2021-07-17T13:31:22Z",
-   "issue_repo": {
-    "repo_name": "DSA-Playyard",
-    "repo_desc": "Explore the world of Data Structures and Algorithm ",
-    "repo_url": "https://github.com/LetsGrowMoreCommunity/DSA-Playyard",
-    "repo_stars": 6,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "LetsGrowMoreCommunity"
-    }
-   },
-   "issue_title": " find a pair with highest product from a given array of integers",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "LGMSOC21"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "🟪 Level0"
-     },
-     {
-      "label_name": "🤩 Up for Grab"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/CleverRaven/Cataclysm-DDA/issues/50005",
    "issue_createdAt": "2021-07-17T13:30:19Z",
    "issue_repo": {
     "repo_name": "Cataclysm-DDA",
     "repo_desc": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
     "repo_url": "https://github.com/CleverRaven/Cataclysm-DDA",
-    "repo_stars": 5309,
+    "repo_stars": 5311,
     "repo_langs": {
      "Nodes": [
       {
@@ -8245,7 +10173,7 @@
     "repo_name": "freyr-js",
     "repo_desc": "A tool for downloading songs from music streaming services like Spotify and Apple Music.",
     "repo_url": "https://github.com/miraclx/freyr-js",
-    "repo_stars": 150,
+    "repo_stars": 151,
     "repo_langs": {
      "Nodes": [
       {
@@ -8270,7 +10198,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -8314,52 +10242,6 @@
    },
    "Comments": {
     "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/LetsGrowMoreCommunity/DSA-Playyard/issues/17",
-   "issue_createdAt": "2021-07-17T13:23:16Z",
-   "issue_repo": {
-    "repo_name": "DSA-Playyard",
-    "repo_desc": "Explore the world of Data Structures and Algorithm ",
-    "repo_url": "https://github.com/LetsGrowMoreCommunity/DSA-Playyard",
-    "repo_stars": 6,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "LetsGrowMoreCommunity"
-    }
-   },
-   "issue_title": "find the first duplicate element in a given array of integers",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "LGMSOC21"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "🟪 Level0"
-     },
-     {
-      "label_name": "🤩 Up for Grab"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 3
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -8420,7 +10302,7 @@
     "repo_name": "refined-github",
     "repo_desc": ":octocat: Browser extension that simplifies the GitHub interface and adds useful features",
     "repo_url": "https://github.com/sindresorhus/refined-github",
-    "repo_stars": 14965,
+    "repo_stars": 14962,
     "repo_langs": {
      "Nodes": [
       {
@@ -10056,7 +11938,7 @@
     "repo_name": "Javis.jl",
     "repo_desc": "Julia Animations and Visualizations",
     "repo_url": "https://github.com/Wikunia/Javis.jl",
-    "repo_stars": 418,
+    "repo_stars": 420,
     "repo_langs": {
      "Nodes": [
       {
@@ -10265,7 +12147,7 @@
     "repo_name": "mirotalk",
     "repo_desc": "🚀 Powered by WebRTC, Real-time video call, chat room and screen sharing entirely browser based 🚀",
     "repo_url": "https://github.com/miroslavpejic85/mirotalk",
-    "repo_stars": 359,
+    "repo_stars": 360,
     "repo_langs": {
      "Nodes": [
       {
@@ -10507,7 +12389,7 @@
     "repo_name": "sktime",
     "repo_desc": "A unified framework for machine learning with time series",
     "repo_url": "https://github.com/alan-turing-institute/sktime",
-    "repo_stars": 4232,
+    "repo_stars": 4235,
     "repo_langs": {
      "Nodes": [
       {
@@ -10629,7 +12511,7 @@
     "repo_name": "sktime",
     "repo_desc": "A unified framework for machine learning with time series",
     "repo_url": "https://github.com/alan-turing-institute/sktime",
-    "repo_stars": 4232,
+    "repo_stars": 4235,
     "repo_langs": {
      "Nodes": [
       {
@@ -11397,7 +13279,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 3
+    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -11745,76 +13627,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/CleverRaven/Cataclysm-DDA/issues/49994",
-   "issue_createdAt": "2021-07-17T03:46:17Z",
-   "issue_repo": {
-    "repo_name": "Cataclysm-DDA",
-    "repo_desc": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
-    "repo_url": "https://github.com/CleverRaven/Cataclysm-DDA",
-    "repo_stars": 5309,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "CMake"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Gnuplot"
-      },
-      {
-       "repo_prog_language": "Perl"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "CleverRaven"
-    }
-   },
-   "issue_title": "Deconstructing Chainlink Fences (built with pipes) yields pipe fittings",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "Crafting / Construction / Recipes"
-     },
-     {
-      "label_name": "Good First Issue"
-     },
-     {
-      "label_name": "[JSON]"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/lingfunny/Chemistry-Master/issues/1",
    "issue_createdAt": "2021-07-17T03:07:14Z",
    "issue_repo": {
@@ -11894,7 +13706,7 @@
     "repo_name": "bk-log",
     "repo_desc": "蓝鲸日志平台",
     "repo_url": "https://github.com/TencentBlueKing/bk-log",
-    "repo_stars": 46,
+    "repo_stars": 47,
     "repo_langs": {
      "Nodes": [
       {
@@ -12044,7 +13856,7 @@
     "repo_name": "react",
     "repo_desc": "Cheatsheets for experienced React developers getting started with TypeScript",
     "repo_url": "https://github.com/typescript-cheatsheets/react",
-    "repo_stars": 26621,
+    "repo_stars": 26626,
     "repo_langs": {
      "Nodes": [
       {
@@ -12162,7 +13974,7 @@
     "repo_name": "posthog",
     "repo_desc": "🦔 PostHog is developer-friendly, open-source product analytics.",
     "repo_url": "https://github.com/PostHog/posthog",
-    "repo_stars": 4431,
+    "repo_stars": 4432,
     "repo_langs": {
      "Nodes": [
       {
@@ -12927,6 +14739,58 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/TableauBits/Yatga/issues/10",
+   "issue_createdAt": "2021-07-16T22:08:57Z",
+   "issue_repo": {
+    "repo_name": "Yatga",
+    "repo_desc": "MATBay revamped front-end",
+    "repo_url": "https://github.com/TableauBits/Yatga",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "TableauBits"
+    }
+   },
+   "issue_title": "(Yatga): Ajouter page utilisateurs",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "ui"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/ZeLonewolf/openstreetmap-americana/issues/40",
    "issue_createdAt": "2021-07-16T22:07:31Z",
    "issue_repo": {
@@ -13238,7 +15102,7 @@
      "repo_owner": "centerofci"
     }
    },
-   "issue_title": "Create `MATHESAR_EMAIL` custom type and handle it in the backend.",
+   "issue_title": "Backend work for `MATHESAR_EMAIL` custom type.",
    "issue_labels": {
     "Nodes": [
      {
@@ -13449,7 +15313,7 @@
     "label_totalcount": 4
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -13875,11 +15739,7 @@
     "repo_url": "https://github.com/SarthakKeshari/Java-Questions",
     "repo_stars": 0,
     "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      }
-     ]
+     "Nodes": []
     },
     "Owner": {
      "repo_owner": "SarthakKeshari"
@@ -14120,52 +15980,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Python-World/s-tool/issues/29",
-   "issue_createdAt": "2021-07-16T19:42:26Z",
-   "issue_repo": {
-    "repo_name": "s-tool",
-    "repo_desc": "Selenium wrapper to make your life easy.",
-    "repo_url": "https://github.com/Python-World/s-tool",
-    "repo_stars": 2,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Python-World"
-    }
-   },
-   "issue_title": "check existence of element on page",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  },
@@ -14614,7 +16428,7 @@
     "repo_name": "verdaccio",
     "repo_desc": "📦🔐A lightweight private proxy registry build in Node.js",
     "repo_url": "https://github.com/verdaccio/verdaccio",
-    "repo_stars": 11921,
+    "repo_stars": 11922,
     "repo_langs": {
      "Nodes": [
       {
@@ -14812,6 +16626,55 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/hedgedoc/hedgedoc/issues/1449",
+   "issue_createdAt": "2021-07-16T19:00:44Z",
+   "issue_repo": {
+    "repo_name": "hedgedoc",
+    "repo_desc": "HedgeDoc - The best platform to write and share markdown.",
+    "repo_url": "https://github.com/hedgedoc/hedgedoc",
+    "repo_stars": 2096,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "hedgedoc"
+    }
+   },
+   "issue_title": "MinIO Guide refers to removed embedded browser",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "type: documentation"
+     },
+     {
+      "label_name": "type: enhancement"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/adityavinodh/wonder-school/issues/2",
    "issue_createdAt": "2021-07-16T18:36:38Z",
    "issue_repo": {
@@ -14855,7 +16718,7 @@
     "repo_name": "OpenSearch",
     "repo_desc": "Open source distributed and RESTful search engine.",
     "repo_url": "https://github.com/opensearch-project/OpenSearch",
-    "repo_stars": 3210,
+    "repo_stars": 3215,
     "repo_langs": {
      "Nodes": [
       {
@@ -15364,7 +17227,7 @@
     "repo_name": "chatwoot",
     "repo_desc": "Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
     "repo_url": "https://github.com/chatwoot/chatwoot",
-    "repo_stars": 9581,
+    "repo_stars": 9586,
     "repo_langs": {
      "Nodes": [
       {
@@ -15822,7 +17685,7 @@
    "issue_createdAt": "2021-07-16T17:26:37Z",
    "issue_repo": {
     "repo_name": "INU-Fake-Developers",
-    "repo_desc": "INU 가짜개발자 시즌 3 진행 중입니다.",
+    "repo_desc": "INU 가짜개발자 시즌 4 모집 중입니다.",
     "repo_url": "https://github.com/INU-Fake-Developers/INU-Fake-Developers",
     "repo_stars": 7,
     "repo_langs": {
@@ -16560,7 +18423,7 @@
     "label_totalcount": 4
    },
    "Comments": {
-    "issue_comment_count": 3
+    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -16691,7 +18554,7 @@
     "repo_name": "tauri",
     "repo_desc": "Build smaller, faster, and more secure desktop applications with a web frontend.",
     "repo_url": "https://github.com/tauri-apps/tauri",
-    "repo_stars": 18165,
+    "repo_stars": 18170,
     "repo_langs": {
      "Nodes": [
       {
@@ -16746,7 +18609,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -16859,52 +18722,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/jobjo/popper/issues/60",
-   "issue_createdAt": "2021-07-16T16:10:11Z",
-   "issue_repo": {
-    "repo_name": "popper",
-    "repo_desc": "Property-based testing at ease",
-    "repo_url": "https://github.com/jobjo/popper",
-    "repo_stars": 27,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "OCaml"
-      },
-      {
-       "repo_prog_language": "Standard ML"
-      },
-      {
-       "repo_prog_language": "NASL"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "jobjo"
-    }
-   },
-   "issue_title": "deriving popper fails for Uchar.t",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/Happy-Algorithms-League/hal-cgp/issues/335",
    "issue_createdAt": "2021-07-16T15:50:02Z",
    "issue_repo": {
@@ -16979,7 +18796,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 3
+    "issue_comment_count": 4
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -18179,39 +19996,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/AleksanderWWW/Quantum-Portfolio-Optimization/issues/1",
-   "issue_createdAt": "2021-07-16T14:08:40Z",
-   "issue_repo": {
-    "repo_name": "Quantum-Portfolio-Optimization",
-    "repo_desc": "Optimizing an investment portfolio with quantum annealing schedule implementation to achieve the biggest-possible number of least-possibly correlated assets",
-    "repo_url": "https://github.com/AleksanderWWW/Quantum-Portfolio-Optimization",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AleksanderWWW"
-    }
-   },
-   "issue_title": "Migrate existing code to the repository",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/knowledge-for-good/knowledgeforgood/issues/75",
    "issue_createdAt": "2021-07-16T13:58:41Z",
    "issue_repo": {
@@ -18424,6 +20208,52 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/alwaysbegrowing/telegram-standup-bot/issues/43",
+   "issue_createdAt": "2021-07-16T13:37:47Z",
+   "issue_repo": {
+    "repo_name": "telegram-standup-bot",
+    "repo_desc": "Very simple telegram bot for submitting daily standups",
+    "repo_url": "https://github.com/alwaysbegrowing/telegram-standup-bot",
+    "repo_stars": 20,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "alwaysbegrowing"
+    }
+   },
+   "issue_title": "Hide not setup message on first login",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/baraja-core/emailer/issues/10",
    "issue_createdAt": "2021-07-16T13:33:53Z",
    "issue_repo": {
@@ -18499,58 +20329,6 @@
      }
     ],
     "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/JuanVqz/lalo_menu/issues/6",
-   "issue_createdAt": "2021-07-16T13:21:28Z",
-   "issue_repo": {
-    "repo_name": "lalo_menu",
-    "repo_desc": "The easy way to create your restaurant's menu and show it up by scanning a QR code.",
-    "repo_url": "https://github.com/JuanVqz/lalo_menu",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Ruby"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "JuanVqz"
-    }
-   },
-   "issue_title": "add haml-rails gem and configure it",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 3
    },
    "Comments": {
     "issue_comment_count": 0
@@ -18994,7 +20772,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -19009,7 +20787,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -19040,39 +20818,10 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "",
-   "issue_createdAt": "0001-01-01T00:00:00Z",
-   "issue_repo": {
-    "repo_name": "",
-    "repo_desc": "",
-    "repo_url": "",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": null
-    },
-    "Owner": {
-     "repo_owner": ""
-    }
-   },
-   "issue_title": "",
-   "issue_labels": {
-    "Nodes": null,
-    "label_totalcount": 0
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
    }
   }
  },
@@ -19124,7 +20873,7 @@
     "repo_name": "babel",
     "repo_desc": "🐠 Babel is a compiler for writing next generation JavaScript.",
     "repo_url": "https://github.com/babel/babel",
-    "repo_stars": 39390,
+    "repo_stars": 39395,
     "repo_langs": {
      "Nodes": [
       {
@@ -19167,10 +20916,10 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 2
+    "issue_comment_count": 4
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -19399,7 +21148,7 @@
     "repo_name": "kubesphere",
     "repo_desc": "The container platform tailored for Kubernetes multi-cloud and multi-cluster management",
     "repo_url": "https://github.com/kubesphere/kubesphere",
-    "repo_stars": 5850,
+    "repo_stars": 5851,
     "repo_langs": {
      "Nodes": [
       {
@@ -20038,55 +21787,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/codeiiest-dev/codeiiest-web/issues/32",
-   "issue_createdAt": "2021-07-16T08:03:08Z",
-   "issue_repo": {
-    "repo_name": "codeiiest-web",
-    "repo_desc": "Website for Code IIEST",
-    "repo_url": "https://github.com/codeiiest-dev/codeiiest-web",
-    "repo_stars": 14,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Vue"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "codeiiest-dev"
-    }
-   },
-   "issue_title": "[BUG] Events in arbitrary order",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/ed-george/adbp/issues/1",
    "issue_createdAt": "2021-07-16T07:50:50Z",
    "issue_repo": {
@@ -20179,35 +21879,6 @@
  },
  {
   "Issue": {
-   "issue_url": "",
-   "issue_createdAt": "0001-01-01T00:00:00Z",
-   "issue_repo": {
-    "repo_name": "",
-    "repo_desc": "",
-    "repo_url": "",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": null
-    },
-    "Owner": {
-     "repo_owner": ""
-    }
-   },
-   "issue_title": "",
-   "issue_labels": {
-    "Nodes": null,
-    "label_totalcount": 0
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/elit-altum/newman-dashboard/issues/26",
    "issue_createdAt": "2021-07-16T06:45:51Z",
    "issue_repo": {
@@ -20257,7 +21928,7 @@
     "repo_name": "MapStore2",
     "repo_desc": "Modern webmapping with OpenLayers, Leaflet and React",
     "repo_url": "https://github.com/geosolutions-it/MapStore2",
-    "repo_stars": 278,
+    "repo_stars": 279,
     "repo_langs": {
      "Nodes": [
       {
@@ -20422,7 +22093,7 @@
     "repo_name": "oceanbase",
     "repo_desc": "OceanBase is an enterprise distributed relational database with high availability, high performance, horizontal scalability, and compatibility with SQL standards.",
     "repo_url": "https://github.com/oceanbase/oceanbase",
-    "repo_stars": 3099,
+    "repo_stars": 3101,
     "repo_langs": {
      "Nodes": [
       {
@@ -20486,7 +22157,7 @@
     "repo_name": "pygame",
     "repo_desc": "pygame (the library) is a Free and Open Source python programming language library for making multimedia applications like games built on top of the excellent SDL library. C, Python, Native, OpenGL.",
     "repo_url": "https://github.com/pygame/pygame",
-    "repo_stars": 3599,
+    "repo_stars": 3601,
     "repo_langs": {
      "Nodes": [
       {
@@ -21086,7 +22757,7 @@
     "repo_name": "go-storage",
     "repo_desc": "A vendor-neutral storage library for Golang: Write once, run on every storage service.",
     "repo_url": "https://github.com/beyondstorage/go-storage",
-    "repo_stars": 215,
+    "repo_stars": 216,
     "repo_langs": {
      "Nodes": [
       {
@@ -21430,7 +23101,7 @@
     "repo_name": "signoz",
     "repo_desc": "SigNoz helps developers monitor their applications \u0026 troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥",
     "repo_url": "https://github.com/SigNoz/signoz",
-    "repo_stars": 4319,
+    "repo_stars": 4325,
     "repo_langs": {
      "Nodes": [
       {
@@ -21658,7 +23329,7 @@
     "repo_name": "wtf",
     "repo_desc": "wtf is a distributed, code-coverage guided, customizable, cross-platform snapshot-based fuzzer designed for attacking user and / or kernel-mode targets running on Microsoft Windows.",
     "repo_url": "https://github.com/0vercl0k/wtf",
-    "repo_stars": 502,
+    "repo_stars": 511,
     "repo_langs": {
      "Nodes": [
       {
@@ -21855,55 +23526,6 @@
    },
    "Comments": {
     "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/ZeLonewolf/openstreetmap-americana/issues/39",
-   "issue_createdAt": "2021-07-16T02:18:07Z",
-   "issue_repo": {
-    "repo_name": "openstreetmap-americana",
-    "repo_desc": "A quintessentially American map style",
-    "repo_url": "https://github.com/ZeLonewolf/openstreetmap-americana",
-    "repo_stars": 10,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "ZeLonewolf"
-    }
-   },
-   "issue_title": "Add attribution notice",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -22325,6 +23947,49 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/DEV-MUGLES/react-excel-download/issues/5",
+   "issue_createdAt": "2021-07-16T02:01:37Z",
+   "issue_repo": {
+    "repo_name": "react-excel-download",
+    "repo_desc": "",
+    "repo_url": "https://github.com/DEV-MUGLES/react-excel-download",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "DEV-MUGLES"
+    }
+   },
+   "issue_title": "README.md 작성",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 2
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/Joey35233/FoxKit-3/issues/3",
    "issue_createdAt": "2021-07-16T01:59:30Z",
    "issue_repo": {
@@ -22421,6 +24086,64 @@
    },
    "Comments": {
     "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/DistributedCollective/Sovryn-frontend/issues/1489",
+   "issue_createdAt": "2021-07-16T01:43:12Z",
+   "issue_repo": {
+    "repo_name": "Sovryn-frontend",
+    "repo_desc": "Frontend DApp for Sovryn trading and lending platform.",
+    "repo_url": "https://github.com/DistributedCollective/Sovryn-frontend",
+    "repo_stars": 37,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Handlebars"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "DistributedCollective"
+    }
+   },
+   "issue_title": "Shouldn't be possible to click on Swap button when wallet is disconnected",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -22726,7 +24449,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -23137,7 +24860,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -23223,7 +24946,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -23318,7 +25041,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -23413,7 +25136,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -23453,59 +25176,13 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/smaranjitghose/awesome-portfolio-websites/issues/961",
-   "issue_createdAt": "2021-07-15T22:44:17Z",
-   "issue_repo": {
-    "repo_name": "awesome-portfolio-websites",
-    "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
-    "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "smaranjitghose"
-    }
-   },
-   "issue_title": "Experience Page Responsiveness Bug in Mobile Screens",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "open-source-day"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 6
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/smaranjitghose/awesome-portfolio-websites/issues/959",
    "issue_createdAt": "2021-07-15T22:39:42Z",
    "issue_repo": {
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -23793,6 +25470,12 @@
       },
       {
        "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Haml"
+      },
+      {
+       "repo_prog_language": "Shell"
       }
      ]
     },
@@ -23800,7 +25483,7 @@
      "repo_owner": "JuanVqz"
     }
    },
-   "issue_title": "add CI (this can be done after install and configure rspec)",
+   "issue_title": "add CI for rspec",
    "issue_labels": {
     "Nodes": [
      {
@@ -23845,6 +25528,12 @@
       },
       {
        "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Haml"
+      },
+      {
+       "repo_prog_language": "Shell"
       }
      ]
     },
@@ -23969,7 +25658,7 @@
     "issue_comment_count": 1
    },
    "Assignees": {
-    "issue_assignees_count": 1
+    "issue_assignees_count": 0
    }
   }
  },
@@ -24231,7 +25920,7 @@
     "repo_name": "cockroach",
     "repo_desc": "CockroachDB - the open source, cloud-native distributed SQL database.",
     "repo_url": "https://github.com/cockroachdb/cockroach",
-    "repo_stars": 21195,
+    "repo_stars": 21198,
     "repo_langs": {
      "Nodes": [
       {
@@ -24350,7 +26039,7 @@
     "issue_comment_count": 0
    },
    "Assignees": {
-    "issue_assignees_count": 1
+    "issue_assignees_count": 0
    }
   }
  },
@@ -25453,7 +27142,7 @@
     "repo_name": "sktime",
     "repo_desc": "A unified framework for machine learning with time series",
     "repo_url": "https://github.com/alan-turing-institute/sktime",
-    "repo_stars": 4232,
+    "repo_stars": 4235,
     "repo_langs": {
      "Nodes": [
       {
@@ -25604,7 +27293,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -26497,7 +28186,7 @@
     "repo_name": "awesome-portfolio-websites",
     "repo_desc": "A community maintained open source project aimed at making a personal portfolio for researchers, developers, and analysts simple, fast, and less cumbersome. We make sure you have a full-fledged website to showcase your work while you can spend time on your learning and innovative endeavors.",
     "repo_url": "https://github.com/smaranjitghose/awesome-portfolio-websites",
-    "repo_stars": 567,
+    "repo_stars": 568,
     "repo_langs": {
      "Nodes": [
       {
@@ -26543,7 +28232,7 @@
     "repo_name": "chatwoot",
     "repo_desc": "Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
     "repo_url": "https://github.com/chatwoot/chatwoot",
-    "repo_stars": 9581,
+    "repo_stars": 9586,
     "repo_langs": {
      "Nodes": [
       {
@@ -27130,7 +28819,7 @@
     "repo_name": "godex",
     "repo_desc": "Godex is a Godot Engine ECS library.",
     "repo_url": "https://github.com/GodotECS/godex",
-    "repo_stars": 407,
+    "repo_stars": 408,
     "repo_langs": {
      "Nodes": [
       {
@@ -28359,7 +30048,7 @@
     "repo_name": "cue",
     "repo_desc": "The new home of the CUE language! Validate and define text-based and dynamic configuration",
     "repo_url": "https://github.com/cue-lang/cue",
-    "repo_stars": 574,
+    "repo_stars": 579,
     "repo_langs": {
      "Nodes": [
       {
@@ -28408,7 +30097,7 @@
     "repo_name": "freyr-js",
     "repo_desc": "A tool for downloading songs from music streaming services like Spotify and Apple Music.",
     "repo_url": "https://github.com/miraclx/freyr-js",
-    "repo_stars": 150,
+    "repo_stars": 151,
     "repo_langs": {
      "Nodes": [
       {
@@ -28555,7 +30244,7 @@
     "repo_name": "MapStore2",
     "repo_desc": "Modern webmapping with OpenLayers, Leaflet and React",
     "repo_url": "https://github.com/geosolutions-it/MapStore2",
-    "repo_stars": 278,
+    "repo_stars": 279,
     "repo_langs": {
      "Nodes": [
       {
@@ -28900,7 +30589,7 @@
     "repo_name": "trezor-suite",
     "repo_desc": ":candy: Trezor Suite Monorepo",
     "repo_url": "https://github.com/trezor/trezor-suite",
-    "repo_stars": 239,
+    "repo_stars": 240,
     "repo_langs": {
      "Nodes": [
       {
@@ -29028,7 +30717,7 @@
     "repo_name": "storybook",
     "repo_desc": "📓 The UI component explorer. Develop, document, \u0026 test React, Vue, Angular, Web Components, Ember, Svelte \u0026 more!",
     "repo_url": "https://github.com/storybookjs/storybook",
-    "repo_stars": 63406,
+    "repo_stars": 63409,
     "repo_langs": {
      "Nodes": [
       {
@@ -29411,7 +31100,7 @@
     "repo_name": "airflow",
     "repo_desc": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
     "repo_url": "https://github.com/apache/airflow",
-    "repo_stars": 22419,
+    "repo_stars": 22423,
     "repo_langs": {
      "Nodes": [
       {
@@ -29481,7 +31170,7 @@
     "repo_name": "evalml",
     "repo_desc": "EvalML is an AutoML library written in python.",
     "repo_url": "https://github.com/alteryx/evalml",
-    "repo_stars": 348,
+    "repo_stars": 349,
     "repo_langs": {
      "Nodes": [
       {
@@ -29591,10 +31280,10 @@
     "label_totalcount": 9
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 5
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -29664,7 +31353,7 @@
     "repo_name": "cue",
     "repo_desc": "The new home of the CUE language! Validate and define text-based and dynamic configuration",
     "repo_url": "https://github.com/cue-lang/cue",
-    "repo_stars": 574,
+    "repo_stars": 579,
     "repo_langs": {
      "Nodes": [
       {
@@ -29742,35 +31431,6 @@
      }
     ],
     "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "",
-   "issue_createdAt": "0001-01-01T00:00:00Z",
-   "issue_repo": {
-    "repo_name": "",
-    "repo_desc": "",
-    "repo_url": "",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": null
-    },
-    "Owner": {
-     "repo_owner": ""
-    }
-   },
-   "issue_title": "",
-   "issue_labels": {
-    "Nodes": null,
-    "label_totalcount": 0
    },
    "Comments": {
     "issue_comment_count": 0
@@ -29932,7 +31592,7 @@
     "repo_name": "material-ui",
     "repo_desc": "Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. Follow your own design system, or start with Material Design.",
     "repo_url": "https://github.com/mui-org/material-ui",
-    "repo_stars": 69741,
+    "repo_stars": 69745,
     "repo_langs": {
      "Nodes": [
       {
@@ -30168,7 +31828,7 @@
     "repo_name": "MuseScore",
     "repo_desc": "MuseScore is an open source and free music notation software. For support, contribution, bug reports, visit MuseScore.org. Fork and make pull requests!",
     "repo_url": "https://github.com/musescore/MuseScore",
-    "repo_stars": 6118,
+    "repo_stars": 6120,
     "repo_langs": {
      "Nodes": [
       {
@@ -30268,7 +31928,7 @@
     "repo_name": "numba",
     "repo_desc": "NumPy aware dynamic Python compiler using LLVM",
     "repo_url": "https://github.com/numba/numba",
-    "repo_stars": 6671,
+    "repo_stars": 6673,
     "repo_langs": {
      "Nodes": [
       {
@@ -30451,10 +32111,10 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 2
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -30521,7 +32181,7 @@
     "repo_name": "capsule",
     "repo_desc": "Kubernetes Operator for multi-tenancy",
     "repo_url": "https://github.com/clastix/capsule",
-    "repo_stars": 483,
+    "repo_stars": 484,
     "repo_langs": {
      "Nodes": [
       {
@@ -30891,7 +32551,7 @@
     "repo_name": "cue",
     "repo_desc": "The new home of the CUE language! Validate and define text-based and dynamic configuration",
     "repo_url": "https://github.com/cue-lang/cue",
-    "repo_stars": 574,
+    "repo_stars": 579,
     "repo_langs": {
      "Nodes": [
       {
@@ -31195,52 +32855,6 @@
    },
    "Comments": {
     "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/supabase/postgres-meta/issues/126",
-   "issue_createdAt": "2021-07-15T12:51:36Z",
-   "issue_repo": {
-    "repo_name": "postgres-meta",
-    "repo_desc": "A RESTful API for managing your Postgres. Fetch tables, add roles, and run queries",
-    "repo_url": "https://github.com/supabase/postgres-meta",
-    "repo_stars": 230,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "PLpgSQL"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "supabase"
-    }
-   },
-   "issue_title": "Export types",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 6
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -31592,7 +33206,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 3
+    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -31714,7 +33328,7 @@
     "repo_name": "serenity",
     "repo_desc": "The Serenity Operating System 🐞",
     "repo_url": "https://github.com/SerenityOS/serenity",
-    "repo_stars": 14067,
+    "repo_stars": 14074,
     "repo_langs": {
      "Nodes": [
       {
@@ -31879,7 +33493,7 @@
     "repo_name": "animate.css",
     "repo_desc": "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.",
     "repo_url": "https://github.com/animate-css/animate.css",
-    "repo_stars": 71546,
+    "repo_stars": 71549,
     "repo_langs": {
      "Nodes": [
       {
@@ -32087,7 +33701,7 @@
     "repo_name": "polybar",
     "repo_desc": "A fast and easy-to-use status bar",
     "repo_url": "https://github.com/polybar/polybar",
-    "repo_stars": 8837,
+    "repo_stars": 8838,
     "repo_langs": {
      "Nodes": [
       {
@@ -32216,6 +33830,52 @@
    },
    "Comments": {
     "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/plocket/docassemble-cucumber/issues/335",
+   "issue_createdAt": "2021-07-15T11:08:50Z",
+   "issue_repo": {
+    "repo_name": "docassemble-cucumber",
+    "repo_desc": "Integrated automated end-to-end testing with docassemble, puppeteer, and cucumber.",
+    "repo_url": "https://github.com/plocket/docassemble-cucumber",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Gherkin"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "plocket"
+    }
+   },
+   "issue_title": "Steps: Use custom timeout when allowing interview loading to retry",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "quick"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -32461,7 +34121,7 @@
     "repo_name": "MapStore2",
     "repo_desc": "Modern webmapping with OpenLayers, Leaflet and React",
     "repo_url": "https://github.com/geosolutions-it/MapStore2",
-    "repo_stars": 278,
+    "repo_stars": 279,
     "repo_langs": {
      "Nodes": [
       {
@@ -32751,64 +34411,6 @@
    },
    "Comments": {
     "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/DistributedCollective/Sovryn-frontend/issues/1484",
-   "issue_createdAt": "2021-07-15T09:46:55Z",
-   "issue_repo": {
-    "repo_name": "Sovryn-frontend",
-    "repo_desc": "Frontend DApp for Sovryn trading and lending platform.",
-    "repo_url": "https://github.com/DistributedCollective/Sovryn-frontend",
-    "repo_stars": 37,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Handlebars"
-      },
-      {
-       "repo_prog_language": "SCSS"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "DistributedCollective"
-    }
-   },
-   "issue_title": "Remove opacity from Yield farm content when wallet not connected",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -33220,7 +34822,7 @@
     "repo_name": "jaeger-operator",
     "repo_desc": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes.",
     "repo_url": "https://github.com/jaegertracing/jaeger-operator",
-    "repo_stars": 689,
+    "repo_stars": 690,
     "repo_langs": {
      "Nodes": [
       {
@@ -33376,7 +34978,7 @@
     "repo_name": "Cataclysm-DDA",
     "repo_desc": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
     "repo_url": "https://github.com/CleverRaven/Cataclysm-DDA",
-    "repo_stars": 5309,
+    "repo_stars": 5311,
     "repo_langs": {
      "Nodes": [
       {
@@ -33501,7 +35103,7 @@
     "repo_name": "airflow",
     "repo_desc": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
     "repo_url": "https://github.com/apache/airflow",
-    "repo_stars": 22419,
+    "repo_stars": 22423,
     "repo_langs": {
      "Nodes": [
       {
@@ -33574,7 +35176,7 @@
     "repo_name": "serenity",
     "repo_desc": "The Serenity Operating System 🐞",
     "repo_url": "https://github.com/SerenityOS/serenity",
-    "repo_stars": 14067,
+    "repo_stars": 14074,
     "repo_langs": {
      "Nodes": [
       {
@@ -33697,52 +35299,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/HarshKapadia2/preview-markdown/issues/17",
-   "issue_createdAt": "2021-07-15T07:58:52Z",
-   "issue_repo": {
-    "repo_name": "preview-markdown",
-    "repo_desc": "A live Markdown previewer.",
-    "repo_url": "https://github.com/HarshKapadia2/preview-markdown",
-    "repo_stars": 9,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "HarshKapadia2"
-    }
-   },
-   "issue_title": "Add `kbd` tag styling.",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  },
@@ -34767,7 +36323,7 @@
     "repo_name": "signoz",
     "repo_desc": "SigNoz helps developers monitor their applications \u0026 troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥",
     "repo_url": "https://github.com/SigNoz/signoz",
-    "repo_stars": 4319,
+    "repo_stars": 4325,
     "repo_langs": {
      "Nodes": [
       {
@@ -34976,7 +36532,7 @@
     "repo_name": "erigon",
     "repo_desc": "Ethereum implementation on the efficiency frontier",
     "repo_url": "https://github.com/ledgerwatch/erigon",
-    "repo_stars": 499,
+    "repo_stars": 500,
     "repo_langs": {
      "Nodes": [
       {
@@ -35483,6 +37039,73 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/wiredsister/OpenTransplant/issues/69",
+   "issue_createdAt": "2021-07-15T01:06:25Z",
+   "issue_repo": {
+    "repo_name": "OpenTransplant",
+    "repo_desc": "Organ Procurement Transplant System for  \"We, The People\" developed using publicly available information about Organ Transplant \u0026 cutting edge medical research.",
+    "repo_url": "https://github.com/wiredsister/OpenTransplant",
+    "repo_stars": 25,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "OCaml"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Elixir"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "HCL"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "wiredsister"
+    }
+   },
+   "issue_title": "Algorithm Spec Template",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/teachingtechYT/teachingtechYT.github.io/issues/323",
    "issue_createdAt": "2021-07-15T00:22:58Z",
    "issue_repo": {
@@ -35868,7 +37491,7 @@
     "repo_name": "Cirq",
     "repo_desc": "A python framework for creating, editing, and invoking Noisy Intermediate Scale Quantum (NISQ) circuits.",
     "repo_url": "https://github.com/quantumlib/Cirq",
-    "repo_stars": 2943,
+    "repo_stars": 2944,
     "repo_langs": {
      "Nodes": [
       {
@@ -35978,7 +37601,7 @@
     "repo_name": "unitystation",
     "repo_desc": "The original unitystation",
     "repo_url": "https://github.com/unitystation/unitystation",
-    "repo_stars": 589,
+    "repo_stars": 590,
     "repo_langs": {
      "Nodes": []
     },
@@ -36017,7 +37640,7 @@
     "repo_name": "ray",
     "repo_desc": "An open source framework that provides a simple, universal API for building distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library.",
     "repo_url": "https://github.com/ray-project/ray",
-    "repo_stars": 16646,
+    "repo_stars": 16647,
     "repo_langs": {
      "Nodes": [
       {
@@ -36162,79 +37785,6 @@
    },
    "Comments": {
     "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/backstage/backstage/issues/6479",
-   "issue_createdAt": "2021-07-14T22:10:26Z",
-   "issue_repo": {
-    "repo_name": "backstage",
-    "repo_desc": "Backstage is an open platform for building developer portals",
-    "repo_url": "https://github.com/backstage/backstage",
-    "repo_stars": 12431,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Handlebars"
-      },
-      {
-       "repo_prog_language": "Smarty"
-      },
-      {
-       "repo_prog_language": "Mustache"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "backstage"
-    }
-   },
-   "issue_title": "feat(cli): Add a command to ensure all necessary tools are installed to run Backstage locally",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "cli"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -36527,7 +38077,7 @@
     "repo_name": "yugabyte-db",
     "repo_desc": "The high-performance distributed SQL database for global, internet-scale apps.",
     "repo_url": "https://github.com/yugabyte/yugabyte-db",
-    "repo_stars": 5349,
+    "repo_stars": 5350,
     "repo_langs": {
      "Nodes": [
       {
@@ -37061,13 +38611,16 @@
    "issue_labels": {
     "Nodes": [
      {
-      "label_name": "bug"
+      "label_name": "good first issue"
      },
      {
-      "label_name": "good first issue"
+      "label_name": "size: small"
+     },
+     {
+      "label_name": "type: bug"
      }
     ],
-    "label_totalcount": 2
+    "label_totalcount": 3
    },
    "Comments": {
     "issue_comment_count": 0
@@ -37556,7 +39109,7 @@
     "repo_name": "jabref",
     "repo_desc": "Graphical Java application for managing BibTeX and biblatex (.bib) databases",
     "repo_url": "https://github.com/JabRef/jabref",
-    "repo_stars": 2228,
+    "repo_stars": 2229,
     "repo_langs": {
      "Nodes": [
       {
@@ -37727,7 +39280,7 @@
     "repo_name": "bat",
     "repo_desc": "A cat(1) clone with wings.",
     "repo_url": "https://github.com/sharkdp/bat",
-    "repo_stars": 28369,
+    "repo_stars": 28371,
     "repo_langs": {
      "Nodes": [
       {
@@ -38189,7 +39742,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -38628,7 +40181,7 @@
     "repo_name": "brave-browser",
     "repo_desc": "Next generation Brave browser for Android, Linux, macOS, Windows.",
     "repo_url": "https://github.com/brave/brave-browser",
-    "repo_stars": 9957,
+    "repo_stars": 9962,
     "repo_langs": {
      "Nodes": [
       {
@@ -38772,7 +40325,7 @@
     "repo_name": "serverless",
     "repo_desc": "⚡ Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions \u0026 more! – ",
     "repo_url": "https://github.com/serverless/serverless",
-    "repo_stars": 40246,
+    "repo_stars": 40248,
     "repo_langs": {
      "Nodes": [
       {
@@ -40006,7 +41559,7 @@
     "repo_name": "telegrand",
     "repo_desc": "A GTK Telegram client built to be well integrated with the GNOME desktop environment",
     "repo_url": "https://github.com/melix99/telegrand",
-    "repo_stars": 69,
+    "repo_stars": 70,
     "repo_langs": {
      "Nodes": [
       {
@@ -40413,7 +41966,7 @@
     "repo_name": "bootcamp",
     "repo_desc": "プログラマー向けEラーニングシステム",
     "repo_url": "https://github.com/fjordllc/bootcamp",
-    "repo_stars": 167,
+    "repo_stars": 168,
     "repo_langs": {
      "Nodes": [
       {
@@ -40596,7 +42149,7 @@
     "repo_name": "arkade",
     "repo_desc": "Open Source Kubernetes Marketplace",
     "repo_url": "https://github.com/alexellis/arkade",
-    "repo_stars": 1919,
+    "repo_stars": 1922,
     "repo_langs": {
      "Nodes": [
       {
@@ -41928,7 +43481,7 @@
     "repo_name": "vscode",
     "repo_desc": "Visual Studio Code",
     "repo_url": "https://github.com/microsoft/vscode",
-    "repo_stars": 118850,
+    "repo_stars": 118857,
     "repo_langs": {
      "Nodes": [
       {
@@ -42160,7 +43713,7 @@
     "repo_name": "dbt",
     "repo_desc": "dbt (data build tool) enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.",
     "repo_url": "https://github.com/dbt-labs/dbt",
-    "repo_stars": 3240,
+    "repo_stars": 3247,
     "repo_langs": {
      "Nodes": [
       {
@@ -42319,7 +43872,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -42334,7 +43887,7 @@
     "repo_name": "haddock",
     "repo_desc": "Haskell Documentation Tool",
     "repo_url": "https://github.com/haskell/haddock",
-    "repo_stars": 290,
+    "repo_stars": 291,
     "repo_langs": {
      "Nodes": [
       {
@@ -43166,7 +44719,7 @@
     "repo_name": "authpass",
     "repo_desc": "AuthPass - Password Manager based on Flutter for all platforms. Keepass 2.x (kdbx 3.x) compatible.",
     "repo_url": "https://github.com/authpass/authpass",
-    "repo_stars": 690,
+    "repo_stars": 691,
     "repo_langs": {
      "Nodes": [
       {
@@ -43270,7 +44823,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 4
+    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -43680,7 +45233,7 @@
     "repo_name": "simulator",
     "repo_desc": "A ROS/ROS2 Multi-robot Simulator for Autonomous Vehicles",
     "repo_url": "https://github.com/lgsvl/simulator",
-    "repo_stars": 1419,
+    "repo_stars": 1420,
     "repo_langs": {
      "Nodes": [
       {
@@ -43750,7 +45303,7 @@
     "repo_name": "send",
     "repo_desc": ":mailbox_with_mail: Simple, private file sharing. Mirror of https://gitlab.com/timvisee/send",
     "repo_url": "https://github.com/timvisee/send",
-    "repo_stars": 1590,
+    "repo_stars": 1591,
     "repo_langs": {
      "Nodes": [
       {
@@ -44243,6 +45796,52 @@
    },
    "Comments": {
     "issue_comment_count": 4
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/MLH-Fellowship/pod-3.1.0-portfolio/issues/8",
+   "issue_createdAt": "2021-07-14T10:57:51Z",
+   "issue_repo": {
+    "repo_name": "pod-3.1.0-portfolio",
+    "repo_desc": "",
+    "repo_url": "https://github.com/MLH-Fellowship/pod-3.1.0-portfolio",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Ruby"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "MLH-Fellowship"
+    }
+   },
+   "issue_title": "Improve usability on mobile",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -44885,52 +46484,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/victorperin/qr-scanner-cli/issues/182",
-   "issue_createdAt": "2021-07-14T10:19:38Z",
-   "issue_repo": {
-    "repo_name": "qr-scanner-cli",
-    "repo_desc": "A CLI tool to read QR Code from images",
-    "repo_url": "https://github.com/victorperin/qr-scanner-cli",
-    "repo_stars": 36,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "victorperin"
-    }
-   },
-   "issue_title": "Using --clean doesn't work",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/hodlmybeer/frontend/issues/21",
    "issue_createdAt": "2021-07-14T10:10:21Z",
    "issue_repo": {
@@ -45446,7 +46999,7 @@
     "repo_name": "haystack",
     "repo_desc": ":mag: End-to-end Python framework for building natural language search interfaces to data. Leverages Transformers and the State-of-the-Art of NLP. Supports DPR, Elasticsearch, Hugging Face’s Hub, and much more!",
     "repo_url": "https://github.com/deepset-ai/haystack",
-    "repo_stars": 2120,
+    "repo_stars": 2123,
     "repo_langs": {
      "Nodes": [
       {
@@ -45630,7 +47183,7 @@
     "repo_name": "nushell",
     "repo_desc": "A new type of shell",
     "repo_url": "https://github.com/nushell/nushell",
-    "repo_stars": 14930,
+    "repo_stars": 14936,
     "repo_langs": {
      "Nodes": [
       {
@@ -46030,7 +47583,7 @@
     "repo_name": "networkx",
     "repo_desc": "Network Analysis in Python",
     "repo_url": "https://github.com/networkx/networkx",
-    "repo_stars": 9372,
+    "repo_stars": 9373,
     "repo_langs": {
      "Nodes": [
       {
@@ -46116,7 +47669,7 @@
     "repo_name": "lightning-tutorials",
     "repo_desc": "Collection of Pytorch lightning tutorial form as rich scripts automatically transformed to ipython notebooks.",
     "repo_url": "https://github.com/PyTorchLightning/lightning-tutorials",
-    "repo_stars": 46,
+    "repo_stars": 47,
     "repo_langs": {
      "Nodes": [
       {
@@ -46389,7 +47942,7 @@
     "repo_name": "gutenberg",
     "repo_desc": "The Block Editor project for WordPress and beyond. Plugin is available from the official repository.",
     "repo_url": "https://github.com/WordPress/gutenberg",
-    "repo_stars": 6983,
+    "repo_stars": 6984,
     "repo_langs": {
      "Nodes": [
       {
@@ -46459,7 +48012,7 @@
     "repo_name": "DFTK.jl",
     "repo_desc": "Density-functional toolkit",
     "repo_url": "https://github.com/JuliaMolSim/DFTK.jl",
-    "repo_stars": 178,
+    "repo_stars": 179,
     "repo_langs": {
      "Nodes": [
       {
@@ -46762,7 +48315,7 @@
     "repo_name": "microsoft_teams_clone",
     "repo_desc": "Microsoft Teams Clone is a Video conference application with a rich integrated chat experience, to connect with friends,family \u0026 colleagues. Developed as a redesign of Microsoft Teams during my menteeship at Microsoft Engage 2021",
     "repo_url": "https://github.com/Karanjot-singh/microsoft_teams_clone",
-    "repo_stars": 11,
+    "repo_stars": 14,
     "repo_langs": {
      "Nodes": [
       {
@@ -46848,7 +48401,7 @@
     "repo_name": "signoz",
     "repo_desc": "SigNoz helps developers monitor their applications \u0026 troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥",
     "repo_url": "https://github.com/SigNoz/signoz",
-    "repo_stars": 4319,
+    "repo_stars": 4325,
     "repo_langs": {
      "Nodes": [
       {
@@ -46952,7 +48505,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 8
+    "issue_comment_count": 10
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -47420,7 +48973,7 @@
     "label_totalcount": 4
    },
    "Comments": {
-    "issue_comment_count": 9
+    "issue_comment_count": 10
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -47551,7 +49104,7 @@
     "repo_name": "Cataclysm-DDA",
     "repo_desc": "Cataclysm - Dark Days Ahead. A turn-based survival game set in a post-apocalyptic world.",
     "repo_url": "https://github.com/CleverRaven/Cataclysm-DDA",
-    "repo_stars": 5309,
+    "repo_stars": 5311,
     "repo_langs": {
      "Nodes": [
       {
@@ -47642,1416 +49195,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/EZ-Math-Editor/EZ-Math-Editor/issues/8",
-   "issue_createdAt": "2021-07-14T05:01:14Z",
-   "issue_repo": {
-    "repo_name": "EZ-Math-Editor",
-    "repo_desc": "",
-    "repo_url": "https://github.com/EZ-Math-Editor/EZ-Math-Editor",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "EZ-Math-Editor"
-    }
-   },
-   "issue_title": "Update the website so that the url matches with the new repository name.",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/hamlet-io/engine-plugin-aws/issues/361",
-   "issue_createdAt": "2021-07-14T04:33:55Z",
-   "issue_repo": {
-    "repo_name": "engine-plugin-aws",
-    "repo_desc": "A Hamlet plugin for Amazon Web Services",
-    "repo_url": "https://github.com/hamlet-io/engine-plugin-aws",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "FreeMarker"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Fluent"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "hamlet-io"
-    }
-   },
-   "issue_title": "Raise error when ecs service or task has no container definitions",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/ACM-VIT/bootcamp-2021-showcase/issues/1",
-   "issue_createdAt": "2021-07-14T04:33:45Z",
-   "issue_repo": {
-    "repo_name": "bootcamp-2021-showcase",
-    "repo_desc": "",
-    "repo_url": "https://github.com/ACM-VIT/bootcamp-2021-showcase",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "ACM-VIT"
-    }
-   },
-   "issue_title": "Update Readme.md",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/honjo2/geojsons/issues/1",
-   "issue_createdAt": "2021-07-14T04:32:37Z",
-   "issue_repo": {
-    "repo_name": "geojsons",
-    "repo_desc": "",
-    "repo_url": "https://github.com/honjo2/geojsons",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "honjo2"
-    }
-   },
-   "issue_title": "テストissue",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kubeflow/tf-operator/issues/1301",
-   "issue_createdAt": "2021-07-14T04:25:39Z",
-   "issue_repo": {
-    "repo_name": "tf-operator",
-    "repo_desc": "Tools for ML/Tensorflow on Kubernetes.",
-    "repo_url": "https://github.com/kubeflow/tf-operator",
-    "repo_stars": 924,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Go"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Jsonnet"
-      },
-      {
-       "repo_prog_language": "Jupyter Notebook"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kubeflow"
-    }
-   },
-   "issue_title": "Add role details as new columns to  `kubectl get jobs`  output for CRD.",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/azerothcore/azerothcore-wotlk/issues/6931",
-   "issue_createdAt": "2021-07-14T04:14:24Z",
-   "issue_repo": {
-    "repo_name": "azerothcore-wotlk",
-    "repo_desc": "Complete Open Source and Modular solution for MMO",
-    "repo_url": "https://github.com/azerothcore/azerothcore-wotlk",
-    "repo_stars": 1504,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "CMake"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Objective-C"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "PHP"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "azerothcore"
-    }
-   },
-   "issue_title": "Minerals and herbs should be provided to all phase(phaseMask)",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "Confirmed"
-     },
-     {
-      "label_name": "Good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Code-For-Chicago/Air-Quality/issues/6",
-   "issue_createdAt": "2021-07-14T04:10:19Z",
-   "issue_repo": {
-    "repo_name": "Air-Quality",
-    "repo_desc": "",
-    "repo_url": "https://github.com/Code-For-Chicago/Air-Quality",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Code-For-Chicago"
-    }
-   },
-   "issue_title": "Explore the demographic distribution of AirNow sensors",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Code-For-Chicago/Air-Quality/issues/5",
-   "issue_createdAt": "2021-07-14T04:07:33Z",
-   "issue_repo": {
-    "repo_name": "Air-Quality",
-    "repo_desc": "",
-    "repo_url": "https://github.com/Code-For-Chicago/Air-Quality",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Code-For-Chicago"
-    }
-   },
-   "issue_title": "Explore the use of PurpleAir data for localized air quality warnings",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Ayush7614/Open-Source-Milap/issues/8",
-   "issue_createdAt": "2021-07-14T04:02:40Z",
-   "issue_repo": {
-    "repo_name": "Open-Source-Milap",
-    "repo_desc": "This💥💥 repo🍕🍕 contains ✏️✏️the  💜 roadmaps 💫 🔥and🧍 meetups📗📕 of👇 👇 open source👨‍💻🚀",
-    "repo_url": "https://github.com/Ayush7614/Open-Source-Milap",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Ayush7614"
-    }
-   },
-   "issue_title": "Added Gsoc organization link upto 2021",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "DCP`21"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Ayush7614/Open-Source-Milap/issues/7",
-   "issue_createdAt": "2021-07-14T04:00:34Z",
-   "issue_repo": {
-    "repo_name": "Open-Source-Milap",
-    "repo_desc": "This💥💥 repo🍕🍕 contains ✏️✏️the  💜 roadmaps 💫 🔥and🧍 meetups📗📕 of👇 👇 open source👨‍💻🚀",
-    "repo_url": "https://github.com/Ayush7614/Open-Source-Milap",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Ayush7614"
-    }
-   },
-   "issue_title": "Make this type of poster for website and name daily coding DS Algo practice",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "DCP`21"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Code-For-Chicago/Air-Quality/issues/3",
-   "issue_createdAt": "2021-07-14T04:00:26Z",
-   "issue_repo": {
-    "repo_name": "Air-Quality",
-    "repo_desc": "",
-    "repo_url": "https://github.com/Code-For-Chicago/Air-Quality",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Code-For-Chicago"
-    }
-   },
-   "issue_title": "Explore correlation between AirNow data and PurpleAir data",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/BaboucheOne/PotatoRaytracing/issues/77",
-   "issue_createdAt": "2021-07-14T03:52:02Z",
-   "issue_repo": {
-    "repo_name": "PotatoRaytracing",
-    "repo_desc": "Simple raytracing on C# framework",
-    "repo_url": "https://github.com/BaboucheOne/PotatoRaytracing",
-    "repo_stars": 2,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "C#"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "BaboucheOne"
-    }
-   },
-   "issue_title": "Ajouter un flou glaussien sur le buffer du Global Illumination",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/VChawale/git-learning/issues/4",
-   "issue_createdAt": "2021-07-14T03:49:41Z",
-   "issue_repo": {
-    "repo_name": "git-learning",
-    "repo_desc": "Learning git with code with mosh",
-    "repo_url": "https://github.com/VChawale/git-learning",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "VChawale"
-    }
-   },
-   "issue_title": "Clean up all test files and arrange those in respective folders",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/VChawale/git-learning/issues/3",
-   "issue_createdAt": "2021-07-14T03:48:18Z",
-   "issue_repo": {
-    "repo_name": "git-learning",
-    "repo_desc": "Learning git with code with mosh",
-    "repo_url": "https://github.com/VChawale/git-learning",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "VChawale"
-    }
-   },
-   "issue_title": "Create a readable read me page",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/HiroshKoshila/github-slideshow/issues/3",
-   "issue_createdAt": "2021-07-14T03:38:21Z",
-   "issue_repo": {
-    "repo_name": "github-slideshow",
-    "repo_desc": "A robot powered training repository :robot:",
-    "repo_url": "https://github.com/HiroshKoshila/github-slideshow",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Ruby"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "HiroshKoshila"
-    }
-   },
-   "issue_title": "my one",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/HiroshKoshila/github-slideshow/issues/1",
-   "issue_createdAt": "2021-07-14T03:34:39Z",
-   "issue_repo": {
-    "repo_name": "github-slideshow",
-    "repo_desc": "A robot powered training repository :robot:",
-    "repo_url": "https://github.com/HiroshKoshila/github-slideshow",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Ruby"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "HiroshKoshila"
-    }
-   },
-   "issue_title": "Getting Started with GitHub",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/thunderbiscuit/padawan-wallet/issues/105",
-   "issue_createdAt": "2021-07-14T03:32:20Z",
-   "issue_repo": {
-    "repo_name": "padawan-wallet",
-    "repo_desc": "The bitcoin wallet trainer on Android.",
-    "repo_url": "https://github.com/thunderbiscuit/padawan-wallet",
-    "repo_stars": 28,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Kotlin"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "thunderbiscuit"
-    }
-   },
-   "issue_title": "Migrate bitcoindevkit dependency to v0.3.0-rc1",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/issues/11",
-   "issue_createdAt": "2021-07-14T03:30:18Z",
-   "issue_repo": {
-    "repo_name": "DSharpPlusNextGen",
-    "repo_desc": "Another .NET Discord Bot Library",
-    "repo_url": "https://github.com/Aiko-IT-Systems/DSharpPlusNextGen",
-    "repo_stars": 5,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "C#"
-      },
-      {
-       "repo_prog_language": "PowerShell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Aiko-IT-Systems"
-    }
-   },
-   "issue_title": "[Feature] Thread - AddRoleAsync",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Brooooooklyn/canvas/issues/312",
-   "issue_createdAt": "2021-07-14T03:28:56Z",
-   "issue_repo": {
-    "repo_name": "canvas",
-    "repo_desc": "High performance skia binding to Node.js. Zero system dependencies and pure npm packages without any postinstall scripts nor node-gyp.",
-    "repo_url": "https://github.com/Brooooooklyn/canvas",
-    "repo_stars": 175,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Brooooooklyn"
-    }
-   },
-   "issue_title": "AVIF output",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/eichblatt/deadstream/issues/92",
-   "issue_createdAt": "2021-07-14T02:59:32Z",
-   "issue_repo": {
-    "repo_name": "deadstream",
-    "repo_desc": "A time machine to play GD tapes from archive.org",
-    "repo_url": "https://github.com/eichblatt/deadstream",
-    "repo_stars": 4,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "q"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Perl"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "eichblatt"
-    }
-   },
-   "issue_title": "In update, extend playing song until it's time to turn knob",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Coteh/simpleimage/issues/273",
-   "issue_createdAt": "2021-07-14T02:45:09Z",
-   "issue_repo": {
-    "repo_name": "simpleimage",
-    "repo_desc": ":sunrise_over_mountains: A simple image hosting service implemented using Node.js + Express + MongoDB + Redis",
-    "repo_url": "https://github.com/Coteh/simpleimage",
-    "repo_stars": 4,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "EJS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Coteh"
-    }
-   },
-   "issue_title": "Handle HTML and URL encoded characters for username",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/JTCC-Programming-Club/weather-station/issues/39",
-   "issue_createdAt": "2021-07-14T02:42:42Z",
-   "issue_repo": {
-    "repo_name": "weather-station",
-    "repo_desc": "Everything you need to run and monitor your own open source weather station. ⛅",
-    "repo_url": "https://github.com/JTCC-Programming-Club/weather-station",
-    "repo_stars": 4,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Vue"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "PLpgSQL"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "JTCC-Programming-Club"
-    }
-   },
-   "issue_title": "Add color themes",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/ledgerwatch/erigon/issues/2362",
-   "issue_createdAt": "2021-07-14T02:32:02Z",
-   "issue_repo": {
-    "repo_name": "erigon",
-    "repo_desc": "Ethereum implementation on the efficiency frontier",
-    "repo_url": "https://github.com/ledgerwatch/erigon",
-    "repo_stars": 499,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "Go"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Solidity"
-      },
-      {
-       "repo_prog_language": "Assembly"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Rust"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "ledgerwatch"
-    }
-   },
-   "issue_title": "txpool_content re-write to use grpc-streaming and json-rpc-streaming",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/mellium/xmpp/issues/153",
-   "issue_createdAt": "2021-07-14T02:24:43Z",
-   "issue_repo": {
-    "repo_name": "xmpp",
-    "repo_desc": "An implementation of the Extensible Messaging and Presence Protocol (XMPP).",
-    "repo_url": "https://github.com/mellium/xmpp",
-    "repo_stars": 51,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Go"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "mellium"
-    }
-   },
-   "issue_title": "carbons: implement Message Carbons",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Uniswap/uniswap-v3-info/issues/111",
-   "issue_createdAt": "2021-07-14T02:01:53Z",
-   "issue_repo": {
-    "repo_name": "uniswap-v3-info",
-    "repo_desc": "Interface for Uniswap V3 analytics. 📊",
-    "repo_url": "https://github.com/Uniswap/uniswap-v3-info",
-    "repo_stars": 27,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Uniswap"
-    }
-   },
-   "issue_title": "Too many pages in transaction table",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "p2"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Azure/azure-sdk-for-c/issues/1836",
-   "issue_createdAt": "2021-07-14T02:01:17Z",
-   "issue_repo": {
-    "repo_name": "azure-sdk-for-c",
-    "repo_desc": "This repository is for active development of the Azure SDK for Embedded C. For consumers of the SDK we recommend visiting our versioned developer docs at https://azure.github.io/azure-sdk-for-c. ",
-    "repo_url": "https://github.com/Azure/azure-sdk-for-c",
-    "repo_stars": 93,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "CMake"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "PowerShell"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Azure"
-    }
-   },
-   "issue_title": "Improve branch coverage testing for base 64, specifically around preconditions",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "Azure.Core"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "test enhancement"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Manta-Network/manta-api/issues/19",
-   "issue_createdAt": "2021-07-14T01:35:23Z",
-   "issue_repo": {
-    "repo_name": "manta-api",
-    "repo_desc": "Core APIs of Manta.",
-    "repo_url": "https://github.com/Manta-Network/manta-api",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Manta-Network"
-    }
-   },
-   "issue_title": "Make RNG seed for generating ZKP key secretive",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "security"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/jkuester/unlauncher/issues/70",
-   "issue_createdAt": "2021-07-14T01:17:57Z",
-   "issue_repo": {
-    "repo_name": "unlauncher",
-    "repo_desc": "Android minimalistic launcher",
-    "repo_url": "https://github.com/jkuester/unlauncher",
-    "repo_stars": 86,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Kotlin"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "jkuester"
-    }
-   },
-   "issue_title": "Forget scrolled position",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/cogent3/cogent3/issues/934",
-   "issue_createdAt": "2021-07-14T01:14:24Z",
-   "issue_repo": {
-    "repo_name": "cogent3",
-    "repo_desc": "Comparative Genomics Toolkit 3",
-    "repo_url": "https://github.com/cogent3/cogent3",
-    "repo_stars": 35,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "QMake"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "cogent3"
-    }
-   },
-   "issue_title": "include sample data with the install",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/brave/brave-browser/issues/16939",
-   "issue_createdAt": "2021-07-14T01:07:08Z",
-   "issue_repo": {
-    "repo_name": "brave-browser",
-    "repo_desc": "Next generation Brave browser for Android, Linux, macOS, Windows.",
-    "repo_url": "https://github.com/brave/brave-browser",
-    "repo_stars": 9957,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "brave"
-    }
-   },
-   "issue_title": "Fix sentence casing on `Always Show Full URLs` in brave://settings/appearance",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "OS/Desktop"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "needs-text-change"
-     },
-     {
-      "label_name": "polish"
-     },
-     {
-      "label_name": "priority/P4"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 6
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  }
