@@ -1,3 +1,7 @@
+var checked_proglangs_session = sessionStorage.getItem('checked_proglangs');
+var checked_labels_session = sessionStorage.getItem('checked_labels');
+var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
+
 function killSpinner() {
     let spinner = document.getElementById("loading");
     spinner.parentNode.removeChild(spinner);
@@ -118,13 +122,16 @@ function main(data_list) {
     createCheckBoxFromCounter(sorted_repo_name_counter, "Repository", "repo");
 
     createClassifiedsUnderCheckbox();
+    
+    setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session);
 
     let checked_proglangs = [];
     let checked_labels = [];
     let checked_repo_names = [];
 
-    $("select").change(function() {
+    $("select").change(function() {   
         let dropdown_id = $(this).attr("id");
+
         let options = document.getElementById(dropdown_id).querySelectorAll("option");
         options = _.map(options, function(item) {
             return item.getAttribute("title");
@@ -138,12 +145,43 @@ function main(data_list) {
             return selected_option_id;
         });
 
+        if(dropdown_id === 'dropdownproglang') {
+            checked_proglangs_items = [];
+            selected_ids.forEach(id => {
+                checked_proglangs_items.push(id);
+            })
+            sessionStorage.setItem('checked_proglangs', checked_proglangs_items)
+        }
+
+        else if(dropdown_id === 'dropdownlabel') {
+            const checked_labels_items = [];
+            selected_ids.forEach(id => {
+                checked_labels_items.push(id);
+            })
+            sessionStorage.setItem('checked_labels', checked_labels_items);
+
+        }
+
+        else if(dropdown_id === 'dropdownrepo') {
+            const checked_repo_names_items = [];
+            selected_ids.forEach(id => {
+                checked_repo_names_items.push(id);
+            })
+            sessionStorage.setItem('checked_repo_names', checked_repo_names_items)
+
+        }
+       
+
+
+
+
         let checked_items = _.map(selected_ids, function(item) {
             let split_by_dash = _.split(item, "-");
             let idx_selected = split_by_dash[ split_by_dash.length - 1 ];
             idx_selected = _.toInteger(idx_selected);
             return options[idx_selected];
         });
+
 
         if (dropdown_id === "dropdownproglang") {
             checked_proglangs = checked_items.slice();
@@ -202,6 +240,7 @@ function main(data_list) {
 
             sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issue_list, entries_per_page);
+            // console.log(checked_proglangs_session, checked_labels_session, checked_repo_names_session);      
         }
     });
 
@@ -214,6 +253,7 @@ function main(data_list) {
     $(document).ready(function(){
         $(".nano").nanoScroller({ alwaysVisible: true });
 
+
         $(function() {
             $('[data-toggle="tooltip"]').tooltip()
         });
@@ -221,6 +261,7 @@ function main(data_list) {
 
     // Make sure upon clicking on dropdown menu, menu doesn't hide
     $(document).on('click', '.dropdown-menu', e => e.stopPropagation());
+
 }
 
 data_list = [];
