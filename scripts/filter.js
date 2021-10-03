@@ -94,19 +94,26 @@ function createCheckBoxFromCounter(counter, title, attrId) {
 
 
 
+// Array to return the checked items found in storage. Empty if no items were checked before.
 var checked_proglangs = [], checked_labels = [], checked_repo_names = [];
 
+// arguments contain the checked items accessed from storage
 function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session) {
     $(document).ready(function(){
         if(!checked_proglangs_session) {
             sessionStorage.setItem('checked_proglangs', []);
         }
         else {
+            // If the previously selected items are not empty set the checked state for all options to "checked"
             const options = document.getElementById('dropdownproglang').querySelectorAll('option');
 
             const checked_items = checked_proglangs_session.split(",").map(item => {
+                // access the option number from dropdown to be returned to main() in "cover.js". 
+                // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
                 const itemNumInList = item.split("-")[item.split("-").length - 1]
                 checked_proglangs.push(options[itemNumInList].querySelector('.item-text').innerText);
+
+                // access the checked item id and inner text and save it in an array which is passed to val() set to be in "checked" state
                 const itemChecked = document.querySelector(`#${item}`);
                 return itemChecked.innerText;
             })
@@ -118,10 +125,16 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
             sessionStorage.setItem('checked_labels', []);
         }
         else {
-            const options = document.getElementById('dropdownlabel').querySelectorAll('option')
+            // If the previously selected items are not empty set the checked state for all options to "checked"           
+            const options = document.getElementById('dropdownlabel').querySelectorAll('option');
+
             const checked_items = checked_labels_session.split(",").map(item => {
+                 // access the option number from dropdown to be returned to main() in "cover.js". 
+                // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
                 const itemNumInList = item.split("-")[item.split("-").length - 1]
                 checked_labels.push(options[itemNumInList].querySelector('.item-text').innerText);
+
+                // access the checked item id and inner text and save it in an array which is passed to val() set to be in "checked" state
                 const itemChecked = document.querySelector(`#${item}`);
                 return itemChecked.innerText;
             })
@@ -133,27 +146,34 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
             sessionStorage.setItem('checked_repo_names', []);
         }
         else {
-            const options = document.getElementById('dropdownrepo').querySelectorAll('option')
+            // If the previously selected items are not empty set the checked state for all options to "checked"  
+            const options = document.getElementById('dropdownrepo').querySelectorAll('option');
+
             const checked_items = checked_repo_names_session.split(",").map(item => {
+                // access the option number from dropdown to be returned to main() in "cover.js". 
+                // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
                 const itemNumInList = item.split("-")[item.split("-").length - 1]
                 checked_repo_names.push(options[itemNumInList].querySelector('.item-text').innerText)
+
+                // access the checked item id and inner text and save it in an array which is passed to val() set to be in "checked" state
                 const itemChecked = document.querySelector(`#${item}`);
                 return itemChecked.innerText;
             })
     
             $('select#dropdownrepo').selectpicker('val', checked_items);
-            $('select#dropdownrepo').selectpicker('refresh');    
-            
+            $('select#dropdownrepo').selectpicker('refresh');        
         }    
+
+        // filter the checked items obtained from the session storage.
         filterResult();
     })     
 
+    // return the checked options to main()
     return [checked_proglangs, checked_labels, checked_repo_names];
    
 }
 
 function filterResult() {
-
     var entries_per_page = 10;
 
     // List of issues here
