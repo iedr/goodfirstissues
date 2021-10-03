@@ -184,7 +184,6 @@ function filterResult() {
         all_repo_names.push(repo);
     }
 
-    console.log(checked_proglangs, checked_repo_names, checked_labels)
 
     // Sort issues list by recency by default
     if (_.isEmpty(checked_proglangs) &&
@@ -233,10 +232,8 @@ function filterResult() {
 
             // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
             let sorted_issue_list = _.map(sorted_filtered_list, o => o['issue']);
-            console.log(sorted_issue_list);
 
             sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issue_list, entries_per_page);
-            // console.log(checked_proglangs_session, checked_labels_session, checked_repo_names_session);      
         }
 }

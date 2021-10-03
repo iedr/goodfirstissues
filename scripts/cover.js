@@ -138,7 +138,6 @@ function main(data_list) {
         let dropdown_menu_items = document.getElementById(dropdown_id).nextSibling.nextSibling;
 
         let all_selected_items = dropdown_menu_items.querySelectorAll("li.selected");
-        console.log(all_selected_items);
         let selected_ids = _.map(all_selected_items, function(item) {
             let selected_option_id = item.getElementsByTagName("a")[0].getAttribute("id");
             return selected_option_id;
@@ -171,9 +170,6 @@ function main(data_list) {
         }
        
 
-
-
-
         let checked_items = _.map(selected_ids, function(item) {
             let split_by_dash = _.split(item, "-");
             let idx_selected = split_by_dash[ split_by_dash.length - 1 ];
@@ -184,16 +180,12 @@ function main(data_list) {
 
         if (dropdown_id === "dropdownproglang") {
             checked_proglangs = checked_items.slice();
-            console.log(checked_proglangs)
 
         } else if (dropdown_id === "dropdownlabel") {
             checked_labels = checked_items.slice();
-            console.log(checked_labels);
         } else {
             checked_repo_names = checked_items.slice();
-            console.log(checked_repo_names);
         }
-        console.log(checked_proglangs, checked_repo_names, checked_labels)
 
         // Do the actual filtering
         
@@ -243,12 +235,8 @@ function main(data_list) {
             // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
             let sorted_issue_list = _.map(sorted_filtered_list, o => o['issue']);
 
-            console.log(sorted_issue_list)
-
-
             sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issue_list, entries_per_page);
-            // console.log(checked_proglangs_session, checked_labels_session, checked_repo_names_session);      
         }
     });
 
