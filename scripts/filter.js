@@ -35,6 +35,8 @@ function createClassifiedsUnderCheckbox() {
         </script>
     `;
     filter_row_parent.appendChild(filter_row);
+
+    
 }
 
 function createCheckBoxFromCounter(counter, title, attrId) {
@@ -86,4 +88,63 @@ function createCheckBoxFromCounter(counter, title, attrId) {
 
     filter_row.appendChild(dropdown_element);
     filter_row_parent.appendChild(filter_row);
+
+
+}
+
+
+var checked_proglangs_session = sessionStorage.getItem('checked_proglangs');
+var checked_labels_session = sessionStorage.getItem('checked_labels');
+var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
+
+
+function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session) {
+    $(document).ready(function(){
+        if(!checked_proglangs_session) {
+            sessionStorage.setItem('checked_proglangs', []);
+        }
+        else {
+            $(document).ready(function() {
+                // console.log(checked_proglangs_session.split(",").join("  "))
+                const checked_items = checked_proglangs_session.split(",").map(item => {
+                    const itemChecked = document.querySelector(`#${item}`);
+                    return itemChecked.innerText;
+                })
+                $('select#dropdownproglang').selectpicker('val', checked_items);
+                $('select#dropdownproglang').selectpicker('refresh');
+            });
+        }
+        if(!checked_labels_session) {
+            sessionStorage.setItem('checked_labels', []);
+        }
+        else {
+            $(document).ready(function() {
+                const checked_items = checked_labels_session.split(",").map(item => {
+                    const itemChecked = document.querySelector(`#${item}`);
+                    return itemChecked.innerText;
+                })
+                // console.log($("select#dropdownlabel").selectpicker());
+    
+                $('select#dropdownlabel').selectpicker('val', checked_items);
+                $('select#dropdownlabel').selectpicker('refresh');        
+            });
+        }
+        if(!checked_repo_names_session) {
+            sessionStorage.setItem('checked_repo_names', []);
+        }
+        else {
+            const checked_items = checked_repo_names_session.split(",").map(item => {
+                const itemChecked = document.querySelector(`#${item}`);
+                    return itemChecked.innerText;
+                return itemChecked.innerText;
+            })
+            // console.log($("select#dropdownrepo").selectpicker());
+    
+            $('select#dropdownrepo').selectpicker('val', checked_items);
+            $('select#dropdownrepo').selectpicker('refresh');        
+    
+        }    
+
+    })       
+    
 }
