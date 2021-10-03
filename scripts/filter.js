@@ -93,10 +93,8 @@ function createCheckBoxFromCounter(counter, title, attrId) {
 }
 
 
-var checked_proglangs_session = sessionStorage.getItem('checked_proglangs');
-var checked_labels_session = sessionStorage.getItem('checked_labels');
-var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
 
+var checked_proglangs = [], checked_labels = [], checked_repo_names = [];
 
 function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session) {
     $(document).ready(function(){
@@ -104,47 +102,141 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
             sessionStorage.setItem('checked_proglangs', []);
         }
         else {
-            $(document).ready(function() {
-                // console.log(checked_proglangs_session.split(",").join("  "))
-                const checked_items = checked_proglangs_session.split(",").map(item => {
-                    const itemChecked = document.querySelector(`#${item}`);
-                    return itemChecked.innerText;
-                })
-                $('select#dropdownproglang').selectpicker('val', checked_items);
-                $('select#dropdownproglang').selectpicker('refresh');
-            });
+            const options = document.getElementById('dropdownproglang').querySelectorAll('option');
+
+            const checked_items = checked_proglangs_session.split(",").map(item => {
+                const itemNumInList = item.split("-")[item.split("-").length - 1]
+                checked_proglangs.push(options[itemNumInList].querySelector('.item-text').innerText);
+                const itemChecked = document.querySelector(`#${item}`);
+                return itemChecked.innerText;
+            })
+            
+            $('select#dropdownproglang').selectpicker('val', checked_items);
+            $('select#dropdownproglang').selectpicker('refresh');
         }
         if(!checked_labels_session) {
             sessionStorage.setItem('checked_labels', []);
         }
         else {
-            $(document).ready(function() {
-                const checked_items = checked_labels_session.split(",").map(item => {
-                    const itemChecked = document.querySelector(`#${item}`);
-                    return itemChecked.innerText;
-                })
-                // console.log($("select#dropdownlabel").selectpicker());
+            const options = document.getElementById('dropdownlabel').querySelectorAll('option')
+            const checked_items = checked_labels_session.split(",").map(item => {
+                const itemNumInList = item.split("-")[item.split("-").length - 1]
+                checked_labels.push(options[itemNumInList].querySelector('.item-text').innerText);
+                const itemChecked = document.querySelector(`#${item}`);
+                return itemChecked.innerText;
+            })
     
-                $('select#dropdownlabel').selectpicker('val', checked_items);
-                $('select#dropdownlabel').selectpicker('refresh');        
-            });
+            $('select#dropdownlabel').selectpicker('val', checked_items);
+            $('select#dropdownlabel').selectpicker('refresh');  
         }
         if(!checked_repo_names_session) {
             sessionStorage.setItem('checked_repo_names', []);
         }
         else {
+            const options = document.getElementById('dropdownrepo').querySelectorAll('option')
             const checked_items = checked_repo_names_session.split(",").map(item => {
+                const itemNumInList = item.split("-")[item.split("-").length - 1]
+                checked_repo_names.push(options[itemNumInList].querySelector('.item-text').innerText)
                 const itemChecked = document.querySelector(`#${item}`);
-                    return itemChecked.innerText;
                 return itemChecked.innerText;
             })
-            // console.log($("select#dropdownrepo").selectpicker());
     
             $('select#dropdownrepo').selectpicker('val', checked_items);
-            $('select#dropdownrepo').selectpicker('refresh');        
-    
+            $('select#dropdownrepo').selectpicker('refresh');    
+            
         }    
+        filterResult();
+    })     
 
-    })       
-    
+    return [checked_proglangs, checked_labels, checked_repo_names];
+   
+}
+
+function filterResult() {
+
+    var entries_per_page = 10;
+
+    // List of issues here
+    var issues_list = [];
+    var all_prog_langs = [];
+    var all_types_of_issues = [];
+    var all_repo_names = [];
+
+    for (let i = 0; i < data_list.length; i++) {
+        if (data_list[i].Issue.issue_url === "") {
+            continue
+        }
+
+        let issue = new Issue(data_list[i]);
+        issues_list.push(issue);
+
+        let issue_prog_langs = _.uniq(issue.getRepoProgLangs());
+        issue_prog_langs.forEach(pl => {
+            all_prog_langs.push(_.upperFirst(pl));
+        });
+
+        let issue_labels = _.uniq(issue.getIssueLabels());
+        issue_labels.forEach(i => {
+            all_types_of_issues.push((i.toLowerCase()));
+        });
+
+        let repo = issue.getIssueRepoName();
+        all_repo_names.push(repo);
+    }
+
+    console.log(checked_proglangs, checked_repo_names, checked_labels)
+
+    // Sort issues list by recency by default
+    if (_.isEmpty(checked_proglangs) &&
+                _.isEmpty(checked_labels) &&
+                _.isEmpty(checked_repo_names)) {
+            let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
+            renderFilteredList(sorted_issues_html_list, entries_per_page);
+        } else {
+            let filtered_list = [];
+            checked_proglangs = _.map(checked_proglangs, i => i.toLowerCase());
+            checked_labels = _.map(checked_labels, i => i.toLowerCase());
+
+            for (let j = 0; j < issues_list.length; j++) {
+                let issue_item = issues_list[j];
+                let repo_langs = issue_item.getRepoProgLangs();
+                let issues_labels = issue_item.getIssueLabels();
+                let issue_repo = issue_item.getIssueRepoName();
+
+                let lowered_issue_labels = _.map(issues_labels, i => i.toLowerCase());
+                let lowered_prog_langs = _.map(repo_langs, i => i.toLowerCase());
+
+                let intersection_prog_langs = _.intersection(checked_proglangs, lowered_prog_langs);
+                let intersection_labels = _.intersection(checked_labels, lowered_issue_labels);
+                let intersection_repos = _.intersection(checked_repo_names, [issue_repo]);
+
+                let num_intersections = _.concat(
+                    intersection_prog_langs,
+                    intersection_labels,
+                    intersection_repos
+                ).length;
+
+                if (num_intersections > 0) {
+                    filtered_list.push({
+                        'issue': issue_item,
+                        'num_intersections': num_intersections
+                    });
+                }
+            }
+
+            // Sort list by number of intersections (descending)
+            let sorted_filtered_list = _.orderBy(
+                filtered_list,
+                [o => o['num_intersections'], o => o['issue_createdAt']],
+                ['desc', 'desc']
+            );
+
+            // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
+            let sorted_issue_list = _.map(sorted_filtered_list, o => o['issue']);
+            console.log(sorted_issue_list);
+
+            sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
+            renderFilteredList(sorted_issue_list, entries_per_page);
+            // console.log(checked_proglangs_session, checked_labels_session, checked_repo_names_session);      
+        }
 }
