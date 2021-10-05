@@ -1,3 +1,4 @@
+// access previosuly checked dropdown items from storage
 var checked_proglangs_session = sessionStorage.getItem('checked_proglangs');
 var checked_labels_session = sessionStorage.getItem('checked_labels');
 var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
@@ -123,11 +124,9 @@ function main(data_list) {
 
     createClassifiedsUnderCheckbox();
     
-    setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session);
-
-    let checked_proglangs = [];
-    let checked_labels = [];
-    let checked_repo_names = [];
+    // call setChecked() from "filter.js" that sets the items accessed from storage to "checked" state.
+    // The setChecked() method returns the selected items. Any newly checked items or items unchecked are manipulated in the returned array
+    let [checked_proglangs, checked_labels, checked_repo_names] = setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session);
 
     $("select").change(function() {   
         let dropdown_id = $(this).attr("id");
@@ -145,6 +144,8 @@ function main(data_list) {
             return selected_option_id;
         });
 
+
+        // Add the newly changed selected items to session storage for all 3 dropdowns 
         if(dropdown_id === 'dropdownproglang') {
             checked_proglangs_items = [];
             selected_ids.forEach(id => {
@@ -153,27 +154,24 @@ function main(data_list) {
             sessionStorage.setItem('checked_proglangs', checked_proglangs_items)
         }
 
+        // Add the newly changed selected items to session storage for all 3 dropdowns 
         else if(dropdown_id === 'dropdownlabel') {
             const checked_labels_items = [];
             selected_ids.forEach(id => {
                 checked_labels_items.push(id);
             })
             sessionStorage.setItem('checked_labels', checked_labels_items);
-
         }
 
+        // Add the newly changed selected items to session storage for all 3 dropdowns 
         else if(dropdown_id === 'dropdownrepo') {
             const checked_repo_names_items = [];
             selected_ids.forEach(id => {
                 checked_repo_names_items.push(id);
             })
             sessionStorage.setItem('checked_repo_names', checked_repo_names_items)
-
         }
        
-
-
-
 
         let checked_items = _.map(selected_ids, function(item) {
             let split_by_dash = _.split(item, "-");
@@ -185,6 +183,7 @@ function main(data_list) {
 
         if (dropdown_id === "dropdownproglang") {
             checked_proglangs = checked_items.slice();
+
         } else if (dropdown_id === "dropdownlabel") {
             checked_labels = checked_items.slice();
         } else {
@@ -192,6 +191,7 @@ function main(data_list) {
         }
 
         // Do the actual filtering
+        
         if (_.isEmpty(checked_proglangs) &&
                 _.isEmpty(checked_labels) &&
                 _.isEmpty(checked_repo_names)) {
@@ -240,7 +240,6 @@ function main(data_list) {
 
             sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issue_list, entries_per_page);
-            // console.log(checked_proglangs_session, checked_labels_session, checked_repo_names_session);      
         }
     });
 
