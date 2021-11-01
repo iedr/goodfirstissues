@@ -31,7 +31,7 @@ jobs:
           
     - name: Get dependencies
       if: steps.cget-dependencies.outputs.cache-hit != 'true'
-      run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2 google.golang.org/api/option
+      run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2
       
     - name: Build
       run: cd backend && go build -v -o main-to-file main-to-file.go
