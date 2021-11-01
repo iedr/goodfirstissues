@@ -35,6 +35,8 @@ function createClassifiedsUnderCheckbox() {
         </script>
     `;
     filter_row_parent.appendChild(filter_row);
+
+    
 }
 
 function createCheckBoxFromCounter(counter, title, attrId) {
@@ -86,4 +88,172 @@ function createCheckBoxFromCounter(counter, title, attrId) {
 
     filter_row.appendChild(dropdown_element);
     filter_row_parent.appendChild(filter_row);
+
+
+}
+
+
+
+// Array to return the checked items found in storage. Empty if no items were checked before.
+var checked_proglangs = [], checked_labels = [], checked_repo_names = [];
+
+// arguments contain the checked items accessed from storage
+function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session) {
+    $(document).ready(function(){
+        if(!checked_proglangs_session) {
+            sessionStorage.setItem('checked_proglangs', []);
+        }
+        else {
+            // If the previously selected items are not empty set the checked state for all options to "checked"
+            const options = document.getElementById('dropdownproglang').querySelectorAll('option');
+
+            const checked_items = checked_proglangs_session.split(",").map(item => {
+                // access the option number from dropdown to be returned to main() in "cover.js". 
+                // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
+                const itemNumInList = item.split("-")[item.split("-").length - 1]
+                checked_proglangs.push(options[itemNumInList].querySelector('.item-text').innerText);
+
+                // access the checked item id and inner text and save it in an array which is passed to val() set to be in "checked" state
+                const itemChecked = document.querySelector(`#${item}`);
+                return itemChecked.innerText;
+            })
+            
+            $('select#dropdownproglang').selectpicker('val', checked_items);
+            $('select#dropdownproglang').selectpicker('refresh');
+        }
+        if(!checked_labels_session) {
+            sessionStorage.setItem('checked_labels', []);
+        }
+        else {
+            // If the previously selected items are not empty set the checked state for all options to "checked"           
+            const options = document.getElementById('dropdownlabel').querySelectorAll('option');
+
+            const checked_items = checked_labels_session.split(",").map(item => {
+                 // access the option number from dropdown to be returned to main() in "cover.js". 
+                // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
+                const itemNumInList = item.split("-")[item.split("-").length - 1]
+                checked_labels.push(options[itemNumInList].querySelector('.item-text').innerText);
+
+                // access the checked item id and inner text and save it in an array which is passed to val() set to be in "checked" state
+                const itemChecked = document.querySelector(`#${item}`);
+                return itemChecked.innerText;
+            })
+    
+            $('select#dropdownlabel').selectpicker('val', checked_items);
+            $('select#dropdownlabel').selectpicker('refresh');  
+        }
+        if(!checked_repo_names_session) {
+            sessionStorage.setItem('checked_repo_names', []);
+        }
+        else {
+            // If the previously selected items are not empty set the checked state for all options to "checked"  
+            const options = document.getElementById('dropdownrepo').querySelectorAll('option');
+
+            const checked_items = checked_repo_names_session.split(",").map(item => {
+                // access the option number from dropdown to be returned to main() in "cover.js". 
+                // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
+                const itemNumInList = item.split("-")[item.split("-").length - 1]
+                checked_repo_names.push(options[itemNumInList].querySelector('.item-text').innerText)
+
+                // access the checked item id and inner text and save it in an array which is passed to val() set to be in "checked" state
+                const itemChecked = document.querySelector(`#${item}`);
+                return itemChecked.innerText;
+            })
+    
+            $('select#dropdownrepo').selectpicker('val', checked_items);
+            $('select#dropdownrepo').selectpicker('refresh');        
+        }    
+
+        // filter the checked items obtained from the session storage.
+        filterResult();
+    })     
+
+    // return the checked options to main()
+    return [checked_proglangs, checked_labels, checked_repo_names];
+   
+}
+
+function filterResult() {
+    var entries_per_page = 10;
+
+    // List of issues here
+    var issues_list = [];
+    var all_prog_langs = [];
+    var all_types_of_issues = [];
+    var all_repo_names = [];
+
+    for (let i = 0; i < data_list.length; i++) {
+        if (data_list[i].Issue.issue_url === "") {
+            continue
+        }
+
+        let issue = new Issue(data_list[i]);
+        issues_list.push(issue);
+
+        let issue_prog_langs = _.uniq(issue.getRepoProgLangs());
+        issue_prog_langs.forEach(pl => {
+            all_prog_langs.push(_.upperFirst(pl));
+        });
+
+        let issue_labels = _.uniq(issue.getIssueLabels());
+        issue_labels.forEach(i => {
+            all_types_of_issues.push((i.toLowerCase()));
+        });
+
+        let repo = issue.getIssueRepoName();
+        all_repo_names.push(repo);
+    }
+
+
+    // Sort issues list by recency by default
+    if (_.isEmpty(checked_proglangs) &&
+                _.isEmpty(checked_labels) &&
+                _.isEmpty(checked_repo_names)) {
+            let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
+            renderFilteredList(sorted_issues_html_list, entries_per_page);
+        } else {
+            let filtered_list = [];
+            checked_proglangs = _.map(checked_proglangs, i => i.toLowerCase());
+            checked_labels = _.map(checked_labels, i => i.toLowerCase());
+
+            for (let j = 0; j < issues_list.length; j++) {
+                let issue_item = issues_list[j];
+                let repo_langs = issue_item.getRepoProgLangs();
+                let issues_labels = issue_item.getIssueLabels();
+                let issue_repo = issue_item.getIssueRepoName();
+
+                let lowered_issue_labels = _.map(issues_labels, i => i.toLowerCase());
+                let lowered_prog_langs = _.map(repo_langs, i => i.toLowerCase());
+
+                let intersection_prog_langs = _.intersection(checked_proglangs, lowered_prog_langs);
+                let intersection_labels = _.intersection(checked_labels, lowered_issue_labels);
+                let intersection_repos = _.intersection(checked_repo_names, [issue_repo]);
+
+                let num_intersections = _.concat(
+                    intersection_prog_langs,
+                    intersection_labels,
+                    intersection_repos
+                ).length;
+
+                if (num_intersections > 0) {
+                    filtered_list.push({
+                        'issue': issue_item,
+                        'num_intersections': num_intersections
+                    });
+                }
+            }
+
+            // Sort list by number of intersections (descending)
+            let sorted_filtered_list = _.orderBy(
+                filtered_list,
+                [o => o['num_intersections'], o => o['issue_createdAt']],
+                ['desc', 'desc']
+            );
+
+            // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
+            let sorted_issue_list = _.map(sorted_filtered_list, o => o['issue']);
+
+            sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
+            renderFilteredList(sorted_issue_list, entries_per_page);
+        }
 }
