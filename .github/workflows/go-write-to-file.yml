@@ -30,7 +30,7 @@ jobs:
           ${{ runner.os }}-go-
           
     - name: Get dependencies
-      if: steps.cget-dependencies.outputs.cache-hit != 'true'
+      # if: steps.cget-dependencies.outputs.cache-hit != 'true'
       run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2
       
     - name: Build
