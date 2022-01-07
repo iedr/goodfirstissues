@@ -76,7 +76,7 @@ function createCheckBoxFromCounter(counter, title, attrId) {
         item_text.append(document.createTextNode(item));
 
         let count_text = document.createElement("span");
-        count_text.append(document.createTextNode(" (" + count.toString() + ")"));
+        count_text.append(document.createTextNode(" (" + count.toString() + " issues" + ")"));
 
         checkbox_text.appendChild(item_text);
         checkbox_text.appendChild(count_text);
