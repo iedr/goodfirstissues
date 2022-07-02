@@ -62,12 +62,14 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
                     }
                 }
 
-                // Let scroller jump back to the top of the list
-                $(".nano").nanoScroller({ scroll: 'top' });
-
                 $(function() {
                     $('[data-toggle="tooltip"]').tooltip()
                 });
+
+                // Jmp back to the top of the list
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 1);
             }
         });
     } else {
@@ -172,14 +174,12 @@ function main(data_list) {
             sessionStorage.setItem('checked_repo_names', checked_repo_names_items)
         }
        
-
         let checked_items = _.map(selected_ids, function(item) {
             let split_by_dash = _.split(item, "-");
             let idx_selected = split_by_dash[ split_by_dash.length - 1 ];
             idx_selected = _.toInteger(idx_selected);
             return options[idx_selected];
         });
-
 
         if (dropdown_id === "dropdownproglang") {
             checked_proglangs = checked_items.slice();
@@ -190,8 +190,7 @@ function main(data_list) {
             checked_repo_names = checked_items.slice();
         }
 
-        // Do the actual filtering
-        
+        // Perform filtering
         if (_.isEmpty(checked_proglangs) &&
                 _.isEmpty(checked_labels) &&
                 _.isEmpty(checked_repo_names)) {
@@ -248,11 +247,7 @@ function main(data_list) {
         showTable();
     });
 
-    // Initialise nano scroller
     $(document).ready(function(){
-        $(".nano").nanoScroller({ alwaysVisible: true });
-
-
         $(function() {
             $('[data-toggle="tooltip"]').tooltip()
         });
@@ -263,8 +258,8 @@ function main(data_list) {
 
 }
 
+// Get JSON data from Github
 data_list = [];
-
 $.getJSON("https://raw.githubusercontent.com/darensin01/goodfirstissues/master/backend/data.json", function(data) {
     data_list = data;
     data_list.sort(

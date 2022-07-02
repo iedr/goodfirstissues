@@ -35,8 +35,6 @@ function createClassifiedsUnderCheckbox() {
         </script>
     `;
     filter_row_parent.appendChild(filter_row);
-
-    
 }
 
 function createCheckBoxFromCounter(counter, title, attrId) {
@@ -93,11 +91,7 @@ function createCheckBoxFromCounter(counter, title, attrId) {
 
     filter_row.appendChild(dropdown_element);
     filter_row_parent.appendChild(filter_row);
-
-
 }
-
-
 
 // Array to return the checked items found in storage. Empty if no items were checked before.
 var checked_proglangs = [], checked_labels = [], checked_repo_names = [];
@@ -208,7 +202,6 @@ function filterResult() {
         let repo = issue.getIssueRepoName();
         all_repo_names.push(repo);
     }
-
 
     // Sort issues list by recency by default
     if (_.isEmpty(checked_proglangs) &&

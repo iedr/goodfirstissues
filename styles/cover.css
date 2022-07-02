@@ -143,9 +143,12 @@ body {
   margin-bottom: 10px;
   /* overflow:scroll; */
   -webkit-overflow-scrolling: touch;
-  border: 1px solid #999;
+  /* border: 1px solid #999; */
   padding: 10px;
   border-radius: 4px;
+  overflow: auto;
+  /* height: 100%; */
+  width: 100%;
 }
 
 #mainRow{
