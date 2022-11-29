@@ -93,11 +93,31 @@ function createCheckBoxFromCounter(counter, title, attrId) {
     filter_row_parent.appendChild(filter_row);
 }
 
+function createInputFormRepoStars(title, attrId) {
+    let filter_row_parent = document.getElementById("filterRow");
+    let filter_row = document.createElement("div");
+    filter_row.setAttribute("class", "col-md-12 col-sm-6");
+
+    // Filter header (e.g. Filter by Programming Language)
+    let filter_header = document.createElement("div");
+    filter_header.setAttribute("class", "row mb-3 text-left");
+
+    filter_header.appendChild(document.createTextNode("Filter by " + title + ":"));
+    filter_row.appendChild(filter_header);
+
+    let form_element = document.createElement("input");
+    form_element.setAttribute("class", "selectpicker drop form-control mb-3");
+    form_element.setAttribute("id", "inputform" + attrId);
+    form_element.setAttribute("placeholder", "Any number");
+    filter_row.appendChild(form_element);
+    filter_row_parent.appendChild(filter_row);
+}
+
 // Array to return the checked items found in storage. Empty if no items were checked before.
-var checked_proglangs = [], checked_labels = [], checked_repo_names = [];
+var checked_proglangs = [], checked_labels = [], checked_repo_names = [], minimum_repo_stars = [];
 
 // arguments contain the checked items accessed from storage
-function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session) {
+function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, minimum_repo_stars_session) {
     $(document).ready(function(){
         if(!checked_proglangs_session) {
             sessionStorage.setItem('checked_proglangs', []);
@@ -162,13 +182,20 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
             $('select#dropdownrepo').selectpicker('val', checked_items);
             $('select#dropdownrepo').selectpicker('refresh');        
         }    
+        if(!minimum_repo_stars_session) {
+            sessionStorage.setItem('minimum_repo_stars', "");
+        }
+        else {
+            minimum_repo_stars = minimum_repo_stars_session;
+            document.getElementById("inputformrepostars").setAttribute('value', minimum_repo_stars);
+        }   
 
         // filter the checked items obtained from the session storage.
         filterResult();
     })     
 
     // return the checked options to main()
-    return [checked_proglangs, checked_labels, checked_repo_names];
+    return [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars];
    
 }
 
@@ -206,7 +233,8 @@ function filterResult() {
     // Sort issues list by recency by default
     if (_.isEmpty(checked_proglangs) &&
                 _.isEmpty(checked_labels) &&
-                _.isEmpty(checked_repo_names)) {
+                _.isEmpty(checked_repo_names) &&
+                (minimum_repo_stars == "")) {
             let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issues_html_list, entries_per_page);
         } else {
@@ -216,6 +244,9 @@ function filterResult() {
 
             for (let j = 0; j < issues_list.length; j++) {
                 let issue_item = issues_list[j];
+                if (issue_item.getRepoStars() < minimum_repo_stars) { 
+                    continue
+                }
                 let repo_langs = issue_item.getRepoProgLangs();
                 let issues_labels = issue_item.getIssueLabels();
                 let issue_repo = issue_item.getIssueRepoName();
@@ -233,7 +264,8 @@ function filterResult() {
                     intersection_repos
                 ).length;
 
-                if (num_intersections > 0) {
+                if (num_intersections > 0 
+                    || _.isEmpty(checked_proglangs) && _.isEmpty(checked_labels) && _.isEmpty(checked_repo_names)) { 
                     filtered_list.push({
                         'issue': issue_item,
                         'num_intersections': num_intersections
