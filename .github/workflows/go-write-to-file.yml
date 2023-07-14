@@ -20,16 +20,7 @@ jobs:
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
-    
-    - name: Cache dependencies
-      id: get-dependencies
-      uses: actions/cache@v2
-      with:
-        path: ~/go/pkg/mod
-        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
-        restore-keys: |
-          ${{ runner.os }}-go-
-    
+
     - name: Get dependencies
       if: steps.get-dependencies.outputs.cache-hit != 'true'
       run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2
