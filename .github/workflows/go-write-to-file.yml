@@ -20,6 +20,8 @@ jobs:
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
+  
+    - run: rm -f /home/runner/go/src/* 
 
     - name: Get dependencies
       if: steps.get-dependencies.outputs.cache-hit != 'true'
