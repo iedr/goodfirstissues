@@ -104,6 +104,10 @@ class Issue {
         return this.issue_repo_langs;
     }
 
+    getRepoStars() {
+        return this.issue_repo_stars;
+    }
+
     getOwnerLogin() {
         return this.owner_login;
     }
