@@ -1,53 +1,45 @@
 name: go-write-to-file
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "30 05,13,20 * * *"
+    - cron: '30 05,13,20 * * *'
 
 jobs:
-
   build:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v2
 
-    - name: Set up Go 1.x
-      uses: actions/setup-go@v2
-      with:
-        go-version: 1.13
-      id: go
+      # Using v4 to use in-built caching
+      - name: Set up Go 1.x
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.20'
+        id: go
 
-    - name: Check out code into the Go module directory
-      uses: actions/checkout@v2
-    
-    - name: Cache dependencies
-      id: get-dependencies
-      uses: actions/cache@v2
-      with:
-        path: ~/go/pkg/mod
-        key: ${{ runner.os }}-go-${{ hashFiles('**/go.sum') }}
-        restore-keys: |
-          ${{ runner.os }}-go-
-          
-    - name: Get dependencies
-      # if: steps.cget-dependencies.outputs.cache-hit != 'true'
-      run: go get github.com/shurcooL/githubv4 golang.org/x/oauth2
-      
-    - name: Build
-      run: cd backend && go build -v -o main-to-file main-to-file.go
-    
-    - run: cd backend && ./main-to-file -gh_token=${{secrets.TOKEN}}
+      # Using modules to maintain the dependencies, and download them only when there is a cache-miss
+      - name: Get dependencies
+        if: steps.go.outputs.cache-hit != 'true'
+        run: go mod tidy
 
-    - name: Get current time
-      uses: gerred/actions/current-time@master
-      id: current-time
+      - name: Build
+        run: cd backend && go build -v -o main-to-file main-to-file.go
 
-    - name: push to repo
-      env:
-        TIME: "${{ steps.current-time.outputs.time }}"
-      run: |
-        git config user.name darensin01
-        git config user.email darensin01@gmail.com
-        git add backend/data.json
-        git commit -m "$TIME: new data pushed"
-        git push
+      - run: cd backend && ./main-to-file -gh_token=${{secrets.TOKEN}}
+
+      - name: Get current time
+        uses: gerred/actions/current-time@master
+        id: current-time
+
+      - name: push to repo
+        env:
+          TIME: '${{ steps.current-time.outputs.time }}'
+        run: |
+          git config user.name darensin01
+          git config user.email darensin01@gmail.com
+          git add backend/data.json
+          git commit -m "$TIME: new data pushed"
+          git push
