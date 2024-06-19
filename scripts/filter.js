@@ -109,6 +109,7 @@ function createInputFormRepoStars(title, attrId) {
     form_element.setAttribute("class", "selectpicker drop form-control mb-3");
     form_element.setAttribute("id", "inputform" + attrId);
     form_element.setAttribute("placeholder", "Any number");
+    form_element.setAttribute("type", "number");
     filter_row.appendChild(form_element);
     filter_row_parent.appendChild(filter_row);
 }

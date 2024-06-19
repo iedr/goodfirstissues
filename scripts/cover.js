@@ -127,7 +127,7 @@ function main(data_list) {
     createClassifiedsUnderCheckbox();    
 
     // Create input-form for filtering by the number of stars
-    createInputFormRepoStars("Number of Stars", "repostars");
+    createInputFormRepoStars("Minimum Number of Stars", "repostars");
 
     // call setChecked() from "filter.js" that sets the items accessed from storage to "checked" state.
     // The setChecked() method returns the selected items. Any newly checked items or items unchecked are manipulated in the returned array
