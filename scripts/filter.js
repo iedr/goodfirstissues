@@ -105,19 +105,43 @@ function createInputFormRepoStars(title, attrId) {
     filter_header.appendChild(document.createTextNode("Filter by " + title + ":"));
     filter_row.appendChild(filter_header);
 
-    let form_element = document.createElement("input");
-    form_element.setAttribute("class", "selectpicker drop form-control mb-3");
-    form_element.setAttribute("id", "inputform" + attrId);
-    form_element.setAttribute("placeholder", "Any number");
-    filter_row.appendChild(form_element);
+    // Create "From" label
+    let label_from = document.createElement("label");
+    label_from.setAttribute("for", "inputform" + attrId + "_min");
+    label_from.textContent = "From: ";
+
+    // Create minimum input element
+    let form_element_min = document.createElement("input");
+    form_element_min.setAttribute("class", "selectpicker drop form-control mb-3");
+    form_element_min.setAttribute("id", "inputfor" + "min" + attrId); // Unique ID for minimum
+    form_element_min.setAttribute("placeholder", "Minimum value");
+
+    // Create "To" label
+    let label_to = document.createElement("label");
+    label_to.setAttribute("for", "inputform" + attrId + "_max");
+    label_to.textContent = "To: ";
+
+    // Create maximum input element
+    let form_element_max = document.createElement("input");
+    form_element_max.setAttribute("class", "selectpicker drop form-control mb-3");
+    form_element_max.setAttribute("id", "inputfor" + "max" + attrId); // Unique ID for maximum
+    form_element_max.setAttribute("placeholder", "Maximum value");
+
+    // Append elements to the filter row
+    filter_row.appendChild(label_from);
+    filter_row.appendChild(form_element_min);
+    filter_row.appendChild(document.createTextNode(" ")); // Space between "From" and "To"
+    filter_row.appendChild(label_to);
+    filter_row.appendChild(form_element_max);
+
     filter_row_parent.appendChild(filter_row);
 }
 
 // Array to return the checked items found in storage. Empty if no items were checked before.
-var checked_proglangs = [], checked_labels = [], checked_repo_names = [], minimum_repo_stars = [];
+var checked_proglangs = [], checked_labels = [], checked_repo_names = [], minimum_repo_stars = [], maximal_repo_stars = [];
 
 // arguments contain the checked items accessed from storage
-function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, minimum_repo_stars_session) {
+function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, minimum_repo_stars_session, maximal_repo_stars_session) {
     $(document).ready(function(){
         if(!checked_proglangs_session) {
             sessionStorage.setItem('checked_proglangs', []);
@@ -184,10 +208,13 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
         }    
         if(!minimum_repo_stars_session) {
             sessionStorage.setItem('minimum_repo_stars', "");
+            sessionStorage.setItem('maximal_repo_stars', "");
         }
         else {
             minimum_repo_stars = minimum_repo_stars_session;
-            document.getElementById("inputformrepostars").setAttribute('value', minimum_repo_stars);
+            maximal_repo_stars = minimum_repo_stars_session;
+            document.getElementById("inputforminrepostars").setAttribute('value', minimum_repo_stars);
+            document.getElementById("inputformaxrepostars").setAttribute('value', maximal_repo_stars);
         }   
 
         // filter the checked items obtained from the session storage.
@@ -195,7 +222,7 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
     })     
 
     // return the checked options to main()
-    return [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars];
+    return [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars, maximal_repo_stars];
    
 }
 
@@ -234,7 +261,8 @@ function filterResult() {
     if (_.isEmpty(checked_proglangs) &&
                 _.isEmpty(checked_labels) &&
                 _.isEmpty(checked_repo_names) &&
-                (minimum_repo_stars == "")) {
+                (minimum_repo_stars == "") && 
+                (maximal_repo_stars == "")) {
             let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issues_html_list, entries_per_page);
         } else {
@@ -244,7 +272,7 @@ function filterResult() {
 
             for (let j = 0; j < issues_list.length; j++) {
                 let issue_item = issues_list[j];
-                if (issue_item.getRepoStars() < minimum_repo_stars) { 
+                if (issue_item.getRepoStars() < minimum_repo_stars || issue_item.getRepoStars() > maximal_repo_stars) { 
                     continue
                 }
                 let repo_langs = issue_item.getRepoProgLangs();
