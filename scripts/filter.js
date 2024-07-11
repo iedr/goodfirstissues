@@ -115,6 +115,7 @@ function createInputFormRepoStars(title, attrId) {
     form_element_min.setAttribute("class", "selectpicker drop form-control mb-3");
     form_element_min.setAttribute("id", "inputfor" + "min" + attrId); // Unique ID for minimum
     form_element_min.setAttribute("placeholder", "Minimum value");
+    form_element_min.setAttribute("type", "number");
 
     // Create "To" label
     let label_to = document.createElement("label");
@@ -126,6 +127,7 @@ function createInputFormRepoStars(title, attrId) {
     form_element_max.setAttribute("class", "selectpicker drop form-control mb-3");
     form_element_max.setAttribute("id", "inputfor" + "max" + attrId); // Unique ID for maximum
     form_element_max.setAttribute("placeholder", "Maximum value");
+    form_element_max.setAttribute("type", "number");
 
     // Append elements to the filter row
     filter_row.appendChild(label_from);
@@ -133,7 +135,7 @@ function createInputFormRepoStars(title, attrId) {
     filter_row.appendChild(document.createTextNode(" ")); // Space between "From" and "To"
     filter_row.appendChild(label_to);
     filter_row.appendChild(form_element_max);
-
+  
     filter_row_parent.appendChild(filter_row);
 }
 
