@@ -288,3 +288,22 @@ function filterResult() {
             renderFilteredList(sorted_issue_list, entries_per_page);
         }
 }
+
+// 드롭다운 외부 클릭 시 닫기
+document.addEventListener("click", function (event) {
+    // 모든 드롭다운 요소를 선택
+    const dropdowns = document.querySelectorAll(".selectpicker.drop");
+
+    dropdowns.forEach(dropdown => {
+        const parent = dropdown.parentElement; // 드롭다운 부모 요소
+        const isDropdownToggle = parent.contains(event.target); // 클릭한 요소가 드롭다운 내부인지 확인
+
+        if (!isDropdownToggle) {
+            // 드롭다운이 열려 있을 때
+            if (dropdown.classList.contains("show")) {
+                // 닫기 동작
+                $(dropdown).selectpicker("hide"); // selectpicker를 사용한 경우
+            }
+        }
+    });
+});
