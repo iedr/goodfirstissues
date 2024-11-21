@@ -287,23 +287,27 @@ function filterResult() {
             sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issue_list, entries_per_page);
         }
+        showStatusMessage("Selections have been applied!");
 }
+function showStatusMessage(message) {
+    // 상태 메시지 DOM 생성
+    const statusElement = document.createElement("div");
+    statusElement.innerText = message;
+    statusElement.setAttribute("id", "statusMessage");
+    statusElement.style.position = "fixed";
+    statusElement.style.top = "20px";
+    statusElement.style.right = "20px";
+    statusElement.style.padding = "10px";
+    statusElement.style.backgroundColor = "#4caf50"; // 녹색 배경
+    statusElement.style.color = "white";
+    statusElement.style.borderRadius = "5px";
+    statusElement.style.zIndex = 1000;
 
-// 드롭다운 외부 클릭 시 닫기
-document.addEventListener("click", function (event) {
-    // 모든 드롭다운 요소를 선택
-    const dropdowns = document.querySelectorAll(".selectpicker.drop");
+    // 메시지를 페이지에 추가
+    document.body.appendChild(statusElement);
 
-    dropdowns.forEach(dropdown => {
-        const parent = dropdown.parentElement; // 드롭다운 부모 요소
-        const isDropdownToggle = parent.contains(event.target); // 클릭한 요소가 드롭다운 내부인지 확인
-
-        if (!isDropdownToggle) {
-            // 드롭다운이 열려 있을 때
-            if (dropdown.classList.contains("show")) {
-                // 닫기 동작
-                $(dropdown).selectpicker("hide"); // selectpicker를 사용한 경우
-            }
-        }
-    });
-});
+    // 2초 후 메시지 제거
+    setTimeout(() => {
+        if (statusElement) statusElement.remove();
+    }, 2000);
+}
