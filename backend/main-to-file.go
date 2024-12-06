@@ -91,6 +91,7 @@ func getIssuesFromGithub(token string) []result {
       err := client.Query(context.Background(), &query, variables)
       if err != nil {
          log.Fatalln("Error in querying Github: ", err)
+         break
       }
 
       allResults = append(allResults, query.SearchResultItemConnection.Nodes...)
