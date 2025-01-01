@@ -1,6 +1,2889 @@
 [
  {
   "Issue": {
+   "issue_url": "https://github.com/BastiDood/spectro/issues/23",
+   "issue_createdAt": "2025-01-01T05:35:17Z",
+   "issue_repo": {
+    "repo_name": "spectro",
+    "repo_desc": "A multi-channel confession bot for Discord that supports anonymous replies and channel moderation.",
+    "repo_url": "https://github.com/BastiDood/spectro",
+    "repo_stars": 8,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Svelte"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "BastiDood"
+    }
+   },
+   "issue_title": "Require `ATTACH_FILES` permission for `/resend` command",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/hector-jewell/zomato-clone-react-native/issues/93",
+   "issue_createdAt": "2025-01-01T05:32:56Z",
+   "issue_repo": {
+    "repo_name": "zomato-clone-react-native",
+    "repo_desc": "A Zomato clone app built using react native is a fully realized and customizable food delivery application that is an all-in-one solution for managing orders and deliveries. Check out our product page for more information.",
+    "repo_url": "https://github.com/hector-jewell/zomato-clone-react-native",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "hector-jewell"
+    }
+   },
+   "issue_title": "Email is not showing on the profile page.",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "Enatega Multivendor Customer App"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/GraphiteEditor/Graphite/issues/2170",
+   "issue_createdAt": "2025-01-01T05:29:35Z",
+   "issue_repo": {
+    "repo_name": "Graphite",
+    "repo_desc": "2D vector \u0026 raster editor that melds traditional layers \u0026 tools with a modern node-based, non-destructive, procedural workflow.",
+    "repo_url": "https://github.com/GraphiteEditor/Graphite",
+    "repo_stars": 10014,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Rust"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Handlebars"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "Svelte"
+      },
+      {
+       "repo_prog_language": "WGSL"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "GraphiteEditor"
+    }
+   },
+   "issue_title": "Snake-like wires in the node graph",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "Feature"
+     },
+     {
+      "label_name": "Good First Issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/WordPress/openverse/issues/5314",
+   "issue_createdAt": "2025-01-01T05:07:04Z",
+   "issue_repo": {
+    "repo_name": "openverse",
+    "repo_desc": "Openverse is a search engine for openly-licensed media. This monorepo includes all application code.",
+    "repo_url": "https://github.com/WordPress/openverse",
+    "repo_stars": 264,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Jinja"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Vue"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "PLpgSQL"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "WordPress"
+    }
+   },
+   "issue_title": "Add `bodySerializer` and `Accept` header to `@openverse/api-client` to correctly authenticate with the API",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "🟨 priority: medium"
+     },
+     {
+      "label_name": "🛠 goal: fix"
+     },
+     {
+      "label_name": "💻 aspect: code"
+     },
+     {
+      "label_name": "🧱 stack: frontend"
+     }
+    ],
+    "label_totalcount": 6
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/uploaded-sys/e-commerce-app/issues/3",
+   "issue_createdAt": "2025-01-01T05:05:11Z",
+   "issue_repo": {
+    "repo_name": "e-commerce-app",
+    "repo_desc": "",
+    "repo_url": "https://github.com/uploaded-sys/e-commerce-app",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "uploaded-sys"
+    }
+   },
+   "issue_title": "Fix local storage",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/wankaiyi/feishuservice/issues/21",
+   "issue_createdAt": "2025-01-01T04:57:55Z",
+   "issue_repo": {
+    "repo_name": "feishuservice",
+    "repo_desc": "接入飞书自定义应用机器人，可满足openai对话、天气查询等",
+    "repo_url": "https://github.com/wankaiyi/feishuservice",
+    "repo_stars": 7,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "wankaiyi"
+    }
+   },
+   "issue_title": "优化日志",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/WATonomous/cvmfs-ephemeral/issues/16",
+   "issue_createdAt": "2025-01-01T04:44:56Z",
+   "issue_repo": {
+    "repo_name": "cvmfs-ephemeral",
+    "repo_desc": "A CVMFS server meant fo storing ephemeral data. Suitable for storing short-lived artifacts in CI/CD pipelines.",
+    "repo_url": "https://github.com/WATonomous/cvmfs-ephemeral",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "WATonomous"
+    }
+   },
+   "issue_title": "Production bug: tarfile.ReadError: empty file",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Illumedex/rovaa-app-store/issues/1",
+   "issue_createdAt": "2025-01-01T04:40:29Z",
+   "issue_repo": {
+    "repo_name": "rovaa-app-store",
+    "repo_desc": "\"As we all know distrubution of application is super important task for project but many times our application is block by stupid mistake so i have to create this fudu may to distribute my application i will manage somehow to do so\"",
+    "repo_url": "https://github.com/Illumedex/rovaa-app-store",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Illumedex"
+    }
+   },
+   "issue_title": "React + Vite + Typescript has an error in production.",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/WATonomous/cvmfs-ephemeral/issues/15",
+   "issue_createdAt": "2025-01-01T04:40:26Z",
+   "issue_repo": {
+    "repo_name": "cvmfs-ephemeral",
+    "repo_desc": "A CVMFS server meant fo storing ephemeral data. Suitable for storing short-lived artifacts in CI/CD pipelines.",
+    "repo_url": "https://github.com/WATonomous/cvmfs-ephemeral",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "WATonomous"
+    }
+   },
+   "issue_title": "Use nested catalogs for unpacked uploads",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/WATonomous/terraform-provider-email/issues/12",
+   "issue_createdAt": "2025-01-01T04:00:15Z",
+   "issue_repo": {
+    "repo_name": "terraform-provider-email",
+    "repo_desc": "Terraform provider for sending emails.",
+    "repo_url": "https://github.com/WATonomous/terraform-provider-email",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Go"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "WATonomous"
+    }
+   },
+   "issue_title": "Use SMTP pool to send emails",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/joni0108/codixfy-gemini-npm/issues/7",
+   "issue_createdAt": "2025-01-01T03:57:38Z",
+   "issue_repo": {
+    "repo_name": "codixfy-gemini-npm",
+    "repo_desc": "An npm package for nodejs that makes easier working with Gemini AI API. Includes some useful methods solving common tasks, helping quick and stable development.",
+    "repo_url": "https://github.com/joni0108/codixfy-gemini-npm",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "joni0108"
+    }
+   },
+   "issue_title": "Update to latest models",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/hengyoush/kyanos/issues/237",
+   "issue_createdAt": "2025-01-01T03:21:00Z",
+   "issue_repo": {
+    "repo_name": "kyanos",
+    "repo_desc": "Kyanos is a networking analysis tool based on eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.",
+    "repo_url": "https://github.com/hengyoush/kyanos",
+    "repo_stars": 3403,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "C"
+      },
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "hengyoush"
+    }
+   },
+   "issue_title": "New version detection support",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "feature-request"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/alkhaalis/Resume-API/issues/4",
+   "issue_createdAt": "2025-01-01T02:56:54Z",
+   "issue_repo": {
+    "repo_name": "Resume-API",
+    "repo_desc": "resume-api",
+    "repo_url": "https://github.com/alkhaalis/Resume-API",
+    "repo_stars": 1,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "alkhaalis"
+    }
+   },
+   "issue_title": "Nothing to see...yet",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/CleanCode-developer/CleanCode-developer/issues/1",
+   "issue_createdAt": "2025-01-01T02:23:54Z",
+   "issue_repo": {
+    "repo_name": "CleanCode-developer",
+    "repo_desc": "",
+    "repo_url": "https://github.com/CleanCode-developer/CleanCode-developer",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "CleanCode-developer"
+    }
+   },
+   "issue_title": "hi",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Olinkkt/oliverseidl/issues/3",
+   "issue_createdAt": "2025-01-01T01:54:18Z",
+   "issue_repo": {
+    "repo_name": "oliverseidl",
+    "repo_desc": "",
+    "repo_url": "https://github.com/Olinkkt/oliverseidl",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Olinkkt"
+    }
+   },
+   "issue_title": "Scroll-to-top button is positioned too high and behaves inconsistently",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ABHISHEKBGZ/Typingeaseayu/issues/1",
+   "issue_createdAt": "2025-01-01T01:46:27Z",
+   "issue_repo": {
+    "repo_name": "Typingeaseayu",
+    "repo_desc": "Typing test website ",
+    "repo_url": "https://github.com/ABHISHEKBGZ/Typingeaseayu",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "ABHISHEKBGZ"
+    }
+   },
+   "issue_title": "A",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/engboris/transcendental-syntax/issues/23",
+   "issue_createdAt": "2025-01-01T01:01:28Z",
+   "issue_repo": {
+    "repo_name": "transcendental-syntax",
+    "repo_desc": "Technical interpretation of Girard's transcendental syntax",
+    "repo_url": "https://github.com/engboris/transcendental-syntax",
+    "repo_stars": 14,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "OCaml"
+      },
+      {
+       "repo_prog_language": "Dune"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "engboris"
+    }
+   },
+   "issue_title": "Fix printing of constellations",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/kishyassin/OCR-in-GO-Fiber/issues/4",
+   "issue_createdAt": "2025-01-01T00:50:50Z",
+   "issue_repo": {
+    "repo_name": "OCR-in-GO-Fiber",
+    "repo_desc": "Optical Character Recognition (OCR) on uploaded images using the gosseract library.",
+    "repo_url": "https://github.com/kishyassin/OCR-in-GO-Fiber",
+    "repo_stars": 1,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "kishyassin"
+    }
+   },
+   "issue_title": "fatal error: leptonica/allheaders.h: No such file or directory",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/xgoreleaser/issues/19",
+   "issue_createdAt": "2025-01-01T00:32:47Z",
+   "issue_repo": {
+    "repo_name": "xgoreleaser",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/xgoreleaser",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/goreleaser/goreleaser/issues/2617",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9460",
+   "issue_createdAt": "2025-01-01T00:22:51Z",
+   "issue_repo": {
+    "repo_name": "btcmap-data",
+    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
+    "repo_url": "https://github.com/teambtcmap/btcmap-data",
+    "repo_stars": 46,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "teambtcmap"
+    }
+   },
+   "issue_title": "Coco bongo café ",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "location-submission"
+     },
+     {
+      "label_name": "Brazil"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-php/issues/1",
+   "issue_createdAt": "2025-01-01T00:21:32Z",
+   "issue_repo": {
+    "repo_name": "client-php",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/client-php",
+    "repo_stars": 5,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "PHP"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/guzzle/psr7/pull/603",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/devflowinc/trieve/issues/3028",
+   "issue_createdAt": "2025-01-01T00:21:24Z",
+   "issue_repo": {
+    "repo_name": "trieve",
+    "repo_desc": "All-in-one infrastructure for search, recommendations, RAG, and analytics offered via API",
+    "repo_url": "https://github.com/devflowinc/trieve",
+    "repo_stars": 1758,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "PLpgSQL"
+      },
+      {
+       "repo_prog_language": "Rust"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "HCL"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "FreeMarker"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "devflowinc"
+    }
+   },
+   "issue_title": "cleanup: search-component has visual bug when chatting with single product",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "high priority"
+     },
+     {
+      "label_name": "docsearch"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 4
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/next-auth-example/issues/2",
+   "issue_createdAt": "2025-01-01T00:20:36Z",
+   "issue_repo": {
+    "repo_name": "next-auth-example",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/next-auth-example",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/nextauthjs/next-auth/issues/2294",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-dotnet/issues/4",
+   "issue_createdAt": "2025-01-01T00:19:36Z",
+   "issue_repo": {
+    "repo_name": "client-dotnet",
+    "repo_desc": "Autogenerated client SDK.",
+    "repo_url": "https://github.com/ory/client-dotnet",
+    "repo_stars": 5,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "C#"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/github/gitignore/pull/2483",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-dotnet/issues/3",
+   "issue_createdAt": "2025-01-01T00:19:36Z",
+   "issue_repo": {
+    "repo_name": "client-dotnet",
+    "repo_desc": "Autogenerated client SDK.",
+    "repo_url": "https://github.com/ory/client-dotnet",
+    "repo_stars": 5,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "C#"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/github/gitignore/pull/1529",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-go/issues/8",
+   "issue_createdAt": "2025-01-01T00:15:14Z",
+   "issue_repo": {
+    "repo_name": "client-go",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/client-go",
+    "repo_stars": 24,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1508",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-go/issues/9",
+   "issue_createdAt": "2025-01-01T00:15:14Z",
+   "issue_repo": {
+    "repo_name": "client-go",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/client-go",
+    "repo_stars": 24,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1279",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/fosite-example/issues/44",
+   "issue_createdAt": "2025-01-01T00:14:23Z",
+   "issue_repo": {
+    "repo_name": "fosite-example",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/fosite-example",
+    "repo_stars": 80,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Procfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1508",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/fosite-example/issues/45",
+   "issue_createdAt": "2025-01-01T00:14:23Z",
+   "issue_repo": {
+    "repo_name": "fosite-example",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/fosite-example",
+    "repo_stars": 80,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Procfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1279",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/godotengine/godot-docs/issues/10458",
+   "issue_createdAt": "2025-01-01T00:11:56Z",
+   "issue_repo": {
+    "repo_name": "godot-docs",
+    "repo_desc": "Godot Engine official documentation",
+    "repo_url": "https://github.com/godotengine/godot-docs",
+    "repo_stars": 4008,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "GDScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Batchfile"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "reStructuredText"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "godotengine"
+    }
+   },
+   "issue_title": "Add clarification about what CharacterBody is used for",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "area:class reference"
+     },
+     {
+      "label_name": "area:manual"
+     },
+     {
+      "label_name": "topic:physics"
+     }
+    ],
+    "label_totalcount": 5
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-java/issues/2",
+   "issue_createdAt": "2025-01-01T00:08:03Z",
+   "issue_repo": {
+    "repo_name": "client-java",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/client-java",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Scala"
+      },
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/gradle/gradle/issues/25036",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/client-java/issues/3",
+   "issue_createdAt": "2025-01-01T00:08:03Z",
+   "issue_repo": {
+    "repo_name": "client-java",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/client-java",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Scala"
+      },
+      {
+       "repo_prog_language": "Java"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/square/okhttp/issues/350",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/example-auth-js/issues/1",
+   "issue_createdAt": "2025-01-01T00:03:34Z",
+   "issue_repo": {
+    "repo_name": "example-auth-js",
+    "repo_desc": "",
+    "repo_url": "https://github.com/ory/example-auth-js",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Shell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/nextauthjs/next-auth/issues/2294",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/go-acc/issues/48",
+   "issue_createdAt": "2025-01-01T00:02:45Z",
+   "issue_repo": {
+    "repo_name": "go-acc",
+    "repo_desc": "Accurate Code Coverage reporting for Golang (Go)",
+    "repo_url": "https://github.com/ory/go-acc",
+    "repo_stars": 221,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1508",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/go-acc/issues/49",
+   "issue_createdAt": "2025-01-01T00:02:45Z",
+   "issue_repo": {
+    "repo_name": "go-acc",
+    "repo_desc": "Accurate Code Coverage reporting for Golang (Go)",
+    "repo_url": "https://github.com/ory/go-acc",
+    "repo_stars": 221,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1279",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "upstream"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/ladon/issues/168",
+   "issue_createdAt": "2025-01-01T00:02:23Z",
+   "issue_repo": {
+    "repo_name": "ladon",
+    "repo_desc": "A SDK for access control policies: authorization for the microservice and IoT age. Inspired by AWS IAM policies. Written for Go.",
+    "repo_url": "https://github.com/ory/ladon",
+    "repo_stars": 2403,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1279",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ory/ladon/issues/167",
+   "issue_createdAt": "2025-01-01T00:02:23Z",
+   "issue_repo": {
+    "repo_name": "ladon",
+    "repo_desc": "A SDK for access control policies: authorization for the microservice and IoT age. Inspired by AWS IAM policies. Written for Go.",
+    "repo_url": "https://github.com/ory/ladon",
+    "repo_stars": 2403,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ory"
+    }
+   },
+   "issue_title": "upstream reference closed: github.com/spf13/cobra/issues/1508",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "upstream"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/devondragon/github-motion-sync-simple/issues/2",
+   "issue_createdAt": "2024-12-31T23:46:37Z",
+   "issue_repo": {
+    "repo_name": "github-motion-sync-simple",
+    "repo_desc": "Simple Cloudflare Worker to sync GitHub Issues with your Motion Tasks",
+    "repo_url": "https://github.com/devondragon/github-motion-sync-simple",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "devondragon"
+    }
+   },
+   "issue_title": "Add support for Milestone driven due dates",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Tzipi-Winefeld/escape-room/issues/2",
+   "issue_createdAt": "2024-12-31T23:26:28Z",
+   "issue_repo": {
+    "repo_name": "escape-room",
+    "repo_desc": "",
+    "repo_url": "https://github.com/Tzipi-Winefeld/escape-room",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Tzipi-Winefeld"
+    }
+   },
+   "issue_title": "Fix Answers",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/DanielAvdar/pandas-pyarrow/issues/197",
+   "issue_createdAt": "2024-12-31T23:22:28Z",
+   "issue_repo": {
+    "repo_name": "pandas-pyarrow",
+    "repo_desc": "Seamlessly switch Pandas DataFrame backend to PyArrow.",
+    "repo_url": "https://github.com/DanielAvdar/pandas-pyarrow",
+    "repo_stars": 7,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "DanielAvdar"
+    }
+   },
+   "issue_title": "Remove  parquet_compatible from PandasArrowConverter ",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/shadielfares/hldr/issues/2",
+   "issue_createdAt": "2024-12-31T23:21:32Z",
+   "issue_repo": {
+    "repo_name": "hldr",
+    "repo_desc": "This is a repo called HardLessonsDoneRight, basically I'm trying to make an AI coding mentor that actively helps you become a better programmer without spoon-feeding you info.",
+    "repo_url": "https://github.com/shadielfares/hldr",
+    "repo_stars": 23,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "shadielfares"
+    }
+   },
+   "issue_title": "Analyzing Highlight Code Snippets",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/shadielfares/hldr/issues/1",
+   "issue_createdAt": "2024-12-31T22:58:19Z",
+   "issue_repo": {
+    "repo_name": "hldr",
+    "repo_desc": "This is a repo called HardLessonsDoneRight, basically I'm trying to make an AI coding mentor that actively helps you become a better programmer without spoon-feeding you info.",
+    "repo_url": "https://github.com/shadielfares/hldr",
+    "repo_stars": 23,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "shadielfares"
+    }
+   },
+   "issue_title": "History of Coding Insights",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/ac-i2i-engineering/amherst-coursework/issues/7",
+   "issue_createdAt": "2024-12-31T22:56:05Z",
+   "issue_repo": {
+    "repo_name": "amherst-coursework",
+    "repo_desc": "Reinvented Amherst College Course Catalog with more customisations and deeper insights!",
+    "repo_url": "https://github.com/ac-i2i-engineering/amherst-coursework",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "ac-i2i-engineering"
+    }
+   },
+   "issue_title": "Tests for Course Model",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/govariantsteam/govariants/issues/366",
+   "issue_createdAt": "2024-12-31T22:52:05Z",
+   "issue_repo": {
+    "repo_name": "govariants",
+    "repo_desc": "A place to play Go variants",
+    "repo_url": "https://github.com/govariantsteam/govariants",
+    "repo_stars": 6,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Procfile"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Vue"
+      },
+      {
+       "repo_prog_language": "Nunjucks"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "govariantsteam"
+    }
+   },
+   "issue_title": "turn on strict mode for server package",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/bestian/3d_shoot_game/issues/15",
+   "issue_createdAt": "2024-12-31T22:52:03Z",
+   "issue_repo": {
+    "repo_name": "3d_shoot_game",
+    "repo_desc": "a small 3d_shoot_game",
+    "repo_url": "https://github.com/bestian/3d_shoot_game",
+    "repo_stars": 2,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "bestian"
+    }
+   },
+   "issue_title": "結尾訊息跑版",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/bulwark-security/bulwark/issues/441",
+   "issue_createdAt": "2024-12-31T22:36:52Z",
+   "issue_repo": {
+    "repo_name": "bulwark",
+    "repo_desc": "Automated security decision making under uncertainty",
+    "repo_url": "https://github.com/bulwark-security/bulwark",
+    "repo_stars": 27,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Rust"
+      },
+      {
+       "repo_prog_language": "Starlark"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "PureBasic"
+      },
+      {
+       "repo_prog_language": "C++"
+      },
+      {
+       "repo_prog_language": "Go"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Makefile"
+      },
+      {
+       "repo_prog_language": "Java"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "bulwark-security"
+    }
+   },
+   "issue_title": "Rename `wasm32-wasi` to `wasm32-wasip1`",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "kind/cleanup"
+     },
+     {
+      "label_name": "rust"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "area/plugin-api"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/bencherdev/bencher/issues/548",
+   "issue_createdAt": "2024-12-31T22:10:19Z",
+   "issue_repo": {
+    "repo_name": "bencher",
+    "repo_desc": "🐰 Bencher - Continuous Benchmarking",
+    "repo_url": "https://github.com/bencherdev/bencher",
+    "repo_stars": 597,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Rust"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "Polar"
+      },
+      {
+       "repo_prog_language": "MDX"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "Astro"
+      },
+      {
+       "repo_prog_language": "PowerShell"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "bencherdev"
+    }
+   },
+   "issue_title": "Track Go memory allocations",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "adapter"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/gingerchew/code-cage/issues/7",
+   "issue_createdAt": "2024-12-31T22:02:03Z",
+   "issue_repo": {
+    "repo_name": "code-cage",
+    "repo_desc": "",
+    "repo_url": "https://github.com/gingerchew/code-cage",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Astro"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "gingerchew"
+    }
+   },
+   "issue_title": "Add commands from the Commands/Invoker API",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/gingerchew/code-cage/issues/6",
+   "issue_createdAt": "2024-12-31T21:59:33Z",
+   "issue_repo": {
+    "repo_name": "code-cage",
+    "repo_desc": "",
+    "repo_url": "https://github.com/gingerchew/code-cage",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Astro"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "gingerchew"
+    }
+   },
+   "issue_title": "Set an active langauge on load",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/y1hy11/B2T---Binary-To-Text-Converter/issues/1",
+   "issue_createdAt": "2024-12-31T21:50:25Z",
+   "issue_repo": {
+    "repo_name": "B2T---Binary-To-Text-Converter",
+    "repo_desc": "A Simple modern React-based web application for converting between Binary, Hexadecimal, Decimal, and plain text formats.",
+    "repo_url": "https://github.com/y1hy11/B2T---Binary-To-Text-Converter",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "y1hy11"
+    }
+   },
+   "issue_title": "Home Page Issue",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/gregsadetsky/nycnoise/issues/377",
+   "issue_createdAt": "2024-12-31T21:42:58Z",
+   "issue_repo": {
+    "repo_name": "nycnoise",
+    "repo_desc": "",
+    "repo_url": "https://github.com/gregsadetsky/nycnoise",
+    "repo_stars": 18,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "gregsadetsky"
+    }
+   },
+   "issue_title": "move down index page message?",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Norse-IoT/norse-iot.github.io/issues/4",
+   "issue_createdAt": "2024-12-31T21:41:20Z",
+   "issue_repo": {
+    "repo_name": "norse-iot.github.io",
+    "repo_desc": "Official website of the Norse IoT club.",
+    "repo_url": "https://github.com/Norse-IoT/norse-iot.github.io",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Norse-IoT"
+    }
+   },
+   "issue_title": "Enchancement: Add recent projects",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/randovania/randovania/issues/7675",
+   "issue_createdAt": "2024-12-31T21:38:29Z",
+   "issue_repo": {
+    "repo_name": "randovania",
+    "repo_desc": "A randomizer platform for a multitude of games.",
+    "repo_url": "https://github.com/randovania/randovania",
+    "repo_stars": 190,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Batchfile"
+      },
+      {
+       "repo_prog_language": "PowerShell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "Lua"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "randovania"
+    }
+   },
+   "issue_title": "Add Faq Entry: How to use light beam transports/U-Mos 2",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "game: Metroid Prime 2 Echoes"
+     },
+     {
+      "label_name": "documentation"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Abirhasankas143/sturdy-rotary-phone/issues/1",
+   "issue_createdAt": "2024-12-31T21:26:14Z",
+   "issue_repo": {
+    "repo_name": "sturdy-rotary-phone",
+    "repo_desc": "http://localhost:6333/collections/:collection_name/points/recommend/batch",
+    "repo_url": "https://github.com/Abirhasankas143/sturdy-rotary-phone",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": []
+    },
+    "Owner": {
+     "repo_owner": "Abirhasankas143"
+    }
+   },
+   "issue_title": ".gitignore",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "documentation"
+     },
+     {
+      "label_name": "duplicate"
+     },
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "invalid"
+     },
+     {
+      "label_name": "question"
+     },
+     {
+      "label_name": "wontfix"
+     }
+    ],
+    "label_totalcount": 9
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/TopCli/Spinner/issues/170",
+   "issue_createdAt": "2024-12-31T21:17:37Z",
+   "issue_repo": {
+    "repo_name": "Spinner",
+    "repo_desc": "Elegant Asynchronous Terminal (CLI) Spinner for Node.js",
+    "repo_url": "https://github.com/TopCli/Spinner",
+    "repo_stars": 33,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "TypeScript"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "TopCli"
+    }
+   },
+   "issue_title": "Remove kleur",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/cvoorhees15/why-you-suck-at-dota/issues/9",
+   "issue_createdAt": "2024-12-31T20:47:52Z",
+   "issue_repo": {
+    "repo_name": "why-you-suck-at-dota",
+    "repo_desc": "Why You Suck At Dota",
+    "repo_url": "https://github.com/cvoorhees15/why-you-suck-at-dota",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Swift"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "cvoorhees15"
+    }
+   },
+   "issue_title": "Dawnbreaker and Kez (maybe others) have no hero icon from content delivery network",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "help wanted"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Sanjeet990/Astroluma/issues/58",
+   "issue_createdAt": "2024-12-31T20:45:07Z",
+   "issue_repo": {
+    "repo_name": "Astroluma",
+    "repo_desc": "Astroluma is a feature-rich, user-friendly dashboard designed to help you manage multiple aspects of your daily tasks and services. ",
+    "repo_url": "https://github.com/Sanjeet990/Astroluma",
+    "repo_stars": 428,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "Smarty"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Sanjeet990"
+    }
+   },
+   "issue_title": "Question: How do you delete uploads where the files were accidentally removed",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "bug"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "question"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 4
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Mujtabaa07/coffeeShop/issues/50",
+   "issue_createdAt": "2024-12-31T20:29:38Z",
+   "issue_repo": {
+    "repo_name": "coffeeShop",
+    "repo_desc": "MsCafe was founded with a simple mission: to serve the best coffee in town.with User friendly interface UI",
+    "repo_url": "https://github.com/Mujtabaa07/coffeeShop",
+    "repo_stars": 12,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Mujtabaa07"
+    }
+   },
+   "issue_title": "Assigning icons in contact us page!!",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "SWOC"
+     },
+     {
+      "label_name": "BEGINNER"
+     }
+    ],
+    "label_totalcount": 3
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/mprov-ng/mprov_control_center/issues/154",
    "issue_createdAt": "2024-12-31T20:29:16Z",
    "issue_repo": {
@@ -108,52 +2991,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/bradmcnew/college-advisor/issues/4",
-   "issue_createdAt": "2024-12-31T20:27:29Z",
-   "issue_repo": {
-    "repo_name": "college-advisor",
-    "repo_desc": "",
-    "repo_url": "https://github.com/bradmcnew/college-advisor",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "bradmcnew"
-    }
-   },
-   "issue_title": "Email input text change",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/Kalpesh311/Spotify/issues/3",
    "issue_createdAt": "2024-12-31T20:23:23Z",
    "issue_repo": {
@@ -194,7 +3031,7 @@
     "label_totalcount": 4
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 3
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -368,7 +3205,7 @@
     "repo_name": "typst-iaik-master-thesis-template",
     "repo_desc": "Typst IAIK Master Thesis Template",
     "repo_url": "https://github.com/ecomaikgolf/typst-iaik-master-thesis-template",
-    "repo_stars": 1,
+    "repo_stars": 2,
     "repo_langs": {
      "Nodes": [
       {
@@ -457,7 +3294,7 @@
     "repo_name": "dipc",
     "repo_desc": "Convert your favorite images and wallpapers with your favorite color palettes/themes",
     "repo_url": "https://github.com/doprz/dipc",
-    "repo_stars": 245,
+    "repo_stars": 246,
     "repo_langs": {
      "Nodes": [
       {
@@ -528,7 +3365,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 3
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -669,7 +3506,7 @@
     "repo_name": "pg_mooncake",
     "repo_desc": "Iceberg/Delta Columnstore Table in Postgres",
     "repo_url": "https://github.com/Mooncake-Labs/pg_mooncake",
-    "repo_stars": 267,
+    "repo_stars": 268,
     "repo_langs": {
      "Nodes": [
       {
@@ -1366,10 +4203,10 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 2
+    "issue_comment_count": 3
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -1571,13 +4408,13 @@
       "label_name": "reach - all"
      },
      {
-      "label_name": "skill level - basic"
+      "label_name": "priority - medium"
      },
      {
-      "label_name": "skill - ui"
+      "label_name": "skill level - basic"
      }
     ],
-    "label_totalcount": 10
+    "label_totalcount": 11
    },
    "Comments": {
     "issue_comment_count": 0
@@ -1739,6 +4576,55 @@
     }
    },
    "issue_title": "Add footer section",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 2
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/Rehaan12345/crlspathfinders_frontend/issues/48",
+   "issue_createdAt": "2024-12-31T17:06:09Z",
+   "issue_repo": {
+    "repo_name": "crlspathfinders_frontend",
+    "repo_desc": "Student developed and maintained website for bringing resources closer to CRLS students.",
+    "repo_url": "https://github.com/Rehaan12345/crlspathfinders_frontend",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "Svelte"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Rehaan12345"
+    }
+   },
+   "issue_title": "Configure library API information",
    "issue_labels": {
     "Nodes": [
      {
@@ -2091,7 +4977,7 @@
     "repo_name": "CopilotKit",
     "repo_desc": "React UI + elegant infrastructure for AI Copilots, in-app AI agents, AI chatbots, and AI-powered Textareas 🪁",
     "repo_url": "https://github.com/CopilotKit/CopilotKit",
-    "repo_stars": 14569,
+    "repo_stars": 14624,
     "repo_langs": {
      "Nodes": [
       {
@@ -2771,7 +5657,7 @@
     "repo_name": "Slopify",
     "repo_desc": "The ideomotor effect of software",
     "repo_url": "https://github.com/DishpitDev/Slopify",
-    "repo_stars": 508,
+    "repo_stars": 513,
     "repo_langs": {
      "Nodes": [
       {
@@ -2912,7 +5798,7 @@
     "repo_name": "datafusion",
     "repo_desc": "Apache DataFusion SQL Query Engine",
     "repo_url": "https://github.com/apache/datafusion",
-    "repo_stars": 6519,
+    "repo_stars": 6520,
     "repo_langs": {
      "Nodes": [
       {
@@ -3163,7 +6049,7 @@
     "repo_name": "cloudflare_temp_email",
     "repo_desc": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
     "repo_url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
-    "repo_stars": 2925,
+    "repo_stars": 2926,
     "repo_langs": {
      "Nodes": [
       {
@@ -3317,7 +6203,7 @@
     "repo_name": "PojavLauncher",
     "repo_desc": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. This repository contains source code for Android platform.",
     "repo_url": "https://github.com/PojavLauncherTeam/PojavLauncher",
-    "repo_stars": 6974,
+    "repo_stars": 6973,
     "repo_langs": {
      "Nodes": [
       {
@@ -3461,7 +6347,7 @@
     "repo_name": "chonkie",
     "repo_desc": "🦛 CHONK your texts with Chonkie ✨ - The no-nonsense RAG chunking library",
     "repo_url": "https://github.com/chonkie-ai/chonkie",
-    "repo_stars": 2112,
+    "repo_stars": 2114,
     "repo_langs": {
      "Nodes": [
       {
@@ -3490,45 +6376,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/iyamp/ed-api-design/issues/3",
-   "issue_createdAt": "2024-12-31T14:14:57Z",
-   "issue_repo": {
-    "repo_name": "ed-api-design",
-    "repo_desc": "",
-    "repo_url": "https://github.com/iyamp/ed-api-design",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "iyamp"
-    }
-   },
-   "issue_title": "Comprehensive Timesheet Management Swagger API Design for Educational Institutions",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "design/documentation"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
    }
   }
  },
@@ -3684,7 +6531,7 @@
     "repo_name": "swark",
     "repo_desc": "Create architecture diagrams from code automatically using large language models (LLMs).",
     "repo_url": "https://github.com/swark-io/swark",
-    "repo_stars": 32,
+    "repo_stars": 33,
     "repo_langs": {
      "Nodes": [
       {
@@ -4139,7 +6986,7 @@
     "repo_name": "limbo",
     "repo_desc": "Limbo is a work-in-progress, in-process OLTP database management system, compatible with SQLite.",
     "repo_url": "https://github.com/tursodatabase/limbo",
-    "repo_stars": 8116,
+    "repo_stars": 8128,
     "repo_langs": {
      "Nodes": [
       {
@@ -4249,52 +7096,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9457",
-   "issue_createdAt": "2024-12-31T12:35:30Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "bitcoin company's",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "location-submission"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/collective/icalendar/issues/762",
    "issue_createdAt": "2024-12-31T12:28:58Z",
    "issue_repo": {
@@ -4363,55 +7164,6 @@
    },
    "Comments": {
     "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9456",
-   "issue_createdAt": "2024-12-31T12:22:34Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "La Ferme des Damoiselles",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "location-submission"
-     },
-     {
-      "label_name": "France"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -4510,55 +7262,6 @@
    },
    "Comments": {
     "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9455",
-   "issue_createdAt": "2024-12-31T11:57:22Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "Christbaumverkauf Fam. Grill",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "verify-submission"
-     },
-     {
-      "label_name": "Austria"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -5043,7 +7746,7 @@
     "repo_name": "twenty",
     "repo_desc": "Building a modern alternative to Salesforce, powered by the community.",
     "repo_url": "https://github.com/twentyhq/twenty",
-    "repo_stars": 24371,
+    "repo_stars": 24376,
     "repo_langs": {
      "Nodes": [
       {
@@ -6100,7 +8803,7 @@
     "repo_name": "ragflow",
     "repo_desc": "RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.",
     "repo_url": "https://github.com/infiniflow/ragflow",
-    "repo_stars": 26746,
+    "repo_stars": 26757,
     "repo_langs": {
      "Nodes": [
       {
@@ -6341,429 +9044,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7576",
-   "issue_createdAt": "2024-12-31T08:42:49Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "2028352886",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7575",
-   "issue_createdAt": "2024-12-31T08:42:31Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "1340055549",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     }
-    ],
-    "label_totalcount": 7
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7574",
-   "issue_createdAt": "2024-12-31T08:42:21Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "1238590678",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7572",
-   "issue_createdAt": "2024-12-31T08:37:40Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "266320487",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 8
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7571",
-   "issue_createdAt": "2024-12-31T08:36:53Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "572720111",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7570",
-   "issue_createdAt": "2024-12-31T08:36:33Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "1609356898",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7569",
-   "issue_createdAt": "2024-12-31T08:36:19Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "1538903823",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 7
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7568",
-   "issue_createdAt": "2024-12-31T08:36:02Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "984154755",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 8
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7566",
-   "issue_createdAt": "2024-12-31T08:34:46Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "746205389",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/The-Marquis-Gaming/themarquis-ui/issues/119",
    "issue_createdAt": "2024-12-31T08:34:41Z",
    "issue_repo": {
@@ -6811,138 +9091,6 @@
    },
    "Comments": {
     "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7565",
-   "issue_createdAt": "2024-12-31T08:34:39Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "442612797",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 8
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7563",
-   "issue_createdAt": "2024-12-31T08:34:04Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "884810124",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues/issues/7562",
-   "issue_createdAt": "2024-12-31T08:24:50Z",
-   "issue_repo": {
-    "repo_name": "Unit_Automation_Issues",
-    "repo_desc": "",
-    "repo_url": "https://github.com/AutomationSyncUser/Unit_Automation_Issues",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "AutomationSyncUser"
-    }
-   },
-   "issue_title": "1508774646",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "invalid"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -7581,7 +9729,7 @@
      "repo_owner": "project-robius"
     }
    },
-   "issue_title": "display to tooltip above the verification badge in Mobile view",
+   "issue_title": "Display tooltip *above*, not over, the verification badge when in Mobile view",
    "issue_labels": {
     "Nodes": [
      {
@@ -7609,7 +9757,7 @@
     "repo_name": "sglang",
     "repo_desc": "SGLang is a fast serving framework for large language models and vision language models.",
     "repo_url": "https://github.com/sgl-project/sglang",
-    "repo_stars": 6933,
+    "repo_stars": 6941,
     "repo_langs": {
      "Nodes": [
       {
@@ -7655,7 +9803,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -7699,52 +9847,6 @@
      }
     ],
     "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/slatedb/slatedb/issues/424",
-   "issue_createdAt": "2024-12-31T06:59:05Z",
-   "issue_repo": {
-    "repo_name": "slatedb",
-    "repo_desc": "A cloud native embedded storage engine built on object storage.",
-    "repo_url": "https://github.com/slatedb/slatedb",
-    "repo_stars": 1693,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "slatedb"
-    }
-   },
-   "issue_title": "Update \"Connect SlateDB to S3\" documentation and remove dynamodb ",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 3
    },
    "Comments": {
     "issue_comment_count": 0
@@ -9042,7 +11144,7 @@
     "repo_name": "chonkie",
     "repo_desc": "🦛 CHONK your texts with Chonkie ✨ - The no-nonsense RAG chunking library",
     "repo_url": "https://github.com/chonkie-ai/chonkie",
-    "repo_stars": 2112,
+    "repo_stars": 2114,
     "repo_langs": {
      "Nodes": [
       {
@@ -9067,7 +11169,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 4
+    "issue_comment_count": 5
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -9134,7 +11236,7 @@
     "repo_name": "feishuservice",
     "repo_desc": "接入飞书自定义应用机器人，可满足openai对话、天气查询等",
     "repo_url": "https://github.com/wankaiyi/feishuservice",
-    "repo_stars": 6,
+    "repo_stars": 7,
     "repo_langs": {
      "Nodes": [
       {
@@ -9361,55 +11463,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9454",
-   "issue_createdAt": "2024-12-31T04:56:16Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "Loida rapper store",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "location-submission"
-     },
-     {
-      "label_name": "Philippines"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
    }
   }
  },
@@ -10063,55 +12116,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9453",
-   "issue_createdAt": "2024-12-31T04:25:11Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "The Happy Bird Cafe",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "verify-submission"
-     },
-     {
-      "label_name": "Vietnam"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/meilisearch/meilisearch-dart/issues/400",
    "issue_createdAt": "2024-12-31T04:19:24Z",
    "issue_repo": {
@@ -10668,6 +12672,43 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/Scottywonderful/SWLCallouts/issues/5",
+   "issue_createdAt": "2024-12-31T03:47:44Z",
+   "issue_repo": {
+    "repo_name": "SWLCallouts",
+    "repo_desc": "This is Scottywonderful Callouts, these callouts are created for LSPDFR",
+    "repo_url": "https://github.com/Scottywonderful/SWLCallouts",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "C#"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Scottywonderful"
+    }
+   },
+   "issue_title": "Tag ''cleanup''",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/echomuwen/test0530/issues/1",
    "issue_createdAt": "2024-12-31T03:47:44Z",
    "issue_repo": {
@@ -10711,55 +12752,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9452",
-   "issue_createdAt": "2024-12-31T03:47:39Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "Loida store",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "location-submission"
-     },
-     {
-      "label_name": "Philippines"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
    }
   }
  },
@@ -11101,13 +13093,59 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/jeffreytse/jekyll-deploy-action/issues/93",
+   "issue_createdAt": "2024-12-31T02:26:27Z",
+   "issue_repo": {
+    "repo_name": "jekyll-deploy-action",
+    "repo_desc": "🪂 A Github Action to deploy the Jekyll site conveniently for GitHub Pages.",
+    "repo_url": "https://github.com/jeffreytse/jekyll-deploy-action",
+    "repo_stars": 345,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Ruby"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "HTML"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "jeffreytse"
+    }
+   },
+   "issue_title": "jekyll deployment builds are counted into my contribution graph at my github profile",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 1
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/alexdglover/sage/issues/51",
    "issue_createdAt": "2024-12-31T01:59:13Z",
    "issue_repo": {
     "repo_name": "sage",
     "repo_desc": "An alternative to Intuit's recently retired Mint application for tracking personal finances.",
     "repo_url": "https://github.com/alexdglover/sage",
-    "repo_stars": 5,
+    "repo_stars": 6,
     "repo_langs": {
      "Nodes": [
       {
@@ -11138,7 +13176,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 3
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -12538,43 +14576,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/sam06tanb/CadastroDeNinjas/issues/1",
-   "issue_createdAt": "2024-12-30T22:46:02Z",
-   "issue_repo": {
-    "repo_name": "CadastroDeNinjas",
-    "repo_desc": "Uma API para cadastro de ninjas usando SpringBoot",
-    "repo_url": "https://github.com/sam06tanb/CadastroDeNinjas",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "sam06tanb"
-    }
-   },
-   "issue_title": "#1 Configurar o SpringBoot",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/F1exmp/python-first-project/issues/1",
    "issue_createdAt": "2024-12-30T22:36:38Z",
    "issue_repo": {
@@ -12603,92 +14604,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/LDeakin/zarrs/issues/115",
-   "issue_createdAt": "2024-12-30T22:33:15Z",
-   "issue_repo": {
-    "repo_name": "zarrs",
-    "repo_desc": "A Rust library for the Zarr storage format for multidimensional arrays and metadata",
-    "repo_url": "https://github.com/LDeakin/zarrs",
-    "repo_stars": 122,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "LDeakin"
-    }
-   },
-   "issue_title": "Add `VlenUtf8`, `VlenBytes`, `VlenArray` codecs and make `VlenV2Codec` private",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/LDeakin/zarrs/issues/114",
-   "issue_createdAt": "2024-12-30T22:33:08Z",
-   "issue_repo": {
-    "repo_name": "zarrs",
-    "repo_desc": "A Rust library for the Zarr storage format for multidimensional arrays and metadata",
-    "repo_url": "https://github.com/LDeakin/zarrs",
-    "repo_stars": 122,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "LDeakin"
-    }
-   },
-   "issue_title": "Rename `DataType::Binary` to `DataType::Bytes`",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
    }
   }
  },
@@ -12740,7 +14655,7 @@
     "repo_name": "julia",
     "repo_desc": "The Julia Programming Language",
     "repo_url": "https://github.com/JuliaLang/julia",
-    "repo_stars": 46067,
+    "repo_stars": 46068,
     "repo_langs": {
      "Nodes": [
       {
@@ -12892,7 +14807,7 @@
     "repo_name": "khoj",
     "repo_desc": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
     "repo_url": "https://github.com/khoj-ai/khoj",
-    "repo_stars": 17419,
+    "repo_stars": 17420,
     "repo_langs": {
      "Nodes": [
       {
@@ -13002,7 +14917,7 @@
     "repo_name": "khoj",
     "repo_desc": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
     "repo_url": "https://github.com/khoj-ai/khoj",
-    "repo_stars": 17419,
+    "repo_stars": 17420,
     "repo_langs": {
      "Nodes": [
       {
@@ -13560,7 +15475,7 @@
     "repo_name": "khoj",
     "repo_desc": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
     "repo_url": "https://github.com/khoj-ai/khoj",
-    "repo_stars": 17419,
+    "repo_stars": 17420,
     "repo_langs": {
      "Nodes": [
       {
@@ -13820,67 +15735,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/DishpitDev/Slopify/issues/208",
-   "issue_createdAt": "2024-12-30T20:18:13Z",
-   "issue_repo": {
-    "repo_name": "Slopify",
-    "repo_desc": "The ideomotor effect of software",
-    "repo_url": "https://github.com/DishpitDev/Slopify",
-    "repo_stars": 508,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "DishpitDev"
-    }
-   },
-   "issue_title": "Commit Leaderboard",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "help wanted"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/C7-Game/Prototype/issues/483",
    "issue_createdAt": "2024-12-30T20:17:09Z",
    "issue_repo": {
@@ -13936,7 +15790,7 @@
     "repo_name": "khoj",
     "repo_desc": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.",
     "repo_url": "https://github.com/khoj-ai/khoj",
-    "repo_stars": 17419,
+    "repo_stars": 17420,
     "repo_langs": {
      "Nodes": [
       {
@@ -14205,7 +16059,7 @@
     "repo_name": "AgentStack",
     "repo_desc": "The fastest way to build robust AI agents",
     "repo_url": "https://github.com/AgentOps-AI/AgentStack",
-    "repo_stars": 1251,
+    "repo_stars": 1253,
     "repo_langs": {
      "Nodes": [
       {
@@ -14227,7 +16081,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -14524,49 +16378,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/rapidosaas/job-board-nextjs/issues/34",
-   "issue_createdAt": "2024-12-30T19:22:51Z",
-   "issue_repo": {
-    "repo_name": "job-board-nextjs",
-    "repo_desc": "",
-    "repo_url": "https://github.com/rapidosaas/job-board-nextjs",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "rapidosaas"
-    }
-   },
-   "issue_title": "Unique username",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/tatsianamiroshik/unmeticulousness/issues/3",
    "issue_createdAt": "2024-12-30T19:19:00Z",
    "issue_repo": {
@@ -14609,7 +16420,7 @@
     "repo_name": "ag2",
     "repo_desc": "AG2 (formerly AutoGen): The Open-Source AgentOS. Join us at: https://discord.gg/pAbnFJrkgZ",
     "repo_url": "https://github.com/ag2ai/ag2",
-    "repo_stars": 1190,
+    "repo_stars": 1204,
     "repo_langs": {
      "Nodes": [
       {
@@ -15253,6 +17064,61 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/gregsadetsky/nycnoise/issues/375",
+   "issue_createdAt": "2024-12-30T18:40:27Z",
+   "issue_repo": {
+    "repo_name": "nycnoise",
+    "repo_desc": "",
+    "repo_url": "https://github.com/gregsadetsky/nycnoise",
+    "repo_stars": 18,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "Dockerfile"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "gregsadetsky"
+    }
+   },
+   "issue_title": "redirects?",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 2
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/USEPA/EPATADA/issues/563",
    "issue_createdAt": "2024-12-30T18:32:00Z",
    "issue_repo": {
@@ -15461,77 +17327,13 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/sbt/sbt/issues/7981",
-   "issue_createdAt": "2024-12-30T18:23:14Z",
-   "issue_repo": {
-    "repo_name": "sbt",
-    "repo_desc": "sbt, the interactive build tool",
-    "repo_url": "https://github.com/sbt/sbt",
-    "repo_stars": 4813,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Scala"
-      },
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Roff"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "C"
-      },
-      {
-       "repo_prog_language": "PowerShell"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "sbt"
-    }
-   },
-   "issue_title": "Feature Request: Support HTML Output for `inspect tree`",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/godotengine/godot/issues/100946",
    "issue_createdAt": "2024-12-30T18:15:20Z",
    "issue_repo": {
     "repo_name": "godot",
     "repo_desc": "Godot Engine – Multi-platform 2D and 3D game engine",
     "repo_url": "https://github.com/godotengine/godot",
-    "repo_stars": 92325,
+    "repo_stars": 92331,
     "repo_langs": {
      "Nodes": [
       {
@@ -15598,6 +17400,52 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/Rehaan12345/crlspathfinders_frontend/issues/45",
+   "issue_createdAt": "2024-12-30T17:55:41Z",
+   "issue_repo": {
+    "repo_name": "crlspathfinders_frontend",
+    "repo_desc": "Student developed and maintained website for bringing resources closer to CRLS students.",
+    "repo_url": "https://github.com/Rehaan12345/crlspathfinders_frontend",
+    "repo_stars": 3,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "Svelte"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "Rehaan12345"
+    }
+   },
+   "issue_title": "Remove all console.log() statements",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/lmstudio-ai/mlx-engine/issues/68",
    "issue_createdAt": "2024-12-30T17:53:10Z",
    "issue_repo": {
@@ -15626,7 +17474,7 @@
     "label_totalcount": 1
    },
    "Comments": {
-    "issue_comment_count": 0
+    "issue_comment_count": 1
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -16834,9 +18682,6 @@
      "Nodes": [
       {
        "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "HTML"
       }
      ]
     },
@@ -16861,6 +18706,79 @@
    },
    "Comments": {
     "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 1
+   }
+  }
+ },
+ {
+  "Issue": {
+   "issue_url": "https://github.com/dhairyagothi/100_days_100_web_project/issues/318",
+   "issue_createdAt": "2024-12-30T15:52:58Z",
+   "issue_repo": {
+    "repo_name": "100_days_100_web_project",
+    "repo_desc": "This repository contains 100 web projects from basic to intermediate using html css and js Please star the repo before start working on it ",
+    "repo_url": "https://github.com/dhairyagothi/100_days_100_web_project",
+    "repo_stars": 36,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "HTML"
+      },
+      {
+       "repo_prog_language": "CSS"
+      },
+      {
+       "repo_prog_language": "JavaScript"
+      },
+      {
+       "repo_prog_language": "EJS"
+      },
+      {
+       "repo_prog_language": "TypeScript"
+      },
+      {
+       "repo_prog_language": "Svelte"
+      },
+      {
+       "repo_prog_language": "PHP"
+      },
+      {
+       "repo_prog_language": "SCSS"
+      },
+      {
+       "repo_prog_language": "Haml"
+      },
+      {
+       "repo_prog_language": "Python"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "dhairyagothi"
+    }
+   },
+   "issue_title": "Add simon-say game",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "enhancement"
+     },
+     {
+      "label_name": "good first issue"
+     },
+     {
+      "label_name": "INTERMEDIATE"
+     },
+     {
+      "label_name": "SWOC"
+     }
+    ],
+    "label_totalcount": 4
+   },
+   "Comments": {
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -17633,7 +19551,7 @@
     "repo_name": "pipedream",
     "repo_desc": "Connect APIs, remarkably fast.  Free for developers.",
     "repo_url": "https://github.com/PipedreamHQ/pipedream",
-    "repo_stars": 9109,
+    "repo_stars": 9110,
     "repo_langs": {
      "Nodes": [
       {
@@ -17682,13 +19600,16 @@
       "label_name": "good first issue"
      },
      {
+      "label_name": "question"
+     },
+     {
       "label_name": "action"
      }
     ],
-    "label_totalcount": 4
+    "label_totalcount": 5
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -18685,7 +20606,7 @@
     "repo_name": "fuego",
     "repo_desc": "Golang Fuego - web framework generating OpenAPI 3 spec from source code",
     "repo_url": "https://github.com/go-fuego/fuego",
-    "repo_stars": 1023,
+    "repo_stars": 1024,
     "repo_langs": {
      "Nodes": [
       {
@@ -18728,7 +20649,7 @@
     "repo_name": "ghostfolio",
     "repo_desc": "Open Source Wealth Management Software. Angular + NestJS + Prisma + Nx + TypeScript 🤍",
     "repo_url": "https://github.com/ghostfolio/ghostfolio",
-    "repo_stars": 4806,
+    "repo_stars": 4807,
     "repo_langs": {
      "Nodes": [
       {
@@ -20575,7 +22496,7 @@
     "repo_name": "AutoGPT",
     "repo_desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "repo_url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "repo_stars": 169970,
+    "repo_stars": 169972,
     "repo_langs": {
      "Nodes": [
       {
@@ -20945,7 +22866,7 @@
     "repo_name": "pydantic-ai",
     "repo_desc": "Agent Framework / shim to use Pydantic with LLMs",
     "repo_url": "https://github.com/pydantic/pydantic-ai",
-    "repo_stars": 4589,
+    "repo_stars": 4600,
     "repo_langs": {
      "Nodes": [
       {
@@ -21661,7 +23582,7 @@
     "repo_name": "dify",
     "repo_desc": "Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.",
     "repo_url": "https://github.com/langgenius/dify",
-    "repo_stars": 56715,
+    "repo_stars": 56725,
     "repo_langs": {
      "Nodes": [
       {
@@ -21806,9 +23727,12 @@
      },
      {
       "label_name": "SWOC"
+     },
+     {
+      "label_name": "BEGINNER"
      }
     ],
-    "label_totalcount": 3
+    "label_totalcount": 4
    },
    "Comments": {
     "issue_comment_count": 1
@@ -22106,9 +24030,12 @@
      },
      {
       "label_name": "SWOC"
+     },
+     {
+      "label_name": "BEGINNER"
      }
     ],
-    "label_totalcount": 3
+    "label_totalcount": 4
    },
    "Comments": {
     "issue_comment_count": 1
@@ -22499,7 +24426,7 @@
     "repo_name": "pyri_tooltip",
     "repo_desc": "Powerful tooltips for Bevy",
     "repo_url": "https://github.com/benfrankel/pyri_tooltip",
-    "repo_stars": 16,
+    "repo_stars": 17,
     "repo_langs": {
      "Nodes": [
       {
@@ -22769,7 +24696,7 @@
     "repo_name": "sglang",
     "repo_desc": "SGLang is a fast serving framework for large language models and vision language models.",
     "repo_url": "https://github.com/sgl-project/sglang",
-    "repo_stars": 6933,
+    "repo_stars": 6941,
     "repo_langs": {
      "Nodes": [
       {
@@ -22830,7 +24757,7 @@
     "repo_name": "sglang",
     "repo_desc": "SGLang is a fast serving framework for large language models and vision language models.",
     "repo_url": "https://github.com/sgl-project/sglang",
-    "repo_stars": 6933,
+    "repo_stars": 6941,
     "repo_langs": {
      "Nodes": [
       {
@@ -22879,7 +24806,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 8
+    "issue_comment_count": 9
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -22894,7 +24821,7 @@
     "repo_name": "sglang",
     "repo_desc": "SGLang is a fast serving framework for large language models and vision language models.",
     "repo_url": "https://github.com/sgl-project/sglang",
-    "repo_stars": 6933,
+    "repo_stars": 6941,
     "repo_langs": {
      "Nodes": [
       {
@@ -22989,7 +24916,7 @@
     "label_totalcount": 2
    },
    "Comments": {
-    "issue_comment_count": 1
+    "issue_comment_count": 2
    },
    "Assignees": {
     "issue_assignees_count": 0
@@ -23004,7 +24931,7 @@
     "repo_name": "sglang",
     "repo_desc": "SGLang is a fast serving framework for large language models and vision language models.",
     "repo_url": "https://github.com/sgl-project/sglang",
-    "repo_stars": 6933,
+    "repo_stars": 6941,
     "repo_langs": {
      "Nodes": [
       {
@@ -23111,7 +25038,7 @@
     "repo_name": "big-AGI",
     "repo_desc": "AI suite powered by state-of-the-art models and providing advanced AI/AGI functions. It features AI personas, AGI functions, multi-model chats, text-to-image, voice, response streaming, code highlighting and execution, PDF import, presets for developers, much more. Deploy on-prem or in the cloud.",
     "repo_url": "https://github.com/enricoros/big-AGI",
-    "repo_stars": 5767,
+    "repo_stars": 5768,
     "repo_langs": {
      "Nodes": [
       {
@@ -23157,7 +25084,7 @@
     "repo_name": "sglang",
     "repo_desc": "SGLang is a fast serving framework for large language models and vision language models.",
     "repo_url": "https://github.com/sgl-project/sglang",
-    "repo_stars": 6933,
+    "repo_stars": 6941,
     "repo_langs": {
      "Nodes": [
       {
@@ -23255,7 +25182,7 @@
     "issue_comment_count": 1
    },
    "Assignees": {
-    "issue_assignees_count": 2
+    "issue_assignees_count": 1
    }
   }
  },
@@ -24097,7 +26024,7 @@
     "repo_name": "OpenHands",
     "repo_desc": "🙌 OpenHands: Code Less, Make More",
     "repo_url": "https://github.com/All-Hands-AI/OpenHands",
-    "repo_stars": 39566,
+    "repo_stars": 39594,
     "repo_langs": {
      "Nodes": [
       {
@@ -24305,7 +26232,7 @@
     "repo_name": "opendal",
     "repo_desc": "Apache OpenDAL: One Layer, All Storage.",
     "repo_url": "https://github.com/apache/opendal",
-    "repo_stars": 3607,
+    "repo_stars": 3608,
     "repo_langs": {
      "Nodes": [
       {
@@ -24375,7 +26302,7 @@
     "repo_name": "oxc",
     "repo_desc": "⚓ A collection of JavaScript tools written in Rust.",
     "repo_url": "https://github.com/oxc-project/oxc",
-    "repo_stars": 12965,
+    "repo_stars": 12971,
     "repo_langs": {
      "Nodes": [
       {
@@ -24899,7 +26826,7 @@
     "repo_name": "yazi",
     "repo_desc": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
     "repo_url": "https://github.com/sxyazi/yazi",
-    "repo_stars": 19681,
+    "repo_stars": 19693,
     "repo_langs": {
      "Nodes": [
       {
@@ -25184,7 +27111,7 @@
     "repo_name": "llvm-project",
     "repo_desc": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
     "repo_url": "https://github.com/llvm/llvm-project",
-    "repo_stars": 29892,
+    "repo_stars": 29898,
     "repo_langs": {
      "Nodes": [
       {
@@ -25331,7 +27258,7 @@
     "repo_name": "Yoopta-Editor",
     "repo_desc": "Build Notion-like, Craft-like, Coda-like, Medium-like editors with Yoopta",
     "repo_url": "https://github.com/yoopta-editor/Yoopta-Editor",
-    "repo_stars": 1630,
+    "repo_stars": 1633,
     "repo_langs": {
      "Nodes": [
       {
@@ -26742,7 +28669,7 @@
     "repo_name": "immich",
     "repo_desc": "High performance self-hosted photo and video management solution.",
     "repo_url": "https://github.com/immich-app/immich",
-    "repo_stars": 55315,
+    "repo_stars": 55337,
     "repo_langs": {
      "Nodes": [
       {
@@ -26849,7 +28776,7 @@
     "label_totalcount": 5
    },
    "Comments": {
-    "issue_comment_count": 10
+    "issue_comment_count": 12
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -27011,7 +28938,7 @@
     "repo_name": "codecompanion.nvim",
     "repo_desc": "✨ AI-powered coding, seamlessly in Neovim",
     "repo_url": "https://github.com/olimorris/codecompanion.nvim",
-    "repo_stars": 1613,
+    "repo_stars": 1616,
     "repo_langs": {
      "Nodes": [
       {
@@ -27156,52 +29083,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/davisouzaluna/MONITORIA_SISTEMAS_DISTRIBUIDOS/issues/4",
-   "issue_createdAt": "2024-12-29T20:49:00Z",
-   "issue_repo": {
-    "repo_name": "MONITORIA_SISTEMAS_DISTRIBUIDOS",
-    "repo_desc": "Repositório com objetivo de auxiliar a monitoria de sistemas distribuídos",
-    "repo_url": "https://github.com/davisouzaluna/MONITORIA_SISTEMAS_DISTRIBUIDOS",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "CMake"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "C"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "davisouzaluna"
-    }
-   },
-   "issue_title": "[CMAKE] creation of the project's general cmake",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  },
@@ -27785,7 +29666,7 @@
     "repo_name": "fuego",
     "repo_desc": "Golang Fuego - web framework generating OpenAPI 3 spec from source code",
     "repo_url": "https://github.com/go-fuego/fuego",
-    "repo_stars": 1023,
+    "repo_stars": 1024,
     "repo_langs": {
      "Nodes": [
       {
@@ -27880,7 +29761,7 @@
     "repo_name": "AutoGPT",
     "repo_desc": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
     "repo_url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "repo_stars": 169970,
+    "repo_stars": 169972,
     "repo_langs": {
      "Nodes": [
       {
@@ -28042,7 +29923,7 @@
     "repo_name": "detekt",
     "repo_desc": "Static code analysis for Kotlin",
     "repo_url": "https://github.com/detekt/detekt",
-    "repo_stars": 6342,
+    "repo_stars": 6343,
     "repo_langs": {
      "Nodes": [
       {
@@ -28348,7 +30229,7 @@
     "repo_name": "fuego",
     "repo_desc": "Golang Fuego - web framework generating OpenAPI 3 spec from source code",
     "repo_url": "https://github.com/go-fuego/fuego",
-    "repo_stars": 1023,
+    "repo_stars": 1024,
     "repo_langs": {
      "Nodes": [
       {
@@ -28570,7 +30451,7 @@
     "repo_name": "limbo",
     "repo_desc": "Limbo is a work-in-progress, in-process OLTP database management system, compatible with SQLite.",
     "repo_url": "https://github.com/tursodatabase/limbo",
-    "repo_stars": 8116,
+    "repo_stars": 8128,
     "repo_langs": {
      "Nodes": [
       {
@@ -29232,7 +31113,7 @@
     "repo_name": "enclosed",
     "repo_desc": "Minimalistic web app designed for sending private and secure notes.",
     "repo_url": "https://github.com/CorentinTh/enclosed",
-    "repo_stars": 1100,
+    "repo_stars": 1102,
     "repo_langs": {
      "Nodes": [
       {
@@ -29332,7 +31213,7 @@
     "repo_name": "FreeCAD",
     "repo_desc": "This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "repo_url": "https://github.com/FreeCAD/FreeCAD",
-    "repo_stars": 22277,
+    "repo_stars": 22284,
     "repo_langs": {
      "Nodes": [
       {
@@ -29875,7 +31756,7 @@
     "repo_name": "kyanos",
     "repo_desc": "Kyanos is a networking analysis tool based on eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.",
     "repo_url": "https://github.com/hengyoush/kyanos",
-    "repo_stars": 3402,
+    "repo_stars": 3403,
     "repo_langs": {
      "Nodes": [
       {
@@ -30031,7 +31912,7 @@
     "repo_name": "kyanos",
     "repo_desc": "Kyanos is a networking analysis tool based on eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.",
     "repo_url": "https://github.com/hengyoush/kyanos",
-    "repo_stars": 3402,
+    "repo_stars": 3403,
     "repo_langs": {
      "Nodes": [
       {
@@ -30777,7 +32658,7 @@
     "repo_name": "kyanos",
     "repo_desc": "Kyanos is a networking analysis tool based on eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.",
     "repo_url": "https://github.com/hengyoush/kyanos",
-    "repo_stars": 3402,
+    "repo_stars": 3403,
     "repo_langs": {
      "Nodes": [
       {
@@ -31028,7 +32909,7 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 3
+    "issue_comment_count": 4
    },
    "Assignees": {
     "issue_assignees_count": 1
@@ -31779,7 +33660,7 @@
     "repo_name": "kyanos",
     "repo_desc": "Kyanos is a networking analysis tool based on eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.",
     "repo_url": "https://github.com/hengyoush/kyanos",
-    "repo_stars": 3402,
+    "repo_stars": 3403,
     "repo_langs": {
      "Nodes": [
       {
@@ -32311,7 +34192,7 @@
     "repo_name": "kyanos",
     "repo_desc": "Kyanos is a networking analysis tool based on eBPF. It can visualize the time packets spend in the kernel, capture requests/responses, makes troubleshooting more efficient.",
     "repo_url": "https://github.com/hengyoush/kyanos",
-    "repo_stars": 3402,
+    "repo_stars": 3403,
     "repo_langs": {
      "Nodes": [
       {
@@ -33925,7 +35806,7 @@
     "repo_name": "build",
     "repo_desc": "Armbian Linux build framework generates custom Debian or Ubuntu image for x86, aarch64, riscv64 \u0026 armhf",
     "repo_url": "https://github.com/armbian/build",
-    "repo_stars": 4342,
+    "repo_stars": 4343,
     "repo_langs": {
      "Nodes": [
       {
@@ -34876,52 +36757,6 @@
  },
  {
   "Issue": {
-   "issue_url": "https://github.com/Mujtabaa07/coffeeShop/issues/44",
-   "issue_createdAt": "2024-12-29T09:45:56Z",
-   "issue_repo": {
-    "repo_name": "coffeeShop",
-    "repo_desc": "MsCafe was founded with a simple mission: to serve the best coffee in town.with User friendly interface UI",
-    "repo_url": "https://github.com/Mujtabaa07/coffeeShop",
-    "repo_stars": 11,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Mujtabaa07"
-    }
-   },
-   "issue_title": "Add testimonials section",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "SWOC"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
    "issue_url": "https://github.com/gccci/randomCatFacts/issues/301",
    "issue_createdAt": "2024-12-29T09:44:40Z",
    "issue_repo": {
@@ -34961,7 +36796,7 @@
     "repo_name": "coffeeShop",
     "repo_desc": "MsCafe was founded with a simple mission: to serve the best coffee in town.with User friendly interface UI",
     "repo_url": "https://github.com/Mujtabaa07/coffeeShop",
-    "repo_stars": 11,
+    "repo_stars": 12,
     "repo_langs": {
      "Nodes": [
       {
@@ -34987,9 +36822,12 @@
      },
      {
       "label_name": "SWOC"
+     },
+     {
+      "label_name": "BEGINNER"
      }
     ],
-    "label_totalcount": 2
+    "label_totalcount": 3
    },
    "Comments": {
     "issue_comment_count": 1
@@ -35220,10 +37058,10 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 3
+    "issue_comment_count": 4
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -35321,7 +37159,7 @@
     "issue_comment_count": 5
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -35628,7 +37466,7 @@
     "repo_name": "firmware",
     "repo_desc": "Meshtastic device firmware",
     "repo_url": "https://github.com/meshtastic/firmware",
-    "repo_stars": 3833,
+    "repo_stars": 3834,
     "repo_langs": {
      "Nodes": [
       {
@@ -36623,7 +38461,7 @@
     "repo_name": "checkmate",
     "repo_desc": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.",
     "repo_url": "https://github.com/bluewave-labs/checkmate",
-    "repo_stars": 2965,
+    "repo_stars": 2983,
     "repo_langs": {
      "Nodes": [
       {
@@ -36927,7 +38765,7 @@
     "repo_name": "waveterm",
     "repo_desc": "An open-source, cross-platform terminal for seamless workflows",
     "repo_url": "https://github.com/wavetermdev/waveterm",
-    "repo_stars": 8021,
+    "repo_stars": 8032,
     "repo_langs": {
      "Nodes": [
       {
@@ -37421,7 +39259,7 @@
     "repo_name": "toolpad",
     "repo_desc": "Toolpad: Full stack components and low-code builder for dashboards and internal apps.",
     "repo_url": "https://github.com/mui/toolpad",
-    "repo_stars": 1338,
+    "repo_stars": 1339,
     "repo_langs": {
      "Nodes": [
       {
@@ -37612,7 +39450,7 @@
     "repo_name": "linguist",
     "repo_desc": "Language Savant. If your repository's language is being reported incorrectly, send us a pull request!",
     "repo_url": "https://github.com/github-linguist/linguist",
-    "repo_stars": 12447,
+    "repo_stars": 12448,
     "repo_langs": {
      "Nodes": [
       {
@@ -37858,7 +39696,7 @@
     "repo_name": "checkmate",
     "repo_desc": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations.",
     "repo_url": "https://github.com/bluewave-labs/checkmate",
-    "repo_stars": 2965,
+    "repo_stars": 2983,
     "repo_langs": {
      "Nodes": [
       {
@@ -37898,10 +39736,10 @@
     "label_totalcount": 3
    },
    "Comments": {
-    "issue_comment_count": 2
+    "issue_comment_count": 4
    },
    "Assignees": {
-    "issue_assignees_count": 0
+    "issue_assignees_count": 1
    }
   }
  },
@@ -38054,7 +39892,7 @@
     "repo_name": "roc",
     "repo_desc": "A fast, friendly, functional language.",
     "repo_url": "https://github.com/roc-lang/roc",
-    "repo_stars": 4576,
+    "repo_stars": 4577,
     "repo_langs": {
      "Nodes": [
       {
@@ -38604,7 +40442,7 @@
     "repo_name": "coreutils",
     "repo_desc": "Cross-platform Rust rewrite of the GNU coreutils",
     "repo_url": "https://github.com/uutils/coreutils",
-    "repo_stars": 17930,
+    "repo_stars": 17931,
     "repo_langs": {
      "Nodes": [
       {
@@ -40365,6 +42203,49 @@
  },
  {
   "Issue": {
+   "issue_url": "https://github.com/WATonomous/cvmfs-ephemeral/issues/12",
+   "issue_createdAt": "2024-12-28T17:53:35Z",
+   "issue_repo": {
+    "repo_name": "cvmfs-ephemeral",
+    "repo_desc": "A CVMFS server meant fo storing ephemeral data. Suitable for storing short-lived artifacts in CI/CD pipelines.",
+    "repo_url": "https://github.com/WATonomous/cvmfs-ephemeral",
+    "repo_stars": 0,
+    "repo_langs": {
+     "Nodes": [
+      {
+       "repo_prog_language": "Dockerfile"
+      },
+      {
+       "repo_prog_language": "Shell"
+      },
+      {
+       "repo_prog_language": "Python"
+      }
+     ]
+    },
+    "Owner": {
+     "repo_owner": "WATonomous"
+    }
+   },
+   "issue_title": "Support streaming upload",
+   "issue_labels": {
+    "Nodes": [
+     {
+      "label_name": "good first issue"
+     }
+    ],
+    "label_totalcount": 1
+   },
+   "Comments": {
+    "issue_comment_count": 0
+   },
+   "Assignees": {
+    "issue_assignees_count": 0
+   }
+  }
+ },
+ {
+  "Issue": {
    "issue_url": "https://github.com/Emanuel-Palestino/ez-vault/issues/2",
    "issue_createdAt": "2024-12-28T17:49:23Z",
    "issue_repo": {
@@ -40840,7 +42721,7 @@
     "repo_name": "meshery",
     "repo_desc": "Meshery, the cloud native manager",
     "repo_url": "https://github.com/meshery/meshery",
-    "repo_stars": 6409,
+    "repo_stars": 6419,
     "repo_langs": {
      "Nodes": [
       {
@@ -41618,7 +43499,7 @@
     "label_totalcount": 6
    },
    "Comments": {
-    "issue_comment_count": 13
+    "issue_comment_count": 14
    },
    "Assignees": {
     "issue_assignees_count": 2
@@ -41995,1804 +43876,6 @@
    },
    "Assignees": {
     "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/iota-uz/iota-sdk/issues/42",
-   "issue_createdAt": "2024-12-28T11:34:53Z",
-   "issue_repo": {
-    "repo_name": "iota-sdk",
-    "repo_desc": "IOTA-SDK - is an open-source modular ERP. An alternative to Odoo or ERPNEXT written in Go with modern look \u0026 feel",
-    "repo_url": "https://github.com/iota-uz/iota-sdk",
-    "repo_stars": 185,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Go"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "templ"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "iota-uz"
-    }
-   },
-   "issue_title": "Payment creation fails",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/CryptoMorin/XSeries/issues/319",
-   "issue_createdAt": "2024-12-28T11:34:03Z",
-   "issue_repo": {
-    "repo_name": "XSeries",
-    "repo_desc": "Library for cross-version Minecraft Bukkit support and various efficient API methods.",
-    "repo_url": "https://github.com/CryptoMorin/XSeries",
-    "repo_stars": 414,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "CryptoMorin"
-    }
-   },
-   "issue_title": "[XBiome] World#getMinHeight check sets wrong boolean (maxHeight) to true",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/R-Sandor/FindFirst/issues/289",
-   "issue_createdAt": "2024-12-28T11:28:15Z",
-   "issue_repo": {
-    "repo_name": "FindFirst",
-    "repo_desc": "Organizing the information that matters to you and your teams. The knowledge of your world.",
-    "repo_url": "https://github.com/R-Sandor/FindFirst",
-    "repo_stars": 13,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "R-Sandor"
-    }
-   },
-   "issue_title": "[Frontend] - When the screen is too small don't render TagList",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "backlog"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/R-Sandor/FindFirst/issues/288",
-   "issue_createdAt": "2024-12-28T11:26:12Z",
-   "issue_repo": {
-    "repo_name": "FindFirst",
-    "repo_desc": "Organizing the information that matters to you and your teams. The knowledge of your world.",
-    "repo_url": "https://github.com/R-Sandor/FindFirst",
-    "repo_stars": 13,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "R-Sandor"
-    }
-   },
-   "issue_title": "[Frontend] - Create a responsive view React Hook",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "backlog"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/gitgoap/AI-Snipping-Tool/issues/92",
-   "issue_createdAt": "2024-12-28T11:11:47Z",
-   "issue_repo": {
-    "repo_name": "AI-Snipping-Tool",
-    "repo_desc": " Advantages: Requires \"no internet\" for text extraction | 🌟 to support our work!",
-    "repo_url": "https://github.com/gitgoap/AI-Snipping-Tool",
-    "repo_stars": 32,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "gitgoap"
-    }
-   },
-   "issue_title": "[Video] Create a short video installing AI Snipping Tool in Chrome",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "beginner"
-     },
-     {
-      "label_name": "SWOC"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/code-charity/youtube/issues/2754",
-   "issue_createdAt": "2024-12-28T10:59:49Z",
-   "issue_repo": {
-    "repo_name": "youtube",
-    "repo_desc": "[top~1 open YouTube \u0026 Video browser-extension] - Enrich your experience \u0026 choice! 🧰180+ options \u0026 clever features 📌set+forget📌Longest-standing(been tough). Please join🧩us👨‍👩‍👧‍👧 ..⋮ {playback|content discovery|player|extra buttons|distractions|related videos|shorts|ads|quality|codec|full tab|full screen}",
-    "repo_url": "https://github.com/code-charity/youtube",
-    "repo_stars": 3576,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "code-charity"
-    }
-   },
-   "issue_title": "🐞Chapters not show in sidebar",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "Bug"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "up-for-grabs"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kora-projects/kora/issues/215",
-   "issue_createdAt": "2024-12-28T10:59:13Z",
-   "issue_repo": {
-    "repo_name": "kora",
-    "repo_desc": "Kora Framework",
-    "repo_url": "https://github.com/kora-projects/kora",
-    "repo_stars": 70,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "Kotlin"
-      },
-      {
-       "repo_prog_language": "Mustache"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kora-projects"
-    }
-   },
-   "issue_title": "RetryBudget or/and Jitter",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "improvement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kora-projects/kora/issues/214",
-   "issue_createdAt": "2024-12-28T10:54:27Z",
-   "issue_repo": {
-    "repo_name": "kora",
-    "repo_desc": "Kora Framework",
-    "repo_url": "https://github.com/kora-projects/kora",
-    "repo_stars": 70,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "Kotlin"
-      },
-      {
-       "repo_prog_language": "Mustache"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kora-projects"
-    }
-   },
-   "issue_title": "Schedule Cron on JDK",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "new feature"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kora-projects/kora/issues/213",
-   "issue_createdAt": "2024-12-28T10:48:33Z",
-   "issue_repo": {
-    "repo_name": "kora",
-    "repo_desc": "Kora Framework",
-    "repo_url": "https://github.com/kora-projects/kora",
-    "repo_stars": 70,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "Kotlin"
-      },
-      {
-       "repo_prog_language": "Mustache"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kora-projects"
-    }
-   },
-   "issue_title": "Bulkhead",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "new feature"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kora-projects/kora/issues/212",
-   "issue_createdAt": "2024-12-28T10:41:49Z",
-   "issue_repo": {
-    "repo_name": "kora",
-    "repo_desc": "Kora Framework",
-    "repo_url": "https://github.com/kora-projects/kora",
-    "repo_stars": 70,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "Kotlin"
-      },
-      {
-       "repo_prog_language": "Mustache"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kora-projects"
-    }
-   },
-   "issue_title": "RateLimiter",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "new feature"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/valteryde/kaxe/issues/41",
-   "issue_createdAt": "2024-12-28T10:30:22Z",
-   "issue_repo": {
-    "repo_name": "kaxe",
-    "repo_desc": "",
-    "repo_url": "https://github.com/valteryde/kaxe",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "valteryde"
-    }
-   },
-   "issue_title": "Points should take and xy and xyz 1d list of points ",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "Idea"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/WaleedDev-39/First-Repositry-2022-ag-8036-/issues/4",
-   "issue_createdAt": "2024-12-28T10:21:48Z",
-   "issue_repo": {
-    "repo_name": "First-Repositry-2022-ag-8036-",
-    "repo_desc": "",
-    "repo_url": "https://github.com/WaleedDev-39/First-Repositry-2022-ag-8036-",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "WaleedDev-39"
-    }
-   },
-   "issue_title": "Demo Issue",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "duplicate"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/JoachimCoenen/Datapack-Editor/issues/56",
-   "issue_createdAt": "2024-12-28T10:19:57Z",
-   "issue_repo": {
-    "repo_name": "Datapack-Editor",
-    "repo_desc": "A Minecraft Datapack creator and editor",
-    "repo_url": "https://github.com/JoachimCoenen/Datapack-Editor",
-    "repo_stars": 16,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "JoachimCoenen"
-    }
-   },
-   "issue_title": "\"new Folder\" also creates file \"_ignoreMe.txt\".",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "base"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kando-menu/kando/issues/757",
-   "issue_createdAt": "2024-12-28T10:12:56Z",
-   "issue_repo": {
-    "repo_name": "kando",
-    "repo_desc": "🌸 Do things with utmost efficiency.",
-    "repo_url": "https://github.com/kando-menu/kando",
-    "repo_stars": 3412,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "SCSS"
-      },
-      {
-       "repo_prog_language": "C++"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CMake"
-      },
-      {
-       "repo_prog_language": "Handlebars"
-      },
-      {
-       "repo_prog_language": "Objective-C++"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kando-menu"
-    }
-   },
-   "issue_title": "Add a white and a black tray icon flavor",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "feature request"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/rolldown/rolldown/issues/3256",
-   "issue_createdAt": "2024-12-28T10:01:14Z",
-   "issue_repo": {
-    "repo_name": "rolldown",
-    "repo_desc": "Fast Rust bundler for JavaScript/TypeScript with Rollup-compatible API.",
-    "repo_url": "https://github.com/rolldown/rolldown",
-    "repo_stars": 9502,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Just"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "rolldown"
-    }
-   },
-   "issue_title": "[Infra] Remove some unnecessary tests in nodejs",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "contrib: medium"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Eddycrack864/UVR5-UI/issues/28",
-   "issue_createdAt": "2024-12-28T09:49:17Z",
-   "issue_repo": {
-    "repo_name": "UVR5-UI",
-    "repo_desc": "Ultimate Vocal Remover 5 with Gradio UI. Separate an audio file into various stems, using multiple models",
-    "repo_url": "https://github.com/Eddycrack864/UVR5-UI",
-    "repo_stars": 245,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Jupyter Notebook"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "Eddycrack864"
-    }
-   },
-   "issue_title": "Choose only  VOCAL  or  INSTRUMENTAL  to save render time?",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/gccci/randomCatFacts/issues/300",
-   "issue_createdAt": "2024-12-28T09:44:39Z",
-   "issue_repo": {
-    "repo_name": "randomCatFacts",
-    "repo_desc": "",
-    "repo_url": "https://github.com/gccci/randomCatFacts",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "gccci"
-    }
-   },
-   "issue_title": "Some Issue",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/wemake-services/wemake-python-styleguide/issues/3241",
-   "issue_createdAt": "2024-12-28T09:41:33Z",
-   "issue_repo": {
-    "repo_name": "wemake-python-styleguide",
-    "repo_desc": "The strictest and most opinionated python linter ever!",
-    "repo_url": "https://github.com/wemake-services/wemake-python-styleguide",
-    "repo_stars": 2622,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "wemake-services"
-    }
-   },
-   "issue_title": "CLI tool to explain violation codes",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "feature"
-     },
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 4
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kiwamizamurai/chotsuzuri/issues/1",
-   "issue_createdAt": "2024-12-28T09:25:22Z",
-   "issue_repo": {
-    "repo_name": "chotsuzuri",
-    "repo_desc": "fabulous next-generation accounting system",
-    "repo_url": "https://github.com/kiwamizamurai/chotsuzuri",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Go"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "Python"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kiwamizamurai"
-    }
-   },
-   "issue_title": "Use scalar for openapi instead of redoc",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/KouroshKSH/CS419-Resources/issues/1",
-   "issue_createdAt": "2024-12-28T09:17:10Z",
-   "issue_repo": {
-    "repo_name": "CS419-Resources",
-    "repo_desc": "This is a repository that contains links to the extra material provided by Prof. Erchan Aptoula for the course CS419, Digital Image and Video Analysis, at Sabanci University during the 2024-25 Fall semester. ",
-    "repo_url": "https://github.com/KouroshKSH/CS419-Resources",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Jupyter Notebook"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "KouroshKSH"
-    }
-   },
-   "issue_title": "Grammatical Mistakes and/or Typos ",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/jenkins-infra/plugin-modernizer-tool/issues/517",
-   "issue_createdAt": "2024-12-28T08:56:09Z",
-   "issue_repo": {
-    "repo_name": "plugin-modernizer-tool",
-    "repo_desc": "",
-    "repo_url": "https://github.com/jenkins-infra/plugin-modernizer-tool",
-    "repo_stars": 10,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "Batchfile"
-      },
-      {
-       "repo_prog_language": "Smarty"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "jenkins-infra"
-    }
-   },
-   "issue_title": "Enhance `RemoveProperty` recipes to only remove properties not referenced on pom",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/IMGIITRoorkee/Ticketify/issues/77",
-   "issue_createdAt": "2024-12-28T08:41:28Z",
-   "issue_repo": {
-    "repo_name": "Ticketify",
-    "repo_desc": "Ticketify is a simple ticketing app to track the progress of your tickets, built in NextJS.",
-    "repo_url": "https://github.com/IMGIITRoorkee/Ticketify",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "IMGIITRoorkee"
-    }
-   },
-   "issue_title": "Fix typo in website",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "easy"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/pymc-labs/pymc-marketing/issues/1321",
-   "issue_createdAt": "2024-12-28T08:39:56Z",
-   "issue_repo": {
-    "repo_name": "pymc-marketing",
-    "repo_desc": "Bayesian marketing toolbox in PyMC. Media Mix (MMM), customer lifetime value (CLV), buy-till-you-die (BTYD) models and more.",
-    "repo_url": "https://github.com/pymc-labs/pymc-marketing",
-    "repo_stars": 737,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Makefile"
-      },
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "Shell"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "pymc-labs"
-    }
-   },
-   "issue_title": "Deprecate media transformation registration",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "MMM"
-     },
-     {
-      "label_name": "maintenance"
-     },
-     {
-      "label_name": "media transforms"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/isographlabs/isograph/issues/299",
-   "issue_createdAt": "2024-12-28T08:38:50Z",
-   "issue_repo": {
-    "repo_name": "isograph",
-    "repo_desc": "The UI framework for teams that move fast — without breaking things.",
-    "repo_url": "https://github.com/isographlabs/isograph",
-    "repo_stars": 263,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "Rust"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "RenderScript"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "isographlabs"
-    }
-   },
-   "issue_title": "Add documentation about no_babel_transform",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 1
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/NandaTadepalli/Hostel_Food_Delivery/issues/3",
-   "issue_createdAt": "2024-12-28T08:32:40Z",
-   "issue_repo": {
-    "repo_name": "Hostel_Food_Delivery",
-    "repo_desc": "",
-    "repo_url": "https://github.com/NandaTadepalli/Hostel_Food_Delivery",
-    "repo_stars": 0,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "NandaTadepalli"
-    }
-   },
-   "issue_title": "Improve NavBar and add functoriality to it  ",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/teambtcmap/btcmap-data/issues/9420",
-   "issue_createdAt": "2024-12-28T08:14:39Z",
-   "issue_repo": {
-    "repo_name": "btcmap-data",
-    "repo_desc": "Location data for BTC Map pulled from OpenStreetMap",
-    "repo_url": "https://github.com/teambtcmap/btcmap-data",
-    "repo_stars": 46,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Python"
-      },
-      {
-       "repo_prog_language": "HTML"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "teambtcmap"
-    }
-   },
-   "issue_title": "태율이의꿈",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "help wanted"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "location-submission"
-     },
-     {
-      "label_name": "South Korea"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 1
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/Flashbtccore/send-fake-bitcoin/issues/74",
-   "issue_createdAt": "2024-12-28T08:12:09Z",
-   "issue_repo": {
-    "repo_name": "send-fake-bitcoin",
-    "repo_desc": "send fake bitcoin",
-    "repo_url": "https://github.com/Flashbtccore/send-fake-bitcoin",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": []
-    },
-    "Owner": {
-     "repo_owner": "Flashbtccore"
-    }
-   },
-   "issue_title": "Are you looking for a reliable and user-friendly blockchain software for sending free BTC transactions in 2025? Look no further than FLASH BTC Software 2025! This open-source software is designed to run on the windows platform, making it easily acces",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "enhancement"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "question"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/lfglabs-dev/starknet.quest/issues/1020",
-   "issue_createdAt": "2024-12-28T08:10:29Z",
-   "issue_repo": {
-    "repo_name": "starknet.quest",
-    "repo_desc": "The on-chain quest tool of Starknet",
-    "repo_url": "https://github.com/lfglabs-dev/starknet.quest",
-    "repo_stars": 38,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "lfglabs-dev"
-    }
-   },
-   "issue_title": "Store the current step in URL in the quest editor",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "open for contribution"
-     },
-     {
-      "label_name": "Good first issue"
-     },
-     {
-      "label_name": "OD Hack"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 13
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/PalisadoesFoundation/talawa-admin/issues/2986",
-   "issue_createdAt": "2024-12-28T08:10:08Z",
-   "issue_repo": {
-    "repo_name": "talawa-admin",
-    "repo_desc": "Admin portal for the Talawa Mobile App. Click on the link below to see our documentation",
-    "repo_url": "https://github.com/PalisadoesFoundation/talawa-admin",
-    "repo_stars": 173,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "Shell"
-      },
-      {
-       "repo_prog_language": "SCSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "PalisadoesFoundation"
-    }
-   },
-   "issue_title": "UI Bugs in the Talawa Admin ",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "bug"
-     },
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "unapproved"
-     },
-     {
-      "label_name": "ui/ux"
-     }
-    ],
-    "label_totalcount": 4
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/robertram/Hallos/issues/7",
-   "issue_createdAt": "2024-12-28T08:07:33Z",
-   "issue_repo": {
-    "repo_name": "Hallos",
-    "repo_desc": "",
-    "repo_url": "https://github.com/robertram/Hallos",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "MDX"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "robertram"
-    }
-   },
-   "issue_title": "feat/footer: Create footer",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "Not rewarded"
-     },
-     {
-      "label_name": "Frontend"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/robertram/Hallos/issues/6",
-   "issue_createdAt": "2024-12-28T08:04:37Z",
-   "issue_repo": {
-    "repo_name": "Hallos",
-    "repo_desc": "",
-    "repo_url": "https://github.com/robertram/Hallos",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "MDX"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "robertram"
-    }
-   },
-   "issue_title": "feat/eventCard: Create event card",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "Not rewarded"
-     },
-     {
-      "label_name": "Frontend"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 2
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/robertram/Hallos/issues/5",
-   "issue_createdAt": "2024-12-28T07:59:55Z",
-   "issue_repo": {
-    "repo_name": "Hallos",
-    "repo_desc": "",
-    "repo_url": "https://github.com/robertram/Hallos",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "MDX"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "robertram"
-    }
-   },
-   "issue_title": "feat/searchBar: Create search bar",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "Not rewarded"
-     },
-     {
-      "label_name": "Frontend"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 6
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/mila411/pilgrimage/issues/13",
-   "issue_createdAt": "2024-12-28T07:58:27Z",
-   "issue_repo": {
-    "repo_name": "pilgrimage",
-    "repo_desc": "Create Kafaka-like things while enjoying low-level programming without external crates",
-    "repo_url": "https://github.com/mila411/pilgrimage",
-    "repo_stars": 9,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Rust"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "mila411"
-    }
-   },
-   "issue_title": "Complete API documentation",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "documentation"
-     },
-     {
-      "label_name": "good first issue"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 6
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/kafbat/kafka-ui/issues/729",
-   "issue_createdAt": "2024-12-28T07:56:28Z",
-   "issue_repo": {
-    "repo_name": "kafka-ui",
-    "repo_desc": "Open-Source Web UI for managing Apache Kafka clusters",
-    "repo_url": "https://github.com/kafbat/kafka-ui",
-    "repo_stars": 674,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "Dockerfile"
-      },
-      {
-       "repo_prog_language": "ANTLR"
-      },
-      {
-       "repo_prog_language": "Java"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "SCSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "kafbat"
-    }
-   },
-   "issue_title": "BE: RBAC: Implement RBAC tests",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "scope/backend"
-     },
-     {
-      "label_name": "type/chore"
-     },
-     {
-      "label_name": "area/rbac"
-     },
-     {
-      "label_name": "status/triage/completed"
-     }
-    ],
-    "label_totalcount": 5
-   },
-   "Comments": {
-    "issue_comment_count": 0
-   },
-   "Assignees": {
-    "issue_assignees_count": 0
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/robertram/Hallos/issues/4",
-   "issue_createdAt": "2024-12-28T07:54:39Z",
-   "issue_repo": {
-    "repo_name": "Hallos",
-    "repo_desc": "",
-    "repo_url": "https://github.com/robertram/Hallos",
-    "repo_stars": 1,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "TypeScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      },
-      {
-       "repo_prog_language": "MDX"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "robertram"
-    }
-   },
-   "issue_title": "feat/navbar: Create navbar",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "Not rewarded"
-     },
-     {
-      "label_name": "Frontend"
-     }
-    ],
-    "label_totalcount": 3
-   },
-   "Comments": {
-    "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
-   }
-  }
- },
- {
-  "Issue": {
-   "issue_url": "https://github.com/CODExJATIN/BEAST-HUNTERS/issues/2",
-   "issue_createdAt": "2024-12-28T07:37:12Z",
-   "issue_repo": {
-    "repo_name": "BEAST-HUNTERS",
-    "repo_desc": "",
-    "repo_url": "https://github.com/CODExJATIN/BEAST-HUNTERS",
-    "repo_stars": 2,
-    "repo_langs": {
-     "Nodes": [
-      {
-       "repo_prog_language": "HTML"
-      },
-      {
-       "repo_prog_language": "JavaScript"
-      },
-      {
-       "repo_prog_language": "CSS"
-      }
-     ]
-    },
-    "Owner": {
-     "repo_owner": "CODExJATIN"
-    }
-   },
-   "issue_title": "Negative Health on Player Death",
-   "issue_labels": {
-    "Nodes": [
-     {
-      "label_name": "good first issue"
-     },
-     {
-      "label_name": "SWOC"
-     }
-    ],
-    "label_totalcount": 2
-   },
-   "Comments": {
-    "issue_comment_count": 3
-   },
-   "Assignees": {
-    "issue_assignees_count": 1
    }
   }
  }
