@@ -287,4 +287,27 @@ function filterResult() {
             sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
             renderFilteredList(sorted_issue_list, entries_per_page);
         }
+        showStatusMessage("Selections have been applied!");
+}
+function showStatusMessage(message) {
+    // 상태 메시지 DOM 생성
+    const statusElement = document.createElement("div");
+    statusElement.innerText = message;
+    statusElement.setAttribute("id", "statusMessage");
+    statusElement.style.position = "fixed";
+    statusElement.style.top = "20px";
+    statusElement.style.right = "20px";
+    statusElement.style.padding = "10px";
+    statusElement.style.backgroundColor = "#4caf50"; // 녹색 배경
+    statusElement.style.color = "white";
+    statusElement.style.borderRadius = "5px";
+    statusElement.style.zIndex = 1000;
+
+    // 메시지를 페이지에 추가
+    document.body.appendChild(statusElement);
+
+    // 2초 후 메시지 제거
+    setTimeout(() => {
+        if (statusElement) statusElement.remove();
+    }, 2000);
 }
