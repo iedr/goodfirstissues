@@ -39,8 +39,8 @@ jobs:
           TIME: '${{ steps.current-time.outputs.time }}'
         run: |
           git pull
-          git config user.name darensin01
-          git config user.email darensin01@gmail.com
+          git config user.name ${{secrets.USERNAME}}
+          git config user.email ${{secrets.EMAIL}}
           git add backend/data.json
           git commit -m "$TIME: new data pushed"
           git push
