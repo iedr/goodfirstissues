@@ -16,3 +16,6 @@ Website: <https://goodfirstissues.com>
 - Icons made by [Smashicons](https://smashicons.com/), [Pixel perfect](https://www.flaticon.com/authors/pixel-perfect), [Freepik](https://www.flaticon.com/authors/freepik) and [iconixar](https://www.flaticon.com/authors/iconixar) from [Flaticon](https://www.flaticon.com/)
 - Favicon made by [Freepik](https://www.flaticon.com/authors/freepik) and generated with [ realfavicongenerator.net](https://realfavicongenerator.net/)
 - Github Corner by [Tim Holman](https://tholman.com/github-corners/)
+- Hello! I am exploring open-source contributions through GitHub. 
+
+
