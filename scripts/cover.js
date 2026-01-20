@@ -5,6 +5,105 @@ var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
 var minimum_repo_stars_session = sessionStorage.getItem('minimum_repo_stars');
 var entries_per_page = 10;
 
+const labelMap = {
+    "good-first-issue": [
+        "good first issue", "Good First Issue", "Good first issue", "good-first-issue", "good starter issues", "good first time", "Good first time"
+    ],
+    "enhancement": [
+        "05 - enhancement", "enhancement", "type: enhancement", ":cake: Enhancement", "kind/enhancement", "feature request / enhancement"
+    ],
+    "bug": [
+        "doc-bug", "kind: bug", "kind:bug", "t:bug", "bug", "type: bug", "Bug", "type/bug", "Not armbian-config bug", "kind/bug"
+    ],
+    "documentation": [
+        "documentation", "Documentation :memo:"
+    ],
+    "question": [
+        "question", "type: question"
+    ],
+    "hard": [
+        "hard", "difficulty: hard"
+    ],
+    "easy": [
+        "easy", "Difficulty: easy", "difficulty: easy", "contrib: easy"
+    ],
+    "medium": [
+        "difficulty: medium", "Difficulty: medium", "Difficulty: Medium", "medium", "priority:medium", "effort:medium", "contrib: medium", "priority-medium"
+    ],
+    "1": [
+        "difficulty: 1"
+    ],
+    "frontend": [
+        "frontend", "Frontend", "front-end", "area/frontend", "role: front end", "front", "platform/frontend", ":desktop_computer: frontend", "front end"
+    ],
+    "backend": [
+        "BACKEND", "backend", "Backend", "role: back end/devOps", "Back", "back", "Back-End", "backend:AArch64", "keras 3 openvino backend", ":file_cabinet: backend", "backend/api"
+    ],
+    "nestjs": [
+        "NESTJS", "NestJS"
+    ],
+    "feature": [
+        "feature", "Feature request", "type: feature", "feature_request", "feature-request", "kind:feature", "kind/feature", "new feature", "feature request", "New Feature", "p-feature: project info and page"
+    ],
+    "design": [
+        "design", "design wanted"
+    ],
+    "cairo": [
+        "cairo", "Cairo"
+    ],
+    "improvement": [
+        "improvement", "performance improvement"
+    ],
+    "setup": [
+        "Setup", "setup"
+    ],
+    "python": [
+        "python", "Python"
+    ],
+    "task": [
+        "task", "type: task", "kind:task"
+    ],
+    "performance": [
+        "performance", "performance improvement"
+    ],
+    "game": [
+        "game", "new game"
+    ],
+    "development": [
+        "dev", "development"
+    ],
+    "ui/ux": [
+        "UI", "ui", "ui/ux", "area:ui", "gui", "ux/ui", "a:ux/ui"
+    ],
+    "ci": [
+        "CI", "build and CI"
+    ],
+    "cleanup": [
+        "cleanup", "triaged: cleanup"
+    ],
+    "new": [
+        "new", "new feature", "New Feature"
+    ],
+    "triage": [
+        "triage", "awaiting triage", "needs-triage", "triaged: cleanup", "awaiting triage", "needs triage", "status: triage", ":watch: not triaged"
+    ],
+    "low priority": [
+        "low", "p:low", "priority: low", "Priority: Low", "priority:low", "low priority", "priority: lowest", "Work: Low", "Impact: Low", "priority-low"
+    ],
+    "build": [
+        "build", "build and CI"
+    ],
+    "pr welcome": [
+        "PR welcome"
+    ],
+    "bot": [
+        "bot"
+    ],
+    "odhack13": [
+        "ODHACK13", "ODHack13", "odhack12", "odhack#13"
+    ]
+};
+
 function killSpinner() {
     let spinner = document.getElementById("loading");
     spinner.parentNode.removeChild(spinner);
@@ -34,11 +133,11 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
             totalPages: total_num_pages,
             visiblePages: number_of_visible_pages,
             hideOnlyOnePage: true,
-            onPageClick: function (event, page) {
-                let page_index = page - 1;    // Variable page starts from 1
-                issues_table.innerHTML = "";    // Clear the table page
+            onPageClick: function(event, page) {
+                let page_index = page - 1; // Variable page starts from 1
+                issues_table.innerHTML = ""; // Clear the table page
 
-                for (let i = page_index*entries_per_page; i < (page_index+1)*entries_per_page; i++) {
+                for (let i = page_index * entries_per_page; i < (page_index + 1) * entries_per_page; i++) {
                     if (i >= filteredIssueList.length) {
                         break;
                     }
@@ -82,19 +181,41 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
     $("select").selectpicker("refresh");
 }
 
-function main(data_list) { 
-    // List of issues here
+//Standardize labels that are slightly duplicates i.e. frontend, Front-End, front end etc.
+function standardizeLabels(labels) {
+    const standardized = labels.map(label => {
+        const lowerLabel = label.toLowerCase();
+        for (const [canonical, variants] of Object.entries(labelMap)) {
+            const match = variants.some(v => v.toLowerCase() === lowerLabel);
+            if (match) {
+                return canonical;
+            }
+        }
+        return label;
+    });
+
+    const uniqueLabels = _.uniq(standardized);
+    return uniqueLabels;
+}
+
+
+function main(data_list) {
+
     var issues_list = [];
     var all_prog_langs = [];
     var all_types_of_issues = [];
     var all_repo_names = [];
 
+
     for (let i = 0; i < data_list.length; i++) {
+
         if (data_list[i].Issue.issue_url === "") {
             continue
         }
 
         let issue = new Issue(data_list[i]);
+        let standardized_labels = standardizeLabels(issue.getIssueLabels());
+        issue.issue_labels = standardized_labels;
         issues_list.push(issue);
 
         let issue_prog_langs = _.uniq(issue.getRepoProgLangs());
@@ -103,7 +224,9 @@ function main(data_list) {
         });
 
         let issue_labels = _.uniq(issue.getIssueLabels());
+
         issue_labels.forEach(i => {
+
             all_types_of_issues.push((i.toLowerCase()));
         });
 
@@ -112,6 +235,7 @@ function main(data_list) {
     }
 
     // Sort issues list by recency by default
+
     let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
 
     // Create checkbox for filtering
@@ -124,7 +248,7 @@ function main(data_list) {
     var sorted_repo_name_counter = returnSortedCounterForCheckBox(all_repo_names);
     createCheckBoxFromCounter(sorted_repo_name_counter, "Repository", "repo");
 
-    createClassifiedsUnderCheckbox();    
+    createClassifiedsUnderCheckbox();
 
     // Create input-form for filtering by the number of stars
     createInputFormRepoStars("Minimum Number of Stars", "repostars");
@@ -133,22 +257,24 @@ function main(data_list) {
     // The setChecked() method returns the selected items. Any newly checked items or items unchecked are manipulated in the returned array
     let [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars] = setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, minimum_repo_stars_session);
 
+
     $("input").change(function() {
         let inputform_id = $(this).attr("id");
 
-        if (inputform_id == "inputformrepostars") { 
+        if (inputform_id == "inputformrepostars") {
             var value = document.getElementById(inputform_id).value
-            if (Number(value) > 0) { 
+            if (Number(value) > 0) {
                 minimum_repo_stars = value
-            } else { 
+            } else {
                 minimum_repo_stars = ""
             }
             sessionStorage.setItem('minimum_repo_stars', minimum_repo_stars)
         }
-        
+
+
         filter(
-            issues_list, 
-            sorted_issues_html_list, 
+            issues_list,
+            sorted_issues_html_list,
             checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
         );
     });
@@ -170,8 +296,8 @@ function main(data_list) {
         });
 
 
-        // Add the newly changed selected items to session storage for all 3 dropdowns 
-        if(dropdown_id === 'dropdownproglang') {
+        // Add the newly changed selected items to session storage for all 3 dropdowns
+        if (dropdown_id === 'dropdownproglang') {
             checked_proglangs_items = [];
             selected_ids.forEach(id => {
                 checked_proglangs_items.push(id);
@@ -179,8 +305,8 @@ function main(data_list) {
             sessionStorage.setItem('checked_proglangs', checked_proglangs_items)
         }
 
-        // Add the newly changed selected items to session storage for all 3 dropdowns 
-        else if(dropdown_id === 'dropdownlabel') {
+        // Add the newly changed selected items to session storage for all 3 dropdowns
+        else if (dropdown_id === 'dropdownlabel') {
             const checked_labels_items = [];
             selected_ids.forEach(id => {
                 checked_labels_items.push(id);
@@ -188,18 +314,18 @@ function main(data_list) {
             sessionStorage.setItem('checked_labels', checked_labels_items);
         }
 
-        // Add the newly changed selected items to session storage for all 3 dropdowns 
-        else if(dropdown_id === 'dropdownrepo') {
+        // Add the newly changed selected items to session storage for all 3 dropdowns
+        else if (dropdown_id === 'dropdownrepo') {
             const checked_repo_names_items = [];
             selected_ids.forEach(id => {
                 checked_repo_names_items.push(id);
             })
             sessionStorage.setItem('checked_repo_names', checked_repo_names_items)
         }
-       
+
         let checked_items = _.map(selected_ids, function(item) {
             let split_by_dash = _.split(item, "-");
-            let idx_selected = split_by_dash[ split_by_dash.length - 1 ];
+            let idx_selected = split_by_dash[split_by_dash.length - 1];
             idx_selected = _.toInteger(idx_selected);
             return options[idx_selected];
         });
@@ -214,8 +340,8 @@ function main(data_list) {
         }
 
         filter(
-            issues_list, 
-            sorted_issues_html_list, 
+            issues_list,
+            sorted_issues_html_list,
             checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
         );
 
@@ -226,7 +352,7 @@ function main(data_list) {
         showTable();
     });
 
-    $(document).ready(function(){
+    $(document).ready(function() {
         $(function() {
             $('[data-toggle="tooltip"]').tooltip()
         });
@@ -238,16 +364,16 @@ function main(data_list) {
 }
 
 function filter(
-        issues_list, 
-        sorted_issues_html_list, 
-        checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
-    ) { 
+    issues_list,
+    sorted_issues_html_list,
+    checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
+) {
 
     // Perform filtering
     if (_.isEmpty(checked_proglangs) &&
-            _.isEmpty(checked_labels) &&
-            _.isEmpty(checked_repo_names) && 
-            (minimum_repo_stars == "")) {
+        _.isEmpty(checked_labels) &&
+        _.isEmpty(checked_repo_names) &&
+        (minimum_repo_stars == "")) {
         renderFilteredList(sorted_issues_html_list, entries_per_page);
     } else {
         let filtered_list = [];
@@ -256,7 +382,7 @@ function filter(
 
         for (let j = 0; j < issues_list.length; j++) {
             let issue_item = issues_list[j];
-            if (issue_item.getRepoStars() < minimum_repo_stars) { 
+            if (issue_item.getRepoStars() < minimum_repo_stars) {
                 continue
             }
 
@@ -277,8 +403,8 @@ function filter(
                 intersection_repos
             ).length;
 
-            if (num_intersections > 0 
-                    || _.isEmpty(checked_proglangs) && _.isEmpty(checked_labels) && _.isEmpty(checked_repo_names)) { 
+            if (num_intersections > 0 ||
+                _.isEmpty(checked_proglangs) && _.isEmpty(checked_labels) && _.isEmpty(checked_repo_names)) {
                 filtered_list.push({
                     'issue': issue_item,
                     'num_intersections': num_intersections
@@ -288,9 +414,7 @@ function filter(
 
         // Sort list by number of intersections (descending)
         let sorted_filtered_list = _.orderBy(
-            filtered_list,
-            [o => o['num_intersections'], o => o['issue_createdAt']],
-            ['desc', 'desc']
+            filtered_list, [o => o['num_intersections'], o => o['issue_createdAt']], ['desc', 'desc']
         );
 
         // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
@@ -304,6 +428,11 @@ function filter(
 data_list = [];
 $.getJSON("https://raw.githubusercontent.com/darensin01/goodfirstissues/master/backend/data.json", function(data) {
     data_list = data;
+    data_list.forEach((issue) => {
+        const issue_labels = issue.Issue.issue_labels.Nodes;
+
+    })
+
     data_list.sort(
         function(a, b) {
             return b.Issue.issue_createdAt - a.Issue.issue_createdAt
