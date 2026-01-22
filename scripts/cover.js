@@ -3,6 +3,7 @@ var checked_proglangs_session = sessionStorage.getItem('checked_proglangs');
 var checked_labels_session = sessionStorage.getItem('checked_labels');
 var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
 var minimum_repo_stars_session = sessionStorage.getItem('minimum_repo_stars');
+var maximal_repo_stars_session = sessionStorage.getItem('maximal_repo_stars');
 var entries_per_page = 10;
 
 function killSpinner() {
@@ -131,12 +132,12 @@ function main(data_list) {
 
     // call setChecked() from "filter.js" that sets the items accessed from storage to "checked" state.
     // The setChecked() method returns the selected items. Any newly checked items or items unchecked are manipulated in the returned array
-    let [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars] = setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, minimum_repo_stars_session);
+    let [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars, maximal_repo_stars] = setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, maximal_repo_stars_session);
 
     $("input").change(function() {
         let inputform_id = $(this).attr("id");
 
-        if (inputform_id == "inputformrepostars") { 
+        if (inputform_id == "inputforminrepostars") { 
             var value = document.getElementById(inputform_id).value
             if (Number(value) > 0) { 
                 minimum_repo_stars = value
@@ -145,11 +146,24 @@ function main(data_list) {
             }
             sessionStorage.setItem('minimum_repo_stars', minimum_repo_stars)
         }
+
+
+        let inputformax_id = $(this).attr("id");
+
+        if (inputformax_id == "inputformaxrepostars") { 
+            var value = document.getElementById(inputformax_id).value
+            if (Number(value) > 0) { 
+                maximal_repo_stars = value
+            } else { 
+                maximal_repo_stars = ""
+            }
+            sessionStorage.setItem('maximal_repo_stars', maximal_repo_stars)
+        }
         
         filter(
             issues_list, 
             sorted_issues_html_list, 
-            checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
+            checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars, maximal_repo_stars
         );
     });
 
@@ -216,7 +230,7 @@ function main(data_list) {
         filter(
             issues_list, 
             sorted_issues_html_list, 
-            checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
+            checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars, maximal_repo_stars
         );
 
     });
@@ -240,14 +254,15 @@ function main(data_list) {
 function filter(
         issues_list, 
         sorted_issues_html_list, 
-        checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars
+        checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars, maximal_repo_stars
     ) { 
 
     // Perform filtering
     if (_.isEmpty(checked_proglangs) &&
             _.isEmpty(checked_labels) &&
             _.isEmpty(checked_repo_names) && 
-            (minimum_repo_stars == "")) {
+            (minimum_repo_stars == "") && 
+            (maximal_repo_stars == "")) {
         renderFilteredList(sorted_issues_html_list, entries_per_page);
     } else {
         let filtered_list = [];
@@ -256,7 +271,7 @@ function filter(
 
         for (let j = 0; j < issues_list.length; j++) {
             let issue_item = issues_list[j];
-            if (issue_item.getRepoStars() < minimum_repo_stars) { 
+            if (issue_item.getRepoStars() < minimum_repo_stars || issue_item.getRepoStars() > maximal_repo_stars) { 
                 continue
             }
 
