@@ -18,9 +18,10 @@ function showTable() {
 function renderFilteredList(filteredIssueList, entries_per_page) {
     let total_num_pages = Math.ceil(filteredIssueList.length / entries_per_page);
 
-    $('#pagination').empty();
-    $('#pagination').removeData("twbs-pagination");
-    $('#pagination').unbind("page");
+    // Destroy the previous pagination instance to reset page state
+    if ($('#pagination').data("twbs-pagination")) {
+        $('#pagination').twbsPagination('destroy');
+    }
 
     let number_of_visible_pages = 5;
     if ($(window).width() <= 440) {
@@ -33,6 +34,7 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
         $('#pagination').twbsPagination({
             totalPages: total_num_pages,
             visiblePages: number_of_visible_pages,
+            startPage: 1,
             hideOnlyOnePage: true,
             onPageClick: function (event, page) {
                 let page_index = page - 1;    // Variable page starts from 1
