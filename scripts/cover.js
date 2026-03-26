@@ -4,6 +4,7 @@ var checked_labels_session = sessionStorage.getItem('checked_labels');
 var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
 var minimum_repo_stars_session = sessionStorage.getItem('minimum_repo_stars');
 var entries_per_page = 10;
+var MOBILE_BREAKPOINT = 440;
 
 function killSpinner() {
     let spinner = document.getElementById("loading");
@@ -16,6 +17,9 @@ function showTable() {
 }
 
 function renderFilteredList(filteredIssueList, entries_per_page) {
+    if (!entries_per_page || entries_per_page <= 0) {
+        entries_per_page = 10;
+    }
     let total_num_pages = Math.ceil(filteredIssueList.length / entries_per_page);
 
     // Destroy the previous pagination instance to reset page state
@@ -24,7 +28,7 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
     }
 
     let number_of_visible_pages = 5;
-    if ($(window).width() <= 440) {
+    if ($(window).width() <= MOBILE_BREAKPOINT) {
         number_of_visible_pages = 2;
     }
 
