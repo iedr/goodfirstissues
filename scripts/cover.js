@@ -1,5 +1,5 @@
 // access previosuly checked dropdown items from storage
-var checked_proglangs_session = sessionStorage.getItem('checked_proglangs');
+var checked_proglangsangs_session = sessionStorage.getItem('checked_proglangs');
 var checked_labels_session = sessionStorage.getItem('checked_labels');
 var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
 var minimum_repo_stars_session = sessionStorage.getItem('minimum_repo_stars');
