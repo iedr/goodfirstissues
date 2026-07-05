@@ -9,7 +9,7 @@ function returnSortedCounterForCheckBox(lst) {
         sorted_counter.push([item, counter[item]]);
     }
 
-    sorted_counter.sort(function(a, b) {
+    sorted_counter.sort(function (a, b) {
         return b[1] - a[1];
     });
 
@@ -119,8 +119,8 @@ var checked_proglangs = [], checked_labels = [], checked_repo_names = [], minimu
 
 // arguments contain the checked items accessed from storage
 function setChecked(checked_proglangs_session, checked_labels_session, checked_repo_names_session, minimum_repo_stars_session) {
-    $(document).ready(function(){
-        if(!checked_proglangs_session) {
+    $(document).ready(function () {
+        if (!checked_proglangs_session) {
             sessionStorage.setItem('checked_proglangs', []);
         }
         else {
@@ -137,11 +137,11 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
                 const itemChecked = document.querySelector(`#${item}`);
                 return itemChecked.innerText;
             })
-            
+
             $('select#dropdownproglang').selectpicker('val', checked_items);
             $('select#dropdownproglang').selectpicker('refresh');
         }
-        if(!checked_labels_session) {
+        if (!checked_labels_session) {
             sessionStorage.setItem('checked_labels', []);
         }
         else {
@@ -149,7 +149,7 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
             const options = document.getElementById('dropdownlabel').querySelectorAll('option');
 
             const checked_items = checked_labels_session.split(",").map(item => {
-                 // access the option number from dropdown to be returned to main() in "cover.js". 
+                // access the option number from dropdown to be returned to main() in "cover.js". 
                 // This ensures that any newly checked item by the user, or any item unchecked is manipulated in the same array with previously checked results.
                 const itemNumInList = item.split("-")[item.split("-").length - 1]
                 checked_labels.push(options[itemNumInList].querySelector('.item-text').innerText);
@@ -158,11 +158,11 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
                 const itemChecked = document.querySelector(`#${item}`);
                 return itemChecked.innerText;
             })
-    
+
             $('select#dropdownlabel').selectpicker('val', checked_items);
-            $('select#dropdownlabel').selectpicker('refresh');  
+            $('select#dropdownlabel').selectpicker('refresh');
         }
-        if(!checked_repo_names_session) {
+        if (!checked_repo_names_session) {
             sessionStorage.setItem('checked_repo_names', []);
         }
         else {
@@ -179,25 +179,25 @@ function setChecked(checked_proglangs_session, checked_labels_session, checked_r
                 const itemChecked = document.querySelector(`#${item}`);
                 return itemChecked.innerText;
             })
-    
+
             $('select#dropdownrepo').selectpicker('val', checked_items);
-            $('select#dropdownrepo').selectpicker('refresh');        
-        }    
-        if(!minimum_repo_stars_session) {
+            $('select#dropdownrepo').selectpicker('refresh');
+        }
+        if (!minimum_repo_stars_session) {
             sessionStorage.setItem('minimum_repo_stars', "");
         }
         else {
             minimum_repo_stars = minimum_repo_stars_session;
             document.getElementById("inputformrepostars").setAttribute('value', minimum_repo_stars);
-        }   
+        }
 
         // filter the checked items obtained from the session storage.
         filterResult();
-    })     
+    })
 
     // return the checked options to main()
     return [checked_proglangs, checked_labels, checked_repo_names, minimum_repo_stars];
-   
+
 }
 
 function filterResult() {
@@ -215,6 +215,18 @@ function filterResult() {
         }
 
         let issue = new Issue(data_list[i]);
+
+        let labels = issue.getIssueLabels().map(
+            label => label.toLowerCase()
+        );
+
+        if (
+            labels.includes("invalid") ||
+            labels.includes("wontfix")
+        ) {
+            continue;
+        }
+
         issues_list.push(issue);
 
         let issue_prog_langs = _.uniq(issue.getRepoProgLangs());
@@ -233,58 +245,58 @@ function filterResult() {
 
     // Sort issues list by recency by default
     if (_.isEmpty(checked_proglangs) &&
-                _.isEmpty(checked_labels) &&
-                _.isEmpty(checked_repo_names) &&
-                (minimum_repo_stars == "")) {
-            let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
-            renderFilteredList(sorted_issues_html_list, entries_per_page);
-        } else {
-            let filtered_list = [];
-            checked_proglangs = _.map(checked_proglangs, i => i.toLowerCase());
-            checked_labels = _.map(checked_labels, i => i.toLowerCase());
+        _.isEmpty(checked_labels) &&
+        _.isEmpty(checked_repo_names) &&
+        (minimum_repo_stars == "")) {
+        let sorted_issues_html_list = _.map(issues_list, o => createListGroupItemForIssue(o));
+        renderFilteredList(sorted_issues_html_list, entries_per_page);
+    } else {
+        let filtered_list = [];
+        checked_proglangs = _.map(checked_proglangs, i => i.toLowerCase());
+        checked_labels = _.map(checked_labels, i => i.toLowerCase());
 
-            for (let j = 0; j < issues_list.length; j++) {
-                let issue_item = issues_list[j];
-                if (issue_item.getRepoStars() < minimum_repo_stars) { 
-                    continue
-                }
-                let repo_langs = issue_item.getRepoProgLangs();
-                let issues_labels = issue_item.getIssueLabels();
-                let issue_repo = issue_item.getIssueRepoName();
-
-                let lowered_issue_labels = _.map(issues_labels, i => i.toLowerCase());
-                let lowered_prog_langs = _.map(repo_langs, i => i.toLowerCase());
-
-                let intersection_prog_langs = _.intersection(checked_proglangs, lowered_prog_langs);
-                let intersection_labels = _.intersection(checked_labels, lowered_issue_labels);
-                let intersection_repos = _.intersection(checked_repo_names, [issue_repo]);
-
-                let num_intersections = _.concat(
-                    intersection_prog_langs,
-                    intersection_labels,
-                    intersection_repos
-                ).length;
-
-                if (num_intersections > 0 
-                    || _.isEmpty(checked_proglangs) && _.isEmpty(checked_labels) && _.isEmpty(checked_repo_names)) { 
-                    filtered_list.push({
-                        'issue': issue_item,
-                        'num_intersections': num_intersections
-                    });
-                }
+        for (let j = 0; j < issues_list.length; j++) {
+            let issue_item = issues_list[j];
+            if (issue_item.getRepoStars() < minimum_repo_stars) {
+                continue
             }
+            let repo_langs = issue_item.getRepoProgLangs();
+            let issues_labels = issue_item.getIssueLabels();
+            let issue_repo = issue_item.getIssueRepoName();
 
-            // Sort list by number of intersections (descending)
-            let sorted_filtered_list = _.orderBy(
-                filtered_list,
-                [o => o['num_intersections'], o => o['issue_createdAt']],
-                ['desc', 'desc']
-            );
+            let lowered_issue_labels = _.map(issues_labels, i => i.toLowerCase());
+            let lowered_prog_langs = _.map(repo_langs, i => i.toLowerCase());
 
-            // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
-            let sorted_issue_list = _.map(sorted_filtered_list, o => o['issue']);
+            let intersection_prog_langs = _.intersection(checked_proglangs, lowered_prog_langs);
+            let intersection_labels = _.intersection(checked_labels, lowered_issue_labels);
+            let intersection_repos = _.intersection(checked_repo_names, [issue_repo]);
 
-            sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
-            renderFilteredList(sorted_issue_list, entries_per_page);
+            let num_intersections = _.concat(
+                intersection_prog_langs,
+                intersection_labels,
+                intersection_repos
+            ).length;
+
+            if (num_intersections > 0
+                || _.isEmpty(checked_proglangs) && _.isEmpty(checked_labels) && _.isEmpty(checked_repo_names)) {
+                filtered_list.push({
+                    'issue': issue_item,
+                    'num_intersections': num_intersections
+                });
+            }
         }
+
+        // Sort list by number of intersections (descending)
+        let sorted_filtered_list = _.orderBy(
+            filtered_list,
+            [o => o['num_intersections'], o => o['issue_createdAt']],
+            ['desc', 'desc']
+        );
+
+        // sorted_filtered_list = _.reverse(_.sortBy(sorted_filtered_list, o => o['created_at']));
+        let sorted_issue_list = _.map(sorted_filtered_list, o => o['issue']);
+
+        sorted_issue_list = _.map(sorted_issue_list, o => createListGroupItemForIssue(o));
+        renderFilteredList(sorted_issue_list, entries_per_page);
+    }
 }
