@@ -2,7 +2,7 @@
 
 Good First Issues empowers first-time contributors of open-source software. This website is primarily targeted at developers who want to contribute to open source software but do not know where or how to start. By providing developers with filters, the website empowers them to browse and select issues/repositories based on programming languages that they are comfortable with. In addition, they can select the type of issues they want to work on.
 
-Website: ~~<https://goodfirstissues.com>~~ https://iedr.github.com/goodfirstissues
+Website: ~~<https://goodfirstissues.com>~~ https://iedr.github.io/goodfirstissues
 
 ## Dependencies
 - _Bootstrap_ for theme and frontend components
