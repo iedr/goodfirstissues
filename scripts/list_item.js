@@ -51,13 +51,24 @@ function createListGroupItemForIssue(issue) {
     heading_div.setAttribute("class", "d-flex justify-content-between");
 
     // Issue's title
+    // Create the h5 container
     let heading_h5 = document.createElement("h5");
-    heading_h5.setAttribute("class",
-        "issue-title mb-0 d-inline-block text-truncate");
+    heading_h5.setAttribute("class", "issue-title mb-0 d-inline-block text-truncate");
     heading_h5.setAttribute("aria-label", `Issue: ${issue_title}`);
-    let issue_title_textnode = document.createTextNode(issue_title);
-    heading_h5.appendChild(issue_title_textnode);
+
+    // Create the anchor tag for the clickable issue title
+    let issue_link = document.createElement("a");
+    issue_link.setAttribute("href", issue_url);
+    issue_link.setAttribute("target", "_blank");
+    issue_link.setAttribute("class", "text-decoration-none text-dark"); // Optional styling
+    issue_link.textContent = issue_title;
+
+    // Append the link inside the h5
+    heading_h5.appendChild(issue_link);
+
+    // Append the h5 to its container
     heading_div.appendChild(heading_h5);
+
 
     // Time of issue
     let time_of_issue = document.createElement("p");
