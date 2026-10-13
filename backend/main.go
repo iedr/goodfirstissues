@@ -131,18 +131,6 @@ func insertIntoDatabase(results []result, fsClient *firestore.Client) {
    defer timeTrack(time.Now(), "Insert into DB")
 
    for _, r := range results {
-      marshalResult, jsonErr := json.Marshal(r)
-      if jsonErr != nil {
-         log.Println("Error in marshalling result")
-         log.Fatalln(r, jsonErr)
-      }
-
-      var mapResult map[string]interface{}
-      if err := json.Unmarshal(marshalResult, &mapResult); err != nil {
-         log.Println("Error in unmarshalling result")
-         log.Fatalln(r, err)
-      }
-
       // Key in the data store is the cleaned URL of the issue
       issueURL := r.Issue.URL
 
@@ -159,8 +147,8 @@ func insertIntoDatabase(results []result, fsClient *firestore.Client) {
       issueCollection := fsClient.Collection("issues")
       issueDoc := issueCollection.Doc(cleanedIssueURL)
 
-      // If exists, will overwrite
-      _, err := issueDoc.Set(context.Background(), mapResult)
+      // If exists, will overwrite; pass struct directly to enforce schema
+      _, err := issueDoc.Set(context.Background(), r)
       if err != nil {
          log.Println("Error in setting issue to database")
          log.Fatalln(r, err)
