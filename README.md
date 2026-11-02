@@ -4,6 +4,9 @@ Good First Issues empowers first-time contributors of open-source software. This
 
 Website: ~~<https://goodfirstissues.com>~~ https://iedr.github.io/goodfirstissues
 
+## some changes
+## more changes
+
 ## Dependencies
 - _Bootstrap_ for theme and frontend components
 - _Golang_ and _GitHub Workflow_ for periodically calling [GitHub GraphQL API](https://docs.github.com/en/graphql)
