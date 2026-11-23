@@ -4,6 +4,21 @@ Good First Issues empowers first-time contributors of open-source software. This
 
 Website: ~~<https://goodfirstissues.com>~~ https://iedr.github.io/goodfirstissues
 
+## Git contribution workflow 
+
+- create an issue
+- fork the repo
+- clone the repo
+- use a code editor vs code or cursor
+- git branch
+- git switch -c branchname
+- make the changes
+- git add.
+- git commit -m"changes"
+- git push -u origin branchname
+- differences and pull request 
+
+
 ## Dependencies
 - _Bootstrap_ for theme and frontend components
 - _Golang_ and _GitHub Workflow_ for periodically calling [GitHub GraphQL API](https://docs.github.com/en/graphql)
