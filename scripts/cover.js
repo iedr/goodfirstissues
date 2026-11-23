@@ -4,6 +4,7 @@ var checked_labels_session = sessionStorage.getItem('checked_labels');
 var checked_repo_names_session = sessionStorage.getItem('checked_repo_names');
 var minimum_repo_stars_session = sessionStorage.getItem('minimum_repo_stars');
 var entries_per_page = 10;
+var MOBILE_BREAKPOINT = 440;
 
 function killSpinner() {
     let spinner = document.getElementById("loading");
@@ -16,14 +17,18 @@ function showTable() {
 }
 
 function renderFilteredList(filteredIssueList, entries_per_page) {
+    if (!entries_per_page || entries_per_page <= 0) {
+        entries_per_page = 10;
+    }
     let total_num_pages = Math.ceil(filteredIssueList.length / entries_per_page);
 
-    $('#pagination').empty();
-    $('#pagination').removeData("twbs-pagination");
-    $('#pagination').unbind("page");
+    // Destroy the previous pagination instance to reset page state
+    if ($('#pagination').data("twbs-pagination")) {
+        $('#pagination').twbsPagination('destroy');
+    }
 
     let number_of_visible_pages = 5;
-    if ($(window).width() <= 440) {
+    if ($(window).width() <= MOBILE_BREAKPOINT) {
         number_of_visible_pages = 2;
     }
 
@@ -33,6 +38,7 @@ function renderFilteredList(filteredIssueList, entries_per_page) {
         $('#pagination').twbsPagination({
             totalPages: total_num_pages,
             visiblePages: number_of_visible_pages,
+            startPage: 1,
             hideOnlyOnePage: true,
             onPageClick: function (event, page) {
                 let page_index = page - 1;    // Variable page starts from 1
